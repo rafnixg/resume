@@ -16,6 +16,10 @@ jobs:
     needs: check_run
     steps:
       - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
       - uses: kelvintaywl/action-jsonresume-export@v1
         name: Export resume as HTML
         with:
@@ -23,6 +27,9 @@ jobs:
           resume_filepath: resume.json
           # modifies the index.html in-place
           output_filepath: index.html
+      - name: Add Plausible Analytics
+        run: |
+          python add_plausible.py
       - name: Commit published HTML
         id: commit
         run: |
