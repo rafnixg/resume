@@ -27,9 +27,9 @@ jobs:
           resume_filepath: resume.json
           # modifies the index.html in-place
           output_filepath: index.html
-      - name: Add Plausible Analytics
+      - name: Inject Custom HTML Tags
         run: |
-          python add_plausible.py
+          python add_custom_tags.py
       - name: Commit published HTML
         id: commit
         run: |
