@@ -31,6 +31,15 @@
   },
   "work": [
     {
+      "name": "Kimenz Equipamentos & Engenharia Clínica",
+      "position": "Odoo Developer",
+      "startDate": "2023-12-01",
+      "highlights": ["Odoo", "PostgreSQL", "Proxmox", "LXC", "Python", "PostgreSQL"],
+      "summary": "Como desarrollador de módulos para Odoo, me enfoqué especialmente en la expansión y optimización de funcionalidades para el servicio de campo. Mi labor se centró en la identificación y corrección de errores, así como en la implementación de mejoras clave para potenciar la eficiencia operativa. Diseñé y desarrollé módulos específicos que mejoraron la gestión de tareas en terreno, asegurando una integración sin problemas con el servicio existente. Además, abordé la corrección de errores críticos para garantizar la estabilidad y fiabilidad del sistema, contribuyendo así a una experiencia de usuario más fluida y libre de inconvenientes en el servicio de campo.\n\n#Odoo #PostgreSQL #Python #LXC #Proxmox",
+      "url": "https://www.linkedin.com/company/kimenz/",
+      "location": "São Paulo, Brasil"
+    },
+    {
       "name": "Peru Apps",
       "position": "Python Developer",
       "startDate": "2022-05-31",
