@@ -37,11 +37,7 @@ class CustomTagAdder:
 
 if __name__ == "__main__":
     FILE_PATH = "index.html"
-    SCRIPT = """<script
-        defer 
-        data-domain="resume.rafnixg.dev" 
-        src="https://analytics.rafnixg.dev/js/script.js">
-    </script>"""
+    SCRIPT = """<script defer src="https://umami.rafnixg.dev/script.js" data-website-id="3d3cdb5f-0751-4c3e-85b7-5ff046f5c2da"></script>"""
     META = """<title>Rafnix Guzmán - Desarrollador de Software | CV Profesional</title>
     <meta name="author" content="Rafnix Guzman" />
     <meta
