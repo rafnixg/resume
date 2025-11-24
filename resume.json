@@ -93,7 +93,6 @@
       "endDate": "2018-11-30",
       "highlights": [],
       "summary": "+ Desarrollo de módulos para Odoo\n+ Soporte para facturación electrónica\n+ Integraciones con sistemas Cloud\n+ Implementaciones de Odoo",
-      "url": "",
       "location": "Provincia de Lima, Peru"
     },
     {
@@ -122,7 +121,6 @@
       "endDate": "2017-08-31",
       "highlights": [],
       "summary": "Frontend:\n  + Maquetado Web HTML, CSS, JS\n  + Desarrollo con VueJS\n\nBackend:\n  + Desarrollo usando Laravel 5.4",
-      "url": "",
       "location": "Chile"
     },
     {
@@ -132,7 +130,6 @@
       "endDate": "2017-01-31",
       "highlights": [],
       "summary": "Frontend\n  + Bootstrap\n  + AngularJS\n  + HTML5\n\nBackend\n  + PHP\n  + MySQL\n  + Laravel 5",
-      "url": "",
       "location": "Tinaquillo"
     },
     {
@@ -142,7 +139,6 @@
       "endDate": "2016-09-30",
       "highlights": [],
       "summary": "+ Desarrollo Full-Stack\n+ Wordpress\n+ Desarrollo de Theme Wordpress\n+ Laravel 5\n+ HTML5 & CSS3",
-      "url": "",
       "location": "Caracas"
     }
   ],
