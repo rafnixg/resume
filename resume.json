@@ -5,8 +5,8 @@
     "label": "Backend Python | Odoo Developer | Tech Writer",
     "image": "",
     "email": "rafnixg@gmail.com",
-    "url": "https://rafnixg.dev",
-    "summary": "Soy un desarrollador de software con más de 9 años de experiencia en el diseño, desarrollo e implementación de sistemas web. Me gusta trabajar en proyectos desafiantes y utilizar mis habilidades para resolver problemas complejos y ofrecer soluciones de alta calidad. Mi experiencia incluye proyectos en sectores como finanzas, eventos, telecomunicaciones, retail y ecommerce.\n\nComo desarrollador backend, me he enfocado en construir sistemas escalables y robustos utilizando lenguajes como Python y herramientas como Linux y Git. También tengo experiencia trabajando con bases de datos como PostgreSQL y utilizando Docker para el despliegue de aplicaciones.\n\nSoy un autodidacta y me gusta estar siempre actualizado con las últimas tendencias y tecnologías en el campo del desarrollo de software. Me dedico a aprender y mejorar mis habilidades a través de cursos en línea, libros y documentación técnica. Además, me gusta compartir mis conocimientos y promover el uso de tecnologías libres o de código abierto.\n\nEstoy capacitado para desempeñar tareas de backend y administración de sistemas, y busco oportunidades en empresas que valoren mis habilidades y experiencia.",
+    "url": "https://links.rafnixg.dev",
+    "summary": "Soy un desarrollador de software con más de 10 años de experiencia en el diseño, desarrollo e implementación de sistemas web. Me gusta trabajar en proyectos desafiantes y utilizar mis habilidades para resolver problemas complejos y ofrecer soluciones de alta calidad. Mi experiencia incluye proyectos en sectores como finanzas, eventos, telecomunicaciones, retail y ecommerce.\n\nComo desarrollador backend, me he enfocado en construir sistemas escalables y robustos utilizando lenguajes como Python y herramientas como Linux y Git. También tengo experiencia trabajando con bases de datos como PostgreSQL y utilizando Docker para el despliegue de aplicaciones.\n\nSoy un autodidacta y me gusta estar siempre actualizado con las últimas tendencias y tecnologías en el campo del desarrollo de software. Me dedico a aprender y mejorar mis habilidades a través de cursos en línea, libros y documentación técnica. Además, me gusta compartir mis conocimientos y promover el uso de tecnologías libres o de código abierto.\n\nEstoy capacitado para desempeñar tareas de backend y administración de sistemas, y busco oportunidades en empresas que valoren mis habilidades y experiencia.",
     "location": {
       "countryCode": "ES",
       "address": "Lima, Perú"
@@ -34,8 +34,15 @@
       "name": "Kimenz Equipamentos & Engenharia Clínica",
       "position": "Odoo Developer",
       "startDate": "2023-12-01",
-      "highlights": ["Odoo", "PostgreSQL", "Proxmox", "LXC", "Python", "PostgreSQL"],
-      "summary": "Como desarrollador de módulos para Odoo, me enfoqué especialmente en la expansión y optimización de funcionalidades para el servicio de campo. Mi labor se centró en la identificación y corrección de errores, así como en la implementación de mejoras clave para potenciar la eficiencia operativa. Diseñé y desarrollé módulos específicos que mejoraron la gestión de tareas en terreno, asegurando una integración sin problemas con el servicio existente. Además, abordé la corrección de errores críticos para garantizar la estabilidad y fiabilidad del sistema, contribuyendo así a una experiencia de usuario más fluida y libre de inconvenientes en el servicio de campo.\n\n#Odoo #PostgreSQL #Python #LXC #Proxmox",
+      "highlights": [
+        "Odoo",
+        "PostgreSQL",
+        "Proxmox",
+        "LXC",
+        "Python",
+        "PostgreSQL"
+      ],
+      "summary": "Como desarrollador de módulos para Odoo, me enfoqué especialmente en la expansión y optimización de funcionalidades para el servicio de campo. Mi labor se centró en la identificación y corrección de errores, así como en la implementación de mejoras clave para potenciar la eficiencia operativa. Diseñé y desarrollé módulos específicos que mejoraron la gestión de tareas en terreno, asegurando una integración sin problemas con el servicio existente. Además, abordé la corrección de errores críticos para garantizar la estabilidad y fiabilidad del sistema, contribuyendo así a una experiencia de usuario más fluida y libre de inconvenientes en el servicio de campo.",
       "url": "https://www.linkedin.com/company/kimenz/",
       "location": "São Paulo, Brasil"
     },
@@ -44,8 +51,17 @@
       "position": "Python Developer",
       "startDate": "2022-05-31",
       "endDate": "2022-11-30",
-      "highlights": ["FastAPI", "Amazon S3", "SES", "Linux", "Amazon Web Services (AWS)", "Python", "PostgreSQL", "Docker"],
-      "summary": "Como programador backend, mi responsabilidad era diseñar y desarrollar APIs. Para ello, definí los endpoints necesarios, diseñé los modelos de datos adecuados y desarrollé las lógicas de negocio que permitieran satisfacer las necesidades del sistema.\n\nTambién implementé mecanismos de autenticación y autorización para proteger las APIs y garantizar que solo los usuarios autorizados pudieran acceder a los datos y funcionalidades de la plataforma.\n\nTrabajé en conjunto con el equipo de frontend para garantizar que las APIs estuvieran diseñadas de manera que fueran fáciles de consumir por las aplicaciones cliente.\n\nParticipé en el desarrollo del módulo de backoffice para la plataforma, lo que incluyó la implementación de funcionalidades administrativas como gestión de usuarios, transacciones y reportes.\n\nFinalmente, colaboré en el despliegue y la monitorización de las APIs y del módulo de backoffice para garantizar su correcto funcionamiento y disponibilidad.\n\n#Python #PostgreSQL #AWS #S3 #SES",
+      "highlights": [
+        "FastAPI",
+        "Amazon S3",
+        "SES",
+        "Linux",
+        "Amazon Web Services (AWS)",
+        "Python",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "summary": "Como programador backend, mi responsabilidad era diseñar y desarrollar APIs RESTful utilizando FastAPI. Definí endpoints, diseñé modelos de datos y desarrollé las lógicas de negocio para satisfacer las necesidades del sistema.\n\nImplementé mecanismos de autenticación JWT y autorización basada en roles para proteger las APIs y garantizar acceso seguro a los datos y funcionalidades de la plataforma.\n\nTrabajé en conjunto con el equipo de frontend para garantizar que las APIs estuvieran diseñadas siguiendo principios RESTful y fueran fáciles de consumir por las aplicaciones cliente.\n\nParticipé en el desarrollo del módulo de backoffice para la plataforma, implementando funcionalidades administrativas como gestión de usuarios, transacciones y reportes. Integré servicios de AWS incluyendo S3 para almacenamiento de archivos y SES para envío de correos electrónicos.\n\nColaboré en el despliegue utilizando Docker y AWS, implementando monitorización para garantizar el correcto funcionamiento y alta disponibilidad del sistema.",
       "url": "https://www.linkedin.com/company/peru-apps/",
       "location": "Lima, Perú"
     },
@@ -54,11 +70,21 @@
       "position": "Analista Programador Python",
       "startDate": "2022-01-31",
       "endDate": "2022-04-30",
-      "highlights": [ "Jenkins", "Databases", "Kubernetes", "Linux", "SQL", "Automatización robótica de procesos", "DevOps", "Python"],
-      "summary": "Como programador backend, mi responsabilidad era llevar a cabo la migración de automatismos legacy a Python utilizando herramientas como SFTP, MSSQL Server, Pandas, Bitbucket y Docker.\n\nAdemás, contribuí a la definición de los lineamientos de DevOps del equipo, ayudando a establecer estándares y buenas prácticas en la implementación y despliegue de aplicaciones distribuidas.\n\nTambién colaboré en la librería RPA-UTILS del equipo interno, aportando mis conocimientos y habilidades para mejorar y ampliar esta herramienta.\n\n#Python #Docker #Jenkins #DevOps",
+      "highlights": [
+        "Jenkins",
+        "Databases",
+        "Kubernetes",
+        "Linux",
+        "SQL",
+        "Automatización robótica de procesos",
+        "DevOps",
+        "Python"
+      ],
+      "summary": "Como programador backend, lideré la migración de automatismos legacy a Python, desarrollando scripts y aplicaciones utilizando SFTP para transferencia de archivos, MSSQL Server para gestión de bases de datos, Pandas para procesamiento de datos, y Docker para containerización.\n\nContribuí a la definición de los lineamientos de DevOps del equipo utilizando Jenkins para CI/CD, estableciendo estándares y buenas prácticas en la implementación y despliegue de aplicaciones distribuidas en Kubernetes.\n\nColaboré en el desarrollo y mantenimiento de la librería RPA-UTILS del equipo interno, implementando automatización robótica de procesos (RPA) y mejorando la eficiencia operativa.",
       "url": "https://www.linkedin.com/company/indra/"
     },
     {
+      "name": "Freelance",
       "position": "Freelance Software Engineer",
       "startDate": "2012-02-28",
       "endDate": "2022-04-30",
@@ -72,7 +98,7 @@
       "startDate": "2020-06-30",
       "endDate": "2021-12-31",
       "highlights": [],
-      "summary": "+ Implementación, migración y desarrollo de mas de 7 proyectos usando tecnologías web apoyadas en Odoo con clientes de diferentes rubros y tamaños.\n+ Migración y procesado de información para integraciones entre sistemas.\n+ Mentoring y capacitaciones técnicas a compañeros de equipo Junior o Trainee.\n+ Implementación de un pipeline de CI/CD y mini-PaaS para agilizar el despliegue de aplicaciones [WIP]\n+ Demostraciones funcionales sobre Odoo a posibles clientes y Capacitaciones funcionales a los usuarios.",
+      "summary": "Implementación, migración y desarrollo de más de 7 proyectos empresariales usando Odoo ERP con clientes de diferentes rubros incluyendo retail, manufactura y servicios.\n\nRealicé migración y procesado de datos para integraciones entre sistemas utilizando APIs REST, XMLRPC y conectores personalizados.\n\nLideré mentoring y capacitaciones técnicas a desarrolladores Junior y Trainee en Python, PostgreSQL y arquitectura de Odoo.\n\nImplementé pipeline de CI/CD utilizando GitLab CI y desarrollé mini-PaaS basado en Docker para automatizar el despliegue de aplicaciones Odoo.\n\nRealicé demostraciones funcionales del sistema Odoo a clientes potenciales y capacitaciones funcionales a usuarios finales en módulos de CRM, Ventas, Inventario y Contabilidad.",
       "url": "https://www.linkedin.com/company/sead-sac/",
       "location": "Lima, Perú"
     },
@@ -82,7 +108,7 @@
       "startDate": "2018-12-31",
       "endDate": "2020-06-30",
       "highlights": [],
-      "summary": "+ Desarrollo de módulos Odoo\n+ Mantenimiento a DB usando postgreSQL\n+ Implementación de Odoo con Docker\n+ Mantenimiento de repositorios GitHub y GitLab\n+ Desarrollo de Facturación Electrónica\n+ Implementación de los módulos: CRM, Eventos, Email Marketing\n+ Integración con sistemas externos usando: SOA, REST, XMLRPC\n+ AWS: EC2, Route53, S3\n+ Desarrollo de ETL\n+ Desarrollo Microservicios",
+      "summary": "Desarrollo de módulos personalizados para Odoo ERP utilizando Python y el framework ORM de Odoo.\n\nMantenimiento y optimización de bases de datos PostgreSQL, incluyendo consultas SQL, índices y respaldos.\n\nImplementación y despliegue de instancias Odoo utilizando Docker y Docker Compose para ambientes de desarrollo y producción.\n\nGestión de control de versiones utilizando Git con repositorios en GitHub y GitLab, implementando flujos de trabajo con ramas y pull requests.\n\nDesarrollo de sistema de Facturación Electrónica conforme a normativas SUNAT (Perú), integrando generación de XML, firma digital y envío a OSE.\n\nImplementación y personalización de módulos Odoo: CRM para gestión de clientes, Eventos para organización de actividades, y Email Marketing para campañas.\n\nIntegración con sistemas externos utilizando arquitecturas SOA, APIs REST y protocolo XMLRPC.\n\nDespliegue y gestión de infraestructura en AWS utilizando EC2 para servidores, Route53 para DNS y S3 para almacenamiento.\n\nDesarrollo de procesos ETL (Extract, Transform, Load) para migración e integración de datos entre sistemas.\n\nDiseño e implementación de arquitectura de microservicios para aplicaciones distribuidas.",
       "url": "https://www.linkedin.com/company/sead-sac/",
       "location": "Provincia de Lima, Peru"
     },
@@ -92,7 +118,7 @@
       "startDate": "2018-05-31",
       "endDate": "2018-11-30",
       "highlights": [],
-      "summary": "+ Desarrollo de módulos para Odoo\n+ Soporte para facturación electrónica\n+ Integraciones con sistemas Cloud\n+ Implementaciones de Odoo",
+      "summary": "Desarrollo de módulos personalizados para Odoo ERP, incluyendo customización de modelos, vistas y lógica de negocio.\n\nSoporte técnico y mantenimiento de sistema de Facturación Electrónica, resolución de incidencias y actualizaciones normativas.\n\nDesarrollo de integraciones con sistemas Cloud utilizando APIs REST y webhooks para sincronización de datos.\n\nImplementación completa de Odoo ERP para clientes, incluyendo análisis de requerimientos, configuración, migración de datos y capacitación de usuarios.",
       "location": "Provincia de Lima, Peru"
     },
     {
@@ -101,7 +127,7 @@
       "startDate": "2016-03-31",
       "endDate": "2018-08-31",
       "highlights": [],
-      "summary": "+ Desarrollo de módulos\n+ Implementacion de POS y CRM\n+ Mantenimiento de Base de datos",
+      "summary": "Desarrollo de módulos personalizados para Odoo según requerimientos específicos de clientes.\n\nImplementación y configuración de módulos Point of Sale (POS) y Customer Relationship Management (CRM) de Odoo.\n\nMantenimiento preventivo y correctivo de bases de datos PostgreSQL, incluyendo optimización de consultas y respaldos.",
       "url": "https://rafnixg.dev"
     },
     {
@@ -110,7 +136,7 @@
       "startDate": "2017-10-31",
       "endDate": "2018-03-31",
       "highlights": [],
-      "summary": "Desarrollador Frontend\n+ Maquetar de PSD a HTML\n+ Animar con CSS\n+ Javascript\n+ Integracion con CMS's\n+ eCommerce",
+      "summary": "Desarrollador Frontend especializado en maquetación web y desarrollo de interfaces de usuario.\n\nConversión de diseños PSD a HTML semántico utilizando CSS3 para layouts responsivos.\n\nImplementación de animaciones y transiciones CSS para mejorar la experiencia de usuario.\n\nDesarrollo de funcionalidades interactivas utilizando JavaScript vanilla y jQuery.\n\nIntegración de templates con sistemas de gestión de contenidos (CMS) como WordPress y Joomla.\n\nDesarrollo y personalización de tiendas eCommerce utilizando WooCommerce y otras plataformas.",
       "url": "https://pudinet.com",
       "location": "Carabobo, Venezuela"
     },
@@ -120,7 +146,7 @@
       "startDate": "2017-03-31",
       "endDate": "2017-08-31",
       "highlights": [],
-      "summary": "Frontend:\n  + Maquetado Web HTML, CSS, JS\n  + Desarrollo con VueJS\n\nBackend:\n  + Desarrollo usando Laravel 5.4",
+      "summary": "Desarrollo Full-Stack con enfoque en aplicaciones web modernas.\n\nFrontend: Maquetación web utilizando HTML5, CSS3 y JavaScript. Desarrollo de aplicaciones SPA (Single Page Application) utilizando VueJS con gestión de estado y componentes reutilizables.\n\nBackend: Desarrollo de APIs RESTful y aplicaciones web utilizando Laravel 5.4, implementando patrón MVC, Eloquent ORM y autenticación.",
       "location": "Chile"
     },
     {
@@ -129,7 +155,7 @@
       "startDate": "2013-01-31",
       "endDate": "2017-01-31",
       "highlights": [],
-      "summary": "Frontend\n  + Bootstrap\n  + AngularJS\n  + HTML5\n\nBackend\n  + PHP\n  + MySQL\n  + Laravel 5",
+      "summary": "Desarrollo Full-Stack de aplicaciones web.\n\nFrontend: Desarrollo de interfaces responsivas utilizando Bootstrap framework, aplicaciones web dinámicas con AngularJS, y maquetación con HTML5 y CSS3.\n\nBackend: Desarrollo de aplicaciones web y APIs utilizando PHP, gestión de bases de datos MySQL, e implementación de proyectos con Laravel 5 framework.",
       "location": "Tinaquillo"
     },
     {
@@ -138,7 +164,7 @@
       "startDate": "2015-01-31",
       "endDate": "2016-09-30",
       "highlights": [],
-      "summary": "+ Desarrollo Full-Stack\n+ Wordpress\n+ Desarrollo de Theme Wordpress\n+ Laravel 5\n+ HTML5 & CSS3",
+      "summary": "Desarrollo Full-Stack de sitios web y aplicaciones corporativas.\n\nDesarrollo y mantenimiento de sitios web utilizando WordPress CMS, incluyendo configuración de plugins y optimización.\n\nDesarrollo de themes personalizados para WordPress desde cero, implementando diseños responsivos y funcionalidades específicas.\n\nDesarrollo de aplicaciones web backend utilizando Laravel 5 framework con patrón MVC.\n\nMaquetación frontend utilizando HTML5 y CSS3 con enfoque en diseño responsivo y cross-browser compatibility.",
       "location": "Caracas"
     }
   ],
@@ -174,176 +200,271 @@
   "awards": [],
   "certificates": [
     {
+      "name": "Bootcamp Azure AI Engineer Associate",
+      "issuer": "Código Facilito",
+      "date": "2024-11-19",
+      "url": "https://codigofacilito.com/certificates/14842c73-20bc-4925-b9c6-c00f8c8b954f"
+    },
+    {
+      "name": "Curso de fundamentos de arquitectura de software",
+      "issuer": "Código Facilito",
+      "date": "2024-05-12",
+      "url": "https://codigofacilito.com/certificates/c2f85e60-c922-4dca-a261-ea6cd2f4b1cd"
+    },
+    {
+      "name": "Curso de Machine Learning con ScikitLearn",
+      "issuer": "Código Facilito",
+      "date": "2023-05-30",
+      "url": "https://codigofacilito.com/certificates/6c6b7e55-09d8-4478-b4fa-f2e45ab8b66e"
+    },
+    {
+      "name": "Curso para consumir APIs con Python",
+      "issuer": "Código Facilito",
+      "date": "2023-04-27",
+      "url": "https://codigofacilito.com/certificates/e6542b0a-6aa2-44d0-8be6-2c8f854bd176"
+    },
+    {
       "name": "Curso Profesional de Python",
       "issuer": "Platzi",
-      "startDate": "2022-05-31",
+      "date": "2022-05-31",
       "url": "https://platzi.com/p/rafnixg/curso/2397-python-profesional/diploma/detalle/"
     },
     {
       "name": "Curso de FastAPI: Fundamentos, Path Operations y Validaciones",
       "issuer": "Platzi",
-      "startDate": "2022-03-31",
+      "date": "2022-03-31",
       "url": "https://platzi.com/p/rafnixg/course/2513-fastapi/diploma/detalle/"
     },
     {
       "name": "Curso de FastAPI: Modularización, Datos Avanzados y Errores",
       "issuer": "Platzi",
-      "startDate": "2022-03-31",
+      "date": "2022-03-31",
       "url": "https://platzi.com/p/rafnixg/course/2514-fastapi-modularizacion-datos/diploma/detalle/"
     },
     {
       "name": "Curso de Introducción al Desarrollo Backend",
       "issuer": "Platzi",
-      "startDate": "2022-03-31",
+      "date": "2022-03-31",
       "url": "https://platzi.com/p/rafnixg/course/2508-introduccion-backend/diploma/detalle/"
     },
     {
       "name": "Curso de Python Intermedio: Comprehensions, Lambdas y Manejo de Errores",
       "issuer": "Platzi",
-      "startDate": "2022-03-31",
+      "date": "2022-03-31",
       "url": "https://platzi.com/p/rafnixg/course/2255-python-intermedio/diploma/detalle/"
     },
     {
       "name": "Desarrollo Backend con Python y Django",
       "issuer": "Platzi",
-      "startDate": "2022-03-31",
+      "date": "2022-03-31",
       "url": "https://platzi.com/p/rafnixg/learning-path/3-backend-python/diploma/detalle/"
     },
     {
       "name": "Curso de Estructuras de Datos Lineales con Python",
       "issuer": "Platzi",
-      "startDate": "2021-11-30",
+      "date": "2021-11-30",
       "url": "https://platzi.com/p/rafnixg/course/2299-estructuras-datos-python/diploma/detalle/"
     },
     {
       "name": "Curso de Fundamentos de AWS Cloud",
       "issuer": "Platzi",
-      "startDate": "2021-08-31",
+      "date": "2021-08-31",
       "url": "https://platzi.com/p/rafnixg/course/1323-aws-cloud/diploma/detalle/"
     },
     {
       "name": "Curso de Introducción a la Terminal y Línea de Comandos",
       "issuer": "Platzi",
-      "startDate": "2021-07-31",
+      "date": "2021-07-31",
       "url": "https://platzi.com/p/rafnixg/course/2292-terminal/diploma/detalle/"
     },
     {
       "name": "Curso Básico de Web Components con JavaScript",
       "issuer": "Platzi",
-      "startDate": "2021-06-30",
+      "date": "2021-06-30",
       "url": "https://platzi.com/p/rafnixg/curso/2199-web-components-javascript/diploma/detalle/"
     },
     {
       "name": "Curso Práctico de JavaScript",
       "issuer": "Platzi",
-      "startDate": "2021-06-30",
+      "date": "2021-06-30",
       "url": "https://platzi.com/p/rafnixg/course/2327-javascript-practico/diploma/detalle/"
     },
     {
       "name": "Curso de Single Page Application con JavaScript Vanilla",
       "issuer": "Platzi",
-      "startDate": "2021-06-30",
+      "date": "2021-06-30",
       "url": "https://platzi.com/p/rafnixg/course/1787-spa-javascript/diploma/detalle/"
     },
     {
       "name": "EF SET English Certificate 54/100 (B2 Upper Intermediate)",
-      "issuer": "EF Standard English Test (EF SET) ",
-      "startDate": "2021-04-30",
+      "issuer": "EF Standard English Test (EF SET)",
+      "date": "2021-04-30",
       "url": "https://www.efset.org/cert/rmFwsg"
     },
     {
       "name": "Curso Profesional de DevOps",
       "issuer": "Platzi",
-      "startDate": "2021-03-31",
+      "date": "2021-03-31",
       "url": "https://platzi.com/p/rafnixg/course/1431-devops/diploma/detalle/"
     },
     {
       "name": "Infraestructura Como Código con Terraform",
       "issuer": "Platzi",
-      "startDate": "2021-03-31",
+      "date": "2021-03-31",
       "url": "https://platzi.com/p/rafnixg/curso/1712-course/diploma/detalle/"
     },
     {
       "name": "Manipulación del DOM",
       "issuer": "Platzi",
-      "startDate": "2021-03-31",
+      "date": "2021-03-31",
       "url": "https://platzi.com/p/rafnixg/course/2193-dom/diploma/detalle/"
     },
     {
       "name": "Python for Data Science",
       "issuer": "IBM",
-      "startDate": "2021-03-31",
+      "date": "2021-03-31",
       "url": "https://www.youracclaim.com/badges/fe8e13c5-1a21-45a5-80a3-eb13315c4023?source=linked_in_profile"
     },
     {
       "name": "Travis CI",
       "issuer": "Platzi",
-      "startDate": "2021-03-31",
+      "date": "2021-03-31",
       "url": "https://platzi.com/p/rafnixg/course/1843-travis/diploma/detalle/"
     },
     {
       "name": "Reto Road to Code",
       "issuer": "Platzi",
-      "startDate": "2020-11-30",
+      "date": "2020-11-30",
       "url": "https://platzi.com/@rafnixg/curso/2173-road-to-code/diploma/detalle/"
     },
     {
       "name": "Curso Básico de Python",
       "issuer": "Platzi",
-      "startDate": "2020-10-31",
+      "date": "2020-10-31",
       "url": "https://platzi.com/@rafnixg/curso/1937-pythonbasico/diploma/detalle/"
     }
   ],
   "publications": [],
   "skills": [
     {
-      "name": "Backend",
-      "level": "Senior",
+      "name": "Backend Development",
+      "level": "Expert",
       "keywords": [
         "Python",
+        "FastAPI",
         "Django",
         "Flask",
-        "FastAPI",
-        "Odoo",
-        "Pandas",
-        "Celery",
-        "XML",
-        "Apache AirFlow",
-        "Microservices",
-        "RabbitMQ"
+        "Odoo ERP",
+        "REST APIs",
+        "GraphQL",
+        "Microservices Architecture",
+        "XML/XMLRPC"
       ]
     },
     {
-      "name": "Databases",
-      "level": "Senior",
+      "name": "Data Processing & Automation",
+      "level": "Advanced",
+      "keywords": [
+        "Pandas",
+        "Celery",
+        "Apache Airflow",
+        "ETL Pipelines",
+        "RPA",
+        "Web Scraping",
+        "BeautifulSoup"
+      ]
+    },
+    {
+      "name": "Database Management",
+      "level": "Expert",
       "keywords": [
         "PostgreSQL",
         "MySQL",
         "MariaDB",
-        "Redis"
+        "Redis",
+        "SQLite",
+        "Database Optimization",
+        "Query Performance"
       ]
     },
     {
-      "name": "Cloud",
-      "level": "Mid",
+      "name": "Cloud & Infrastructure",
+      "level": "Advanced",
       "keywords": [
-        "AWS",
-        "Digital Ocean",
-        "Linux",
-        "Bash",
-        "RegExp",
+        "AWS (EC2, S3, SES, Route53)",
         "Docker",
-        "DevOps"
+        "Docker Compose",
+        "Kubernetes",
+        "Linux Administration",
+        "Bash Scripting",
+        "CI/CD",
+        "GitHub Actions",
+        "GitLab CI",
+        "Jenkins"
       ]
     },
     {
-      "name": "Frontend",
-      "level": "Mid",
+      "name": "DevOps & Monitoring",
+      "level": "Advanced",
       "keywords": [
-        "Javascript",
-        "HTML",
-        "CSS",
-        "Jinja2"
+        "Terraform",
+        "Infrastructure as Code",
+        "Proxmox",
+        "LXC Containers",
+        "NewRelic APM",
+        "Cloudflare",
+        "Travis CI"
+      ]
+    },
+    {
+      "name": "Frontend Development",
+      "level": "Intermediate",
+      "keywords": [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Vue.js",
+        "React",
+        "jQuery",
+        "Jinja2",
+        "Leaflet.js",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "Message Queues & Event Streaming",
+      "level": "Advanced",
+      "keywords": [
+        "RabbitMQ",
+        "Celery",
+        "Event-Driven Architecture",
+        "Asynchronous Processing"
+      ]
+    },
+    {
+      "name": "Development Tools & Practices",
+      "level": "Expert",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "GitLab",
+        "VS Code",
+        "Regular Expressions",
+        "Code Review",
+        "Agile Methodologies",
+        "TDD",
+        "API Design"
+      ]
+    },
+    {
+      "name": "E-commerce & ERP Systems",
+      "level": "Expert",
+      "keywords": [
+        "Odoo Development",
+        "E-commerce Platforms",
+        "Electronic Invoicing",
+        "Payment Integration",
+        "WooCommerce"
       ]
     }
   ],
@@ -388,7 +509,197 @@
       "reference": "Excelente profesional, con altas capacidades de aprendizaje y trabajo en equipo, con mucha experiencia en el campo de la programación y desarrollo de proyectos de IT."
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "name": "SismosVE - Earthquake Monitoring Venezuela",
+      "description": "Modern web application for visualizing and monitoring earthquakes in Venezuela using official FUNVISIS data with optimized modular architecture. Built with FastAPI and Python 3.13+, featuring an interactive map with Leaflet.js, advanced filters by magnitude and dates, real-time statistics, RESTful API, responsive design, and automatic data updates every 5 minutes. Containerized with Docker and CI/CD automation via GitHub Actions.",
+      "highlights": [
+        "FastAPI + Python 3.13 backend with modular architecture",
+        "Interactive map with Leaflet.js and real-time data",
+        "Docker containerization with multi-architecture support",
+        "GitHub Actions CI/CD pipeline",
+        "SEO optimized with Open Graph and Schema.org",
+        "Cloudflare Tunnel compatible with cache management"
+      ],
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "Leaflet.js",
+        "GitHub Actions",
+        "API REST",
+        "Web Scraping",
+        "BeautifulSoup",
+        "SEO"
+      ],
+      "startDate": "2020-01-01",
+      "endDate": "2025-11-28",
+      "url": "https://github.com/rafnixg/sismosve",
+      "roles": [
+        "Full Stack Developer",
+        "DevOps Engineer"
+      ],
+      "entity": "Personal Project",
+      "type": "application"
+    },
+    {
+      "name": "BCV Exchange Rate API",
+      "description": "REST API for obtaining official exchange rates from the Central Bank of Venezuela (BCV). Provides real-time and historical exchange rate data for USD, EUR, and other currencies in JSON format. Built with FastAPI and Python, featuring automatic documentation with OpenAPI/Swagger, SQLite persistence, Docker support, health check endpoints for production monitoring, and integration with NewRelic for APM.",
+      "highlights": [
+        "FastAPI REST API with automatic OpenAPI documentation",
+        "Web scraping with BeautifulSoup for BCV official rates",
+        "Historical data with SQLite database",
+        "Docker containerization with multiple Dockerfile variants",
+        "NewRelic APM integration",
+        "Rate limiting and caching mechanisms"
+      ],
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "Web Scraping",
+        "BeautifulSoup",
+        "SQLite",
+        "Docker",
+        "API REST",
+        "Pydantic",
+        "NewRelic"
+      ],
+      "startDate": "2021-06-01",
+      "endDate": "2025-11-28",
+      "url": "https://github.com/rafnixg/bcv-api",
+      "roles": [
+        "Backend Developer",
+        "API Designer"
+      ],
+      "entity": "Personal Project",
+      "type": "application"
+    },
+    {
+      "name": "RafnixG-Lib - Personal Card Python Library",
+      "description": "Python library providing a personal card, blog post manager, and resume tools for developers. Displays personal information in styled console tables, fetches latest blog posts from Hashnode GraphQL API, and retrieves resume details from JSON. Published on PyPI with automated deployment via GitHub Actions. Features customizable links management and rich console styling.",
+      "highlights": [
+        "Published Python package on PyPI",
+        "Rich library integration for styled console output",
+        "Hashnode API integration for blog posts",
+        "Resume parser from JSON with comprehensive sections",
+        "Automated PyPI publishing with GitHub Actions",
+        "CLI tool with multiple commands"
+      ],
+      "keywords": [
+        "Python",
+        "PyPI",
+        "CLI",
+        "Rich",
+        "Hashnode API",
+        "GitHub Actions",
+        "Package Development"
+      ],
+      "startDate": "2022-03-01",
+      "endDate": "2025-11-28",
+      "url": "https://github.com/rafnixg/rafnixg-lib",
+      "roles": [
+        "Python Developer",
+        "Package Maintainer"
+      ],
+      "entity": "Personal Project",
+      "type": "library"
+    },
+    {
+      "name": "Own WSGI - Educational WSGI Server Implementation",
+      "description": "Educational implementation of a WSGI (Web Server Gateway Interface) server from scratch following PEP 3333 specification. Features custom routing, middleware support, request/response objects, and compatibility with frameworks like FastAPI. Includes Docker support and demonstrates low-level web server architecture and HTTP protocol implementation in Python.",
+      "highlights": [
+        "Complete WSGI server implementation following PEP 3333",
+        "Custom routing and middleware system",
+        "Request and Response object abstraction",
+        "FastAPI compatibility",
+        "Docker containerization",
+        "Educational resource for web server internals"
+      ],
+      "keywords": [
+        "Python",
+        "WSGI",
+        "Web Server",
+        "HTTP Protocol",
+        "Socket Programming",
+        "FastAPI",
+        "Docker",
+        "Educational"
+      ],
+      "startDate": "2023-01-01",
+      "endDate": "2023-06-30",
+      "url": "https://github.com/rafnixg/own_wsgi",
+      "roles": [
+        "Python Developer",
+        "Technical Educator"
+      ],
+      "entity": "Personal Project",
+      "type": "application"
+    },
+    {
+      "name": "BnB-BCV - Binance P2P & BCV Exchange Rate API",
+      "description": "Open API providing reliable exchange rate information for the Venezuelan market. Obtains official rates from the Central Bank of Venezuela (BCV) and real-time P2P rates from Binance against USDT. Built with FastAPI, SQLite, and Docker, featuring automatic documentation, health checks, web interface, and scheduled jobs for data updates. Aims to provide transparent financial data without manipulation.",
+      "highlights": [
+        "Dual data source: BCV official rates and Binance P2P market rates",
+        "FastAPI with automatic OpenAPI documentation",
+        "SQLite persistence for historical analysis",
+        "Docker deployment with health checks",
+        "Web interface for easy access",
+        "Scheduled automated updates"
+      ],
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "Binance API",
+        "Web Scraping",
+        "SQLite",
+        "Docker",
+        "Financial Data",
+        "API REST"
+      ],
+      "startDate": "2024-06-01",
+      "url": "https://github.com/gabrielbaute/binance-bcv-dolar",
+      "roles": [
+        "Contributor",
+        "Backend Developer"
+      ],
+      "entity": "Open Source Contribution",
+      "type": "application"
+    },
+    {
+      "name": "SpotifySaver - Spotify Music Downloader with Jellyfin Integration",
+      "description": "All-in-one tool for downloading and organizing music with Spotify metadata optimized for Jellyfin media server. Downloads audio from YouTube Music with Spotify metadata, synchronized lyrics from LRC Lib, generates Jellyfin-compatible NFO files, and creates automatic folder structure. Features CLI, RESTful API, modern web interface with real-time progress, Docker support with auto-builds, and playlist support with multiple bitrate options.",
+      "highlights": [
+        "Spotify API integration for metadata",
+        "YouTube Music download with yt-dlp",
+        "Synchronized lyrics (.lrc) from LRC Lib",
+        "Jellyfin NFO file generation",
+        "Web UI with real-time download progress",
+        "RESTful API for integrations",
+        "Docker with GitHub Container Registry",
+        "Poetry dependency management"
+      ],
+      "keywords": [
+        "Python",
+        "Spotify API",
+        "YouTube Music",
+        "FastAPI",
+        "yt-dlp",
+        "Docker",
+        "Web Interface",
+        "CLI",
+        "Jellyfin",
+        "Poetry"
+      ],
+      "startDate": "2024-08-01",
+      "url": "https://github.com/gabrielbaute/spotify-saver",
+      "roles": [
+        "Contributor",
+        "Full Stack Developer"
+      ],
+      "entity": "Open Source Contribution",
+      "type": "application"
+    }
+  ],
   "meta": {
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
