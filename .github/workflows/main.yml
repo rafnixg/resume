@@ -35,6 +35,8 @@ jobs:
         with:
           node-version: '18'
       - name: Generate PDF using resume-cli
+        env:
+          RESUME_PUPPETEER_NO_SANDBOX: "1"
         run: |
           npm install -g resume-cli@3.1.2 jsonresume-theme-elegant@1.16.1
           resume export assets/RafnixGuzman_CV.pdf --format pdf --theme elegant
