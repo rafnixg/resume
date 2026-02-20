@@ -30,17 +30,29 @@ jobs:
       - name: Inject Custom HTML Tags
         run: |
           python add_custom_tags.py
-      - name: Commit published HTML
+      - name: Generate PDF from HTML
+        run: |
+          google-chrome --headless --disable-gpu --print-to-pdf=assets/RafnixGuzman_CV.pdf \
+            --no-sandbox --print-to-pdf-no-header file://$(pwd)/index.html
+      - name: Commit published HTML and PDF
         id: commit
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          CHANGED=false
           if [ -n "$(git status --porcelain index.html)" ]; then
             git add index.html
-            git commit -m "[ci skip] chore(index.html): update resume page"
-            echo ::set-output name=exit_code::0
+            CHANGED=true
+          fi
+          if [ -n "$(git status --porcelain assets/RafnixGuzman_CV.pdf)" ]; then
+            git add assets/RafnixGuzman_CV.pdf
+            CHANGED=true
+          fi
+          if [ "$CHANGED" = "true" ]; then
+            git commit -m "[ci skip] chore: update resume page and PDF"
+            echo "exit_code=0" >> $GITHUB_OUTPUT
           else
-            echo ::set-output name=exit_code::1
+            echo "exit_code=1" >> $GITHUB_OUTPUT
           fi
       - name: Push changes
         uses: ad-m/github-push-action@master
