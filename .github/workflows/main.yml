@@ -30,10 +30,14 @@ jobs:
       - name: Inject Custom HTML Tags
         run: |
           python add_custom_tags.py
-      - name: Generate PDF from HTML
+      - name: Setup Node.js for resume-cli
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Generate PDF using resume-cli
         run: |
-          google-chrome --headless --disable-gpu --print-to-pdf=assets/RafnixGuzman_CV.pdf \
-            --no-sandbox --print-to-pdf-no-header file://$(pwd)/index.html
+          npm install -g resume-cli@3.1.2 jsonresume-theme-elegant@1.16.1
+          resume export assets/RafnixGuzman_CV.pdf --format pdf --theme elegant
       - name: Commit published HTML and PDF
         id: commit
         run: |
