@@ -2,13 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Rafnix Gabriel Guzmán Garcia",
-    "label": "Backend Python | Odoo Developer | Tech Writer",
+    "label": "AI Engineer (LLM/RAG) | Python Backend | Odoo Developer",
     "image": "",
     "email": "rafnixg@gmail.com",
     "url": "https://links.rafnixg.dev",
-    "summary": "Soy un desarrollador de software con más de 10 años de experiencia en el diseño, desarrollo e implementación de sistemas web. Me gusta trabajar en proyectos desafiantes y utilizar mis habilidades para resolver problemas complejos y ofrecer soluciones de alta calidad. Mi experiencia incluye proyectos en sectores como finanzas, eventos, telecomunicaciones, retail y ecommerce.\n\nComo desarrollador backend, me he enfocado en construir sistemas escalables y robustos utilizando lenguajes como Python y herramientas como Linux y Git. También tengo experiencia trabajando con bases de datos como PostgreSQL y utilizando Docker para el despliegue de aplicaciones.\n\nSoy un autodidacta y me gusta estar siempre actualizado con las últimas tendencias y tecnologías en el campo del desarrollo de software. Me dedico a aprender y mejorar mis habilidades a través de cursos en línea, libros y documentación técnica. Además, me gusta compartir mis conocimientos y promover el uso de tecnologías libres o de código abierto.\n\nEstoy capacitado para desempeñar tareas de backend y administración de sistemas, y busco oportunidades en empresas que valoren mis habilidades y experiencia.",
+    "summary": "AI Engineer (LLM/RAG) y Backend Python con +10 años construyendo y operando sistemas en producción. Combino desarrollo backend (Python, FastAPI, PostgreSQL, Docker) con arquitectura de agentes y automatización para casos reales de negocio.\n\nEn mi laboratorio de infraestructura (Proxmox + Docker + Portainer) gestiono múltiples hosts y decenas de servicios activos, incluyendo AnythingLLM, OpenClaw y flujos de agentes en n8n. También uso LM Studio local para validar modelos SLM/LLM open-source y comparar calidad, latencia y costo según caso de uso.\n\nMe enfoco en implementar soluciones robustas: APIs, integración de datos, observabilidad, despliegue continuo y operación estable. Aunque no todos los proyectos de IA son públicos, mi experiencia práctica está en llevar ideas de IA generativa y agentic workflows a entornos funcionales y mantenibles.",
     "location": {
-      "countryCode": "ES",
+      "countryCode": "PE",
       "address": "Lima, Perú"
     },
     "profiles": [
@@ -466,6 +466,36 @@
         "Payment Integration",
         "WooCommerce"
       ]
+    },
+    {
+      "name": "AI Engineering & Agentic Systems",
+      "keywords": [
+        "LLM Application Design",
+        "RAG Pipelines",
+        "Prompt Engineering",
+        "Tool Calling",
+        "LangGraph",
+        "LangChain",
+        "n8n Agents",
+        "AnythingLLM",
+        "LM Studio",
+        "Open-Source LLM Evaluation",
+        "AI Observability"
+      ]
+    },
+    {
+      "name": "Homelab Platform Operations",
+      "keywords": [
+        "Proxmox",
+        "LXC",
+        "Docker",
+        "Portainer",
+        "Cloudflare Tunnels",
+        "Uptime Kuma",
+        "Pi-hole",
+        "Service Reliability",
+        "Self-hosted Platforms"
+      ]
     }
   ],
   "languages": [
@@ -510,6 +540,37 @@
     }
   ],
   "projects": [
+    {
+      "name": "AI Homelab Platform (Private) - Agentic AI Operations Lab",
+      "description": "Diseño y operación de laboratorio self-hosted para IA aplicada. Infraestructura en Proxmox con Docker/Portainer, servicios de IA (AnythingLLM, OpenClaw, agentes n8n) y monitoreo operacional. Entorno usado para validar workflows agentic, pruebas con modelos open-source en LM Studio y automatizaciones orientadas a productividad.",
+      "highlights": [
+        "Proxmox + LXC multi-host",
+        "AnythingLLM + OpenClaw + n8n agents",
+        "Evaluación práctica de SLM/LLM open-source con LM Studio",
+        "Operación de ~56 contenedores en inventario (snapshot)"
+      ],
+      "keywords": [
+        "AI Engineering",
+        "LLM",
+        "RAG",
+        "Agents",
+        "Proxmox",
+        "Docker",
+        "Portainer",
+        "n8n",
+        "AnythingLLM",
+        "LM Studio"
+      ],
+      "startDate": "2024-01-01",
+      "endDate": "",
+      "url": "https://links.rafnixg.dev",
+      "roles": [
+        "AI Engineer",
+        "Platform Engineer"
+      ],
+      "entity": "Personal Lab",
+      "type": "application"
+    },
     {
       "name": "SismosVE - Earthquake Monitoring Venezuela",
       "description": "Modern web application for visualizing and monitoring earthquakes in Venezuela using official FUNVISIS data with optimized modular architecture. Built with FastAPI and Python 3.13+, featuring an interactive map with Leaflet.js, advanced filters by magnitude and dates, real-time statistics, RESTful API, responsive design, and automatic data updates every 5 minutes. Containerized with Docker and CI/CD automation via GitHub Actions.",
