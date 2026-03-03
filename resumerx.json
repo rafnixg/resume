@@ -1,0 +1,1152 @@
+{
+  "picture": {
+    "hidden": false,
+    "url": "",
+    "size": 64,
+    "rotation": 0,
+    "aspectRatio": 1,
+    "borderRadius": 0,
+    "borderColor": "rgba(0, 0, 0, 0)",
+    "borderWidth": 0,
+    "shadowColor": "rgba(0, 0, 0, 0.5)",
+    "shadowWidth": 0
+  },
+  "basics": {
+    "name": "Rafnix Gabriel Guzmán Garcia",
+    "headline": "AI Engineer (LLM/RAG) | Python Backend | Odoo Developer",
+    "email": "rafnixg@gmail.com",
+    "phone": "",
+    "location": "Lima, Perú",
+    "website": {
+      "url": "https://links.rafnixg.dev",
+      "label": ""
+    },
+    "customFields": []
+  },
+  "summary": {
+    "title": "Summary",
+    "columns": 1,
+    "hidden": false,
+    "content": "AI Engineer (LLM/RAG) y Backend Python con +10 años construyendo y operando sistemas en producción. Combino desarrollo backend (Python, FastAPI, PostgreSQL, Docker) con arquitectura de agentes y automatización para casos reales de negocio.\n\nEn mi laboratorio de infraestructura (Proxmox + Docker + Portainer) gestiono múltiples hosts y decenas de servicios activos, incluyendo AnythingLLM, OpenClaw y flujos de agentes en n8n. También uso LM Studio local para validar modelos SLM/LLM open-source y comparar calidad, latencia y costo según caso de uso.\n\nMe enfoco en implementar soluciones robustas: APIs, integración de datos, observabilidad, despliegue continuo y operación estable. Aunque no todos los proyectos de IA son públicos, mi experiencia práctica está en llevar ideas de IA generativa y agentic workflows a entornos funcionales y mantenibles."
+  },
+  "sections": {
+    "profiles": {
+      "title": "Profiles",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "rdkwv4s0hkf7n5tyojx0v6h8",
+          "hidden": false,
+          "icon": "linkedin",
+          "network": "LinkedIn",
+          "username": "rafnixg",
+          "website": {
+            "url": "https://www.linkedin.com/in/rafnixg/",
+            "label": ""
+          }
+        },
+        {
+          "id": "j396lmm6ibjon41p6loezjzc",
+          "hidden": false,
+          "icon": "github",
+          "network": "GitHub",
+          "username": "rafnixg",
+          "website": {
+            "url": "https://github.com/rafnixg",
+            "label": ""
+          }
+        },
+        {
+          "id": "qzstw52c6eely6t42gzbmrwk",
+          "hidden": false,
+          "icon": "twitter",
+          "network": "Twitter",
+          "username": "RafnixG",
+          "website": {
+            "url": "https://twitter.com/RafnixG",
+            "label": ""
+          }
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "wm4r55ysw7o60r6apln5vc5t",
+          "hidden": false,
+          "company": "Kimenz Equipamentos & Engenharia Clínica",
+          "position": "Odoo Developer",
+          "location": "",
+          "period": "2023-12-01 - undefined",
+          "website": {
+            "url": "https://www.linkedin.com/company/kimenz/",
+            "label": ""
+          },
+          "description": "Como desarrollador de módulos para Odoo, me enfoqué especialmente en la expansión y optimización de funcionalidades para el servicio de campo. Mi labor se centró en la identificación y corrección de errores, así como en la implementación de mejoras clave para potenciar la eficiencia operativa. Diseñé y desarrollé módulos específicos que mejoraron la gestión de tareas en terreno, asegurando una integración sin problemas con el servicio existente. Además, abordé la corrección de errores críticos para garantizar la estabilidad y fiabilidad del sistema, contribuyendo así a una experiencia de usuario más fluida y libre de inconvenientes en el servicio de campo."
+        },
+        {
+          "id": "y32unxj17yws4wojosdecw19",
+          "hidden": false,
+          "company": "Peru Apps",
+          "position": "Python Developer",
+          "location": "",
+          "period": "2022-05-31 - 2022-11-30",
+          "website": {
+            "url": "https://www.linkedin.com/company/peru-apps/",
+            "label": ""
+          },
+          "description": "Como programador backend, mi responsabilidad era diseñar y desarrollar APIs RESTful utilizando FastAPI. Definí endpoints, diseñé modelos de datos y desarrollé las lógicas de negocio para satisfacer las necesidades del sistema.\n\nImplementé mecanismos de autenticación JWT y autorización basada en roles para proteger las APIs y garantizar acceso seguro a los datos y funcionalidades de la plataforma.\n\nTrabajé en conjunto con el equipo de frontend para garantizar que las APIs estuvieran diseñadas siguiendo principios RESTful y fueran fáciles de consumir por las aplicaciones cliente.\n\nParticipé en el desarrollo del módulo de backoffice para la plataforma, implementando funcionalidades administrativas como gestión de usuarios, transacciones y reportes. Integré servicios de AWS incluyendo S3 para almacenamiento de archivos y SES para envío de correos electrónicos.\n\nColaboré en el despliegue utilizando Docker y AWS, implementando monitorización para garantizar el correcto funcionamiento y alta disponibilidad del sistema."
+        },
+        {
+          "id": "tvuiaxlnqr8ao67r1o2u47ur",
+          "hidden": false,
+          "company": "Indra",
+          "position": "Analista Programador Python",
+          "location": "",
+          "period": "2022-01-31 - 2022-04-30",
+          "website": {
+            "url": "https://www.linkedin.com/company/indra/",
+            "label": ""
+          },
+          "description": "Como programador backend, lideré la migración de automatismos legacy a Python, desarrollando scripts y aplicaciones utilizando SFTP para transferencia de archivos, MSSQL Server para gestión de bases de datos, Pandas para procesamiento de datos, y Docker para containerización.\n\nContribuí a la definición de los lineamientos de DevOps del equipo utilizando Jenkins para CI/CD, estableciendo estándares y buenas prácticas en la implementación y despliegue de aplicaciones distribuidas en Kubernetes.\n\nColaboré en el desarrollo y mantenimiento de la librería RPA-UTILS del equipo interno, implementando automatización robótica de procesos (RPA) y mejorando la eficiencia operativa."
+        },
+        {
+          "id": "qvqqekr15y3bl8d63eyqj4jh",
+          "hidden": false,
+          "company": "Freelance",
+          "position": "Freelance Software Engineer",
+          "location": "",
+          "period": "2012-02-28 - 2022-04-30",
+          "website": {
+            "url": "https://rafnixg.dev",
+            "label": ""
+          },
+          "description": "Durante los últimos 9 años como freelance, he trabajado con diferentes organizaciones, brindándoles apoyo en su transición al mundo digital. Mi objetivo es ayudarlos a mejorar no solo su presencia online, sino también sus procesos internos y su relación con el Software.\n\nEn este proceso, he desempeñado diferentes roles, como asesoramiento en la elección de herramientas y tecnologías, desarrollo de aplicaciones web y capacitación de equipos internos. Esta experiencia me ha permitido adquirir un conocimiento profundo de las necesidades reales de las organizaciones y cómo ayudarlas de manera efectiva usando tecnología.\n\nAdemás, he trabajado en proyectos de diferentes sectores, como finanzas, eventos, telecomunicaciones, retail y ecommerce, lo que me ha dado una visión amplia y diversificada del mercado y me ha permitido adaptarme a diferentes contextos y requerimientos. Estoy comprometido con el uso de tecnologías de código abierto y libres, y promuevo su adopción en las empresas donde trabajo."
+        },
+        {
+          "id": "h1o4lav7ot7sr4sd8045repc",
+          "hidden": false,
+          "company": "SEAD SAC",
+          "position": "Senior Python/Odoo Developer",
+          "location": "",
+          "period": "2020-06-30 - 2021-12-31",
+          "website": {
+            "url": "https://www.linkedin.com/company/sead-sac/",
+            "label": ""
+          },
+          "description": "Implementación, migración y desarrollo de más de 7 proyectos empresariales usando Odoo ERP con clientes de diferentes rubros incluyendo retail, manufactura y servicios.\n\nRealicé migración y procesado de datos para integraciones entre sistemas utilizando APIs REST, XMLRPC y conectores personalizados.\n\nLideré mentoring y capacitaciones técnicas a desarrolladores Junior y Trainee en Python, PostgreSQL y arquitectura de Odoo.\n\nImplementé pipeline de CI/CD utilizando GitLab CI y desarrollé mini-PaaS basado en Docker para automatizar el despliegue de aplicaciones Odoo.\n\nRealicé demostraciones funcionales del sistema Odoo a clientes potenciales y capacitaciones funcionales a usuarios finales en módulos de CRM, Ventas, Inventario y Contabilidad."
+        },
+        {
+          "id": "aso7uehoc2ufsxdjbsnheihw",
+          "hidden": false,
+          "company": "SEAD SAC",
+          "position": "Python/Odoo Developer",
+          "location": "",
+          "period": "2018-12-31 - 2020-06-30",
+          "website": {
+            "url": "https://www.linkedin.com/company/sead-sac/",
+            "label": ""
+          },
+          "description": "Desarrollo de módulos personalizados para Odoo ERP utilizando Python y el framework ORM de Odoo.\n\nMantenimiento y optimización de bases de datos PostgreSQL, incluyendo consultas SQL, índices y respaldos.\n\nImplementación y despliegue de instancias Odoo utilizando Docker y Docker Compose para ambientes de desarrollo y producción.\n\nGestión de control de versiones utilizando Git con repositorios en GitHub y GitLab, implementando flujos de trabajo con ramas y pull requests.\n\nDesarrollo de sistema de Facturación Electrónica conforme a normativas SUNAT (Perú), integrando generación de XML, firma digital y envío a OSE.\n\nImplementación y personalización de módulos Odoo: CRM para gestión de clientes, Eventos para organización de actividades, y Email Marketing para campañas.\n\nIntegración con sistemas externos utilizando arquitecturas SOA, APIs REST y protocolo XMLRPC.\n\nDespliegue y gestión de infraestructura en AWS utilizando EC2 para servidores, Route53 para DNS y S3 para almacenamiento.\n\nDesarrollo de procesos ETL (Extract, Transform, Load) para migración e integración de datos entre sistemas.\n\nDiseño e implementación de arquitectura de microservicios para aplicaciones distribuidas."
+        },
+        {
+          "id": "f3o9gb7ek7kznytmdvrvdw4q",
+          "hidden": false,
+          "company": "Quipu systems",
+          "position": "Odoo Developer",
+          "location": "",
+          "period": "2018-05-31 - 2018-11-30",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "Desarrollo de módulos personalizados para Odoo ERP, incluyendo customización de modelos, vistas y lógica de negocio.\n\nSoporte técnico y mantenimiento de sistema de Facturación Electrónica, resolución de incidencias y actualizaciones normativas.\n\nDesarrollo de integraciones con sistemas Cloud utilizando APIs REST y webhooks para sincronización de datos.\n\nImplementación completa de Odoo ERP para clientes, incluyendo análisis de requerimientos, configuración, migración de datos y capacitación de usuarios."
+        },
+        {
+          "id": "t4bk3n96megkh8c6mj0xnmqy",
+          "hidden": false,
+          "company": "Freelancer",
+          "position": "Odoo Developer",
+          "location": "",
+          "period": "2016-03-31 - 2018-08-31",
+          "website": {
+            "url": "https://rafnixg.dev",
+            "label": ""
+          },
+          "description": "Desarrollo de módulos personalizados para Odoo según requerimientos específicos de clientes.\n\nImplementación y configuración de módulos Point of Sale (POS) y Customer Relationship Management (CRM) de Odoo.\n\nMantenimiento preventivo y correctivo de bases de datos PostgreSQL, incluyendo optimización de consultas y respaldos."
+        },
+        {
+          "id": "mdj47dnrp02w5yllcczkt6lk",
+          "hidden": false,
+          "company": "pudinet",
+          "position": "Desarrollador Frontend",
+          "location": "",
+          "period": "2017-10-31 - 2018-03-31",
+          "website": {
+            "url": "https://pudinet.com",
+            "label": ""
+          },
+          "description": "Desarrollador Frontend especializado en maquetación web y desarrollo de interfaces de usuario.\n\nConversión de diseños PSD a HTML semántico utilizando CSS3 para layouts responsivos.\n\nImplementación de animaciones y transiciones CSS para mejorar la experiencia de usuario.\n\nDesarrollo de funcionalidades interactivas utilizando JavaScript vanilla y jQuery.\n\nIntegración de templates con sistemas de gestión de contenidos (CMS) como WordPress y Joomla.\n\nDesarrollo y personalización de tiendas eCommerce utilizando WooCommerce y otras plataformas."
+        },
+        {
+          "id": "gch82w969u5r110zfxs9f7lc",
+          "hidden": false,
+          "company": "Intergrafixs",
+          "position": "Desarrollador Front-end",
+          "location": "",
+          "period": "2017-03-31 - 2017-08-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "Desarrollo Full-Stack con enfoque en aplicaciones web modernas.\n\nFrontend: Maquetación web utilizando HTML5, CSS3 y JavaScript. Desarrollo de aplicaciones SPA (Single Page Application) utilizando VueJS con gestión de estado y componentes reutilizables.\n\nBackend: Desarrollo de APIs RESTful y aplicaciones web utilizando Laravel 5.4, implementando patrón MVC, Eloquent ORM y autenticación."
+        },
+        {
+          "id": "o21ncazdgg4af8wdpdx0ij2y",
+          "hidden": false,
+          "company": "WebsTinaquillo",
+          "position": "Desarrollador de aplicaciones web",
+          "location": "",
+          "period": "2013-01-31 - 2017-01-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "Desarrollo Full-Stack de aplicaciones web.\n\nFrontend: Desarrollo de interfaces responsivas utilizando Bootstrap framework, aplicaciones web dinámicas con AngularJS, y maquetación con HTML5 y CSS3.\n\nBackend: Desarrollo de aplicaciones web y APIs utilizando PHP, gestión de bases de datos MySQL, e implementación de proyectos con Laravel 5 framework."
+        },
+        {
+          "id": "z0uigow4x9h3x79jhr7e0o03",
+          "hidden": false,
+          "company": "Triskal Media S.A",
+          "position": "Desarrollador de aplicaciones web",
+          "location": "",
+          "period": "2015-01-31 - 2016-09-30",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "Desarrollo Full-Stack de sitios web y aplicaciones corporativas.\n\nDesarrollo y mantenimiento de sitios web utilizando WordPress CMS, incluyendo configuración de plugins y optimización.\n\nDesarrollo de themes personalizados para WordPress desde cero, implementando diseños responsivos y funcionalidades específicas.\n\nDesarrollo de aplicaciones web backend utilizando Laravel 5 framework con patrón MVC.\n\nMaquetación frontend utilizando HTML5 y CSS3 con enfoque en diseño responsivo y cross-browser compatibility."
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "ek3fiq5bz5uh00yzjsjxowj6",
+          "hidden": false,
+          "school": "Platzi",
+          "degree": "Desarrollo Backend con Python y Django",
+          "area": "Programación informática",
+          "grade": "",
+          "location": "",
+          "period": "2019-12-31 - 2022-12-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "moultmljpd5ux0fxkbm8v8y0",
+          "hidden": false,
+          "school": "Universidad de Carabobo",
+          "degree": "Grado en Ingeniería",
+          "area": "Ingeniería de telecomunicaciones",
+          "grade": "NO CULMINADO(7mo Semestre)",
+          "location": "",
+          "period": "2008-02-28 - undefined",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "m2knoq2bxxy8y8p35vbfhe7g",
+          "hidden": false,
+          "school": "Instituto universitario de tecnologia del estado portuguesa",
+          "degree": "TSU en Informatica",
+          "area": "Informática",
+          "grade": "",
+          "location": "",
+          "period": "2012-12-31 - 2015-12-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "proj_ai_homelab_001",
+          "hidden": false,
+          "name": "AI Homelab Platform (Private) - Agentic AI Operations Lab",
+          "description": "Diseño y operación de laboratorio self-hosted para IA aplicada. Infraestructura en Proxmox con Docker/Portainer, servicios de IA (AnythingLLM, OpenClaw, agentes n8n) y monitoreo operacional. Entorno usado para validar workflows agentic, pruebas con modelos open-source en LM Studio y automatizaciones orientadas a productividad.",
+          "period": "2024-01-01 - Present",
+          "website": {
+            "url": "https://links.rafnixg.dev",
+            "label": ""
+          },
+          "keywords": [
+            "AI Engineering",
+            "LLM",
+            "RAG",
+            "Agents",
+            "Proxmox",
+            "Docker",
+            "Portainer",
+            "n8n",
+            "AnythingLLM",
+            "LM Studio"
+          ]
+        },
+        {
+          "id": "proj_sismosve_002",
+          "hidden": false,
+          "name": "SismosVE - Earthquake Monitoring Venezuela",
+          "description": "Modern web application for visualizing and monitoring earthquakes in Venezuela using official FUNVISIS data with optimized modular architecture. Built with FastAPI and Python 3.13+, featuring an interactive map with Leaflet.js, advanced filters by magnitude and dates, real-time statistics, RESTful API, responsive design, and automatic data updates every 5 minutes.",
+          "period": "2020-01-01 - 2025-11-28",
+          "website": {
+            "url": "https://github.com/rafnixg/sismosve",
+            "label": ""
+          },
+          "keywords": [
+            "Python",
+            "FastAPI",
+            "Docker",
+            "Leaflet.js",
+            "GitHub Actions",
+            "API REST",
+            "Web Scraping",
+            "BeautifulSoup",
+            "SEO"
+          ]
+        },
+        {
+          "id": "proj_bcv_api_003",
+          "hidden": false,
+          "name": "BCV Exchange Rate API",
+          "description": "REST API for obtaining official exchange rates from the Central Bank of Venezuela (BCV). Provides real-time and historical exchange rate data for USD, EUR, and other currencies in JSON format. Built with FastAPI and Python, featuring automatic documentation with OpenAPI/Swagger, SQLite persistence, Docker support, health check endpoints for production monitoring, and integration with NewRelic for APM.",
+          "period": "2021-06-01 - 2025-11-28",
+          "website": {
+            "url": "https://github.com/rafnixg/bcv-api",
+            "label": ""
+          },
+          "keywords": [
+            "Python",
+            "FastAPI",
+            "Web Scraping",
+            "BeautifulSoup",
+            "SQLite",
+            "Docker",
+            "API REST",
+            "Pydantic",
+            "NewRelic"
+          ]
+        },
+        {
+          "id": "proj_rafnixglib_004",
+          "hidden": false,
+          "name": "RafnixG-Lib - Personal Card Python Library",
+          "description": "Python library providing a personal card, blog post manager, and resume tools for developers. Displays personal information in styled console tables, fetches latest blog posts from Hashnode GraphQL API, and retrieves resume details from JSON. Published on PyPI with automated deployment via GitHub Actions.",
+          "period": "2022-03-01 - 2025-11-28",
+          "website": {
+            "url": "https://github.com/rafnixg/rafnixg-lib",
+            "label": ""
+          },
+          "keywords": [
+            "Python",
+            "PyPI",
+            "CLI",
+            "Rich",
+            "Hashnode API",
+            "GitHub Actions",
+            "Package Development"
+          ]
+        },
+        {
+          "id": "proj_own_wsgi_005",
+          "hidden": false,
+          "name": "Own WSGI - Educational WSGI Server Implementation",
+          "description": "Educational implementation of a WSGI (Web Server Gateway Interface) server from scratch following PEP 3333 specification. Features custom routing, middleware support, request/response objects, and compatibility with frameworks like FastAPI. Includes Docker support and demonstrates low-level web server architecture.",
+          "period": "2023-01-01 - 2023-06-30",
+          "website": {
+            "url": "https://github.com/rafnixg/own_wsgi",
+            "label": ""
+          },
+          "keywords": [
+            "Python",
+            "WSGI",
+            "Web Server",
+            "HTTP Protocol",
+            "Socket Programming",
+            "FastAPI",
+            "Docker",
+            "Educational"
+          ]
+        },
+        {
+          "id": "proj_bnb_bcv_006",
+          "hidden": false,
+          "name": "BnB-BCV - Binance P2P & BCV Exchange Rate API",
+          "description": "Open API providing reliable exchange rate information for the Venezuelan market. Obtains official rates from the Central Bank of Venezuela (BCV) and real-time P2P rates from Binance against USDT. Built with FastAPI, SQLite, and Docker, featuring automatic documentation, health checks, web interface, and scheduled jobs for data updates.",
+          "period": "2024-06-01 - Present",
+          "website": {
+            "url": "https://github.com/gabrielbaute/binance-bcv-dolar",
+            "label": ""
+          },
+          "keywords": [
+            "Python",
+            "FastAPI",
+            "Binance API",
+            "Web Scraping",
+            "SQLite",
+            "Docker",
+            "Financial Data",
+            "API REST"
+          ]
+        },
+        {
+          "id": "proj_spotifysaver_007",
+          "hidden": false,
+          "name": "SpotifySaver - Spotify Music Downloader with Jellyfin Integration",
+          "description": "All-in-one tool for downloading and organizing music with Spotify metadata optimized for Jellyfin media server. Downloads audio from YouTube Music with Spotify metadata, synchronized lyrics from LRC Lib, generates Jellyfin-compatible NFO files, and creates automatic folder structure. Features CLI, RESTful API, modern web interface with real-time progress, Docker support.",
+          "period": "2024-08-01 - Present",
+          "website": {
+            "url": "https://github.com/gabrielbaute/spotify-saver",
+            "label": ""
+          },
+          "keywords": [
+            "Python",
+            "Spotify API",
+            "YouTube Music",
+            "FastAPI",
+            "yt-dlp",
+            "Docker",
+            "Web Interface",
+            "CLI",
+            "Jellyfin",
+            "Poetry"
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "title": "Skills",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "vrk2ssvhsmo5vrztvfm6l5zt",
+          "hidden": false,
+          "icon": "",
+          "name": "Backend Development",
+          "proficiency": "Expert",
+          "level": 1,
+          "keywords": [
+            "Python",
+            "FastAPI",
+            "Django",
+            "Flask",
+            "Odoo ERP",
+            "REST APIs",
+            "GraphQL",
+            "Microservices Architecture",
+            "XML/XMLRPC"
+          ]
+        },
+        {
+          "id": "ox6vw1tdk72wqofitxizkvdr",
+          "hidden": false,
+          "icon": "",
+          "name": "Data Processing & Automation",
+          "proficiency": "Advanced",
+          "level": 1,
+          "keywords": [
+            "Pandas",
+            "Celery",
+            "Apache Airflow",
+            "ETL Pipelines",
+            "RPA",
+            "Web Scraping",
+            "BeautifulSoup"
+          ]
+        },
+        {
+          "id": "f0aq3153f8jrxhhogp15pmm2",
+          "hidden": false,
+          "icon": "",
+          "name": "Database Management",
+          "proficiency": "Expert",
+          "level": 1,
+          "keywords": [
+            "PostgreSQL",
+            "MySQL",
+            "MariaDB",
+            "Redis",
+            "SQLite",
+            "Database Optimization",
+            "Query Performance"
+          ]
+        },
+        {
+          "id": "ssbqhdl07bkivwsnf21xwrsd",
+          "hidden": false,
+          "icon": "",
+          "name": "Cloud & Infrastructure",
+          "proficiency": "Advanced",
+          "level": 1,
+          "keywords": [
+            "AWS (EC2, S3, SES, Route53)",
+            "Docker",
+            "Docker Compose",
+            "Kubernetes",
+            "Linux Administration",
+            "Bash Scripting",
+            "CI/CD",
+            "GitHub Actions",
+            "GitLab CI",
+            "Jenkins"
+          ]
+        },
+        {
+          "id": "w1wugycplq3mr5u9pg9b2b1u",
+          "hidden": false,
+          "icon": "",
+          "name": "DevOps & Monitoring",
+          "proficiency": "Advanced",
+          "level": 1,
+          "keywords": [
+            "Terraform",
+            "Infrastructure as Code",
+            "Proxmox",
+            "LXC Containers",
+            "NewRelic APM",
+            "Cloudflare",
+            "Travis CI"
+          ]
+        },
+        {
+          "id": "p8l4g03yzepo24uqfk5q89jy",
+          "hidden": false,
+          "icon": "",
+          "name": "Frontend Development",
+          "proficiency": "Intermediate",
+          "level": 1,
+          "keywords": [
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Vue.js",
+            "React",
+            "jQuery",
+            "Jinja2",
+            "Leaflet.js",
+            "Responsive Design"
+          ]
+        },
+        {
+          "id": "ne9s0qxa6pn9gjb17fmoodym",
+          "hidden": false,
+          "icon": "",
+          "name": "Message Queues & Event Streaming",
+          "proficiency": "Advanced",
+          "level": 1,
+          "keywords": [
+            "RabbitMQ",
+            "Celery",
+            "Event-Driven Architecture",
+            "Asynchronous Processing"
+          ]
+        },
+        {
+          "id": "qqp6kdqnmt1np2gbrnmc21ve",
+          "hidden": false,
+          "icon": "",
+          "name": "Development Tools & Practices",
+          "proficiency": "Expert",
+          "level": 1,
+          "keywords": [
+            "Git",
+            "GitHub",
+            "GitLab",
+            "VS Code",
+            "Regular Expressions",
+            "Code Review",
+            "Agile Methodologies",
+            "TDD",
+            "API Design"
+          ]
+        },
+        {
+          "id": "s2naq4rtbwg6x92hnj6izez7",
+          "hidden": false,
+          "icon": "",
+          "name": "E-commerce & ERP Systems",
+          "proficiency": "Expert",
+          "level": 1,
+          "keywords": [
+            "Odoo Development",
+            "E-commerce Platforms",
+            "Electronic Invoicing",
+            "Payment Integration",
+            "WooCommerce"
+          ]
+        },
+        {
+          "id": "ai_engineering_agentic_001",
+          "hidden": false,
+          "icon": "",
+          "name": "AI Engineering & Agentic Systems",
+          "proficiency": "Advanced",
+          "level": 1,
+          "keywords": [
+            "LLM Application Design",
+            "RAG Pipelines",
+            "Prompt Engineering",
+            "Tool Calling",
+            "LangGraph",
+            "LangChain",
+            "n8n Agents",
+            "AnythingLLM",
+            "LM Studio",
+            "Open-Source LLM Evaluation",
+            "AI Observability"
+          ]
+        },
+        {
+          "id": "homelab_platform_ops_001",
+          "hidden": false,
+          "icon": "",
+          "name": "Homelab Platform Operations",
+          "proficiency": "Advanced",
+          "level": 1,
+          "keywords": [
+            "Proxmox",
+            "LXC",
+            "Docker",
+            "Portainer",
+            "Cloudflare Tunnels",
+            "Uptime Kuma",
+            "Pi-hole",
+            "Service Reliability",
+            "Self-hosted Platforms"
+          ]
+        }
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "m3e7u5f91no17uhr30ruw90q",
+          "hidden": false,
+          "language": "es",
+          "fluency": "Native Speaker",
+          "level": 1
+        },
+        {
+          "id": "hjt6q4vr6h06ijbgirm3trg8",
+          "hidden": false,
+          "language": "Español",
+          "fluency": "Native Speaker",
+          "level": 1
+        },
+        {
+          "id": "j20tcd8f9umjqciuhz0gki7k",
+          "hidden": false,
+          "language": "Inglés",
+          "fluency": "Professional Working",
+          "level": 1
+        }
+      ]
+    },
+    "interests": {
+      "title": "Interests",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "awards": {
+      "title": "Awards",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "certifications": {
+      "title": "Certifications",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "ptyxpreupbv935jn6pq44cck",
+          "hidden": false,
+          "title": "Bootcamp Azure AI Engineer Associate",
+          "issuer": "Código Facilito",
+          "date": "2024-11-19",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "gc4r61quu6k49d22il40qx2b",
+          "hidden": false,
+          "title": "Curso de fundamentos de arquitectura de software",
+          "issuer": "Código Facilito",
+          "date": "2024-05-12",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "xcajzbuoz8qw9209saa8w5yt",
+          "hidden": false,
+          "title": "Curso de Machine Learning con ScikitLearn",
+          "issuer": "Código Facilito",
+          "date": "2023-05-30",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "zfsxw24hpytlf6wnsw9qgrgn",
+          "hidden": false,
+          "title": "Curso para consumir APIs con Python",
+          "issuer": "Código Facilito",
+          "date": "2023-04-27",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "l8vkb4qid4r4epm9lcr8ptra",
+          "hidden": false,
+          "title": "Curso Profesional de Python",
+          "issuer": "Platzi",
+          "date": "2022-05-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "fkj9s8dz2zwrytgxvoi1ulqh",
+          "hidden": false,
+          "title": "Curso de FastAPI: Fundamentos, Path Operations y Validaciones",
+          "issuer": "Platzi",
+          "date": "2022-03-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "hyqc1za5ou3o7f4psiho92hn",
+          "hidden": false,
+          "title": "Curso de FastAPI: Modularización, Datos Avanzados y Errores",
+          "issuer": "Platzi",
+          "date": "2022-03-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "bn0llua6gs4wzipepelck2px",
+          "hidden": false,
+          "title": "Curso de Introducción al Desarrollo Backend",
+          "issuer": "Platzi",
+          "date": "2022-03-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "z3cv3d1ofqf4q8fx9cok38gh",
+          "hidden": false,
+          "title": "Curso de Python Intermedio: Comprehensions, Lambdas y Manejo de Errores",
+          "issuer": "Platzi",
+          "date": "2022-03-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "pku1p21s3gpy7ormh9q57yw0",
+          "hidden": false,
+          "title": "Desarrollo Backend con Python y Django",
+          "issuer": "Platzi",
+          "date": "2022-03-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "h48ytrwv8p1eeurwrxn4yx7p",
+          "hidden": false,
+          "title": "Curso de Estructuras de Datos Lineales con Python",
+          "issuer": "Platzi",
+          "date": "2021-11-30",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "v63cmt8v0i7gx5nxdiu75vvs",
+          "hidden": false,
+          "title": "Curso de Fundamentos de AWS Cloud",
+          "issuer": "Platzi",
+          "date": "2021-08-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "zqccw6lklls6t9bkkudcoea8",
+          "hidden": false,
+          "title": "Curso de Introducción a la Terminal y Línea de Comandos",
+          "issuer": "Platzi",
+          "date": "2021-07-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "fbrbkfxkcgb5jtex2xrngc9h",
+          "hidden": false,
+          "title": "Curso Básico de Web Components con JavaScript",
+          "issuer": "Platzi",
+          "date": "2021-06-30",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "gyf8sof8a0gd3uwfjptt4a0r",
+          "hidden": false,
+          "title": "Curso Práctico de JavaScript",
+          "issuer": "Platzi",
+          "date": "2021-06-30",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "ogwjfcqw2kg4orci9g99k331",
+          "hidden": false,
+          "title": "Curso de Single Page Application con JavaScript Vanilla",
+          "issuer": "Platzi",
+          "date": "2021-06-30",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "wtc2icdrsu5hjq6ypezw0trl",
+          "hidden": false,
+          "title": "EF SET English Certificate 54/100 (B2 Upper Intermediate)",
+          "issuer": "EF Standard English Test (EF SET)",
+          "date": "2021-04-30",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "yrfc9lnzle08yk3b3c3ioibx",
+          "hidden": false,
+          "title": "Curso Profesional de DevOps",
+          "issuer": "Platzi",
+          "date": "2021-03-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "dmpbrwhwnj3qp9tu0xfi4ob2",
+          "hidden": false,
+          "title": "Infraestructura Como Código con Terraform",
+          "issuer": "Platzi",
+          "date": "2021-03-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "mphsdzqg8k8bt32l7dd6f35n",
+          "hidden": false,
+          "title": "Manipulación del DOM",
+          "issuer": "Platzi",
+          "date": "2021-03-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "m6exv4661or8a9y3c8xve1g0",
+          "hidden": false,
+          "title": "Python for Data Science",
+          "issuer": "IBM",
+          "date": "2021-03-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "r9mo82uok6xp2owfkw1hdj28",
+          "hidden": false,
+          "title": "Travis CI",
+          "issuer": "Platzi",
+          "date": "2021-03-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "yt5b60a3jg1m9ben1orl3fbx",
+          "hidden": false,
+          "title": "Reto Road to Code",
+          "issuer": "Platzi",
+          "date": "2020-11-30",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        },
+        {
+          "id": "o4id0wd6iut062kahwqq3cke",
+          "hidden": false,
+          "title": "Curso Básico de Python",
+          "issuer": "Platzi",
+          "date": "2020-10-31",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        }
+      ]
+    },
+    "publications": {
+      "title": "Publications",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "volunteer": {
+      "title": "Volunteering",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "references": {
+      "title": "References",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "jytih6sl3owzfhootda8h0t6",
+          "hidden": false,
+          "name": "Luis Canales Vargas",
+          "position": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "phone": "",
+          "description": "Eres un curioso tecnológico por naturaleza. Tus incansables ganas por aprender, descubrir y aplicar tecnología, te hacen un profesional con una amplitud de acción sorprendente. Grandes cualidades para la organización, análisis y resolución de problemas, trabajo en equipo y un espíritu de superación admirable.\n\nComo se diría en el argot deportivo: \"A Rafnix, dámelo siempre!\"\n\nGran profesional y mejor persona"
+        },
+        {
+          "id": "cm3h5zfu89l2hvwfv5l83s2m",
+          "hidden": false,
+          "name": "José Enrique Acacio",
+          "position": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "phone": "",
+          "description": "Excelente supervisor, siempre atento y paciente apoyando a desarrollar y aprender."
+        },
+        {
+          "id": "bkhzt6g4ic34pz7bcvkn93m7",
+          "hidden": false,
+          "name": "Kristian Rondon",
+          "position": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "phone": "",
+          "description": "👍"
+        },
+        {
+          "id": "yu3a3pvgyyxe3tzitf8x206u",
+          "hidden": false,
+          "name": "Javier Quintana Taipe",
+          "position": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "phone": "",
+          "description": "Buen amigo y excelente mentor. He aprendido mucho trabajando con Rafnix, tiene un gran conocimiento en diferentes tecnologías web, sabe programar en PHP, Javascript, Python y conoce bastante sobre Odoo ERP. Es un entusiasta de la tecnología que contagia e inspira a su grupo de trabajo. Tiene la habilidad de analizar los problemas más desafiantes y encontrarle la mejor solución haciendo uso de todos sus conocimientos, además tiene la capacidad de expresar su ideas de forma clara y precisa."
+        },
+        {
+          "id": "hwv1qyevtzl3vky8dogeaka1",
+          "hidden": false,
+          "name": "Steve Matos",
+          "position": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "phone": "",
+          "description": "Excelente amigo y compañero de trabajo, alguien en quien puedes confiar siempre y con quien compartir grandes anécdotas. \nComo desarrollador, una persona que tienen un gran conocimiento tanto del desarrollo web, como de ERPs con python y Odoo y sobre todo tiene una gran skill de análisis lo cual permite hacer plantear la mejor solución ante cualquier problema.\nAdemas de tener grandes conocimientos en muchas otras áreas de la tecnología."
+        },
+        {
+          "id": "zzpykzeiglh9sd54sc114su9",
+          "hidden": false,
+          "name": "Juan Alberto José Sánchez Yelamo",
+          "position": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "phone": "",
+          "description": "Excelente profesional, con altas capacidades de aprendizaje y trabajo en equipo, con mucha experiencia en el campo de la programación y desarrollo de proyectos de IT."
+        }
+      ]
+    }
+  },
+  "customSections": [],
+  "metadata": {
+    "template": "rhyhorn",
+    "layout": {
+      "sidebarWidth": 35,
+      "pages": [
+        {
+          "fullWidth": false,
+          "main": [
+            "summary",
+            "profiles",
+            "experience",
+            "education",
+            "projects",
+            "volunteer",
+            "references"
+          ],
+          "sidebar": [
+            "skills",
+            "interests",
+            "certifications",
+            "awards",
+            "publications",
+            "languages"
+          ]
+        }
+      ]
+    },
+    "css": {
+      "enabled": false,
+      "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}"
+    },
+    "page": {
+      "gapX": 4,
+      "gapY": 6,
+      "marginX": 18,
+      "marginY": 18,
+      "format": "a4",
+      "locale": "en-US",
+      "hideIcons": false
+    },
+    "design": {
+      "level": {
+        "icon": "star",
+        "type": "circle"
+      },
+      "colors": {
+        "primary": "rgba(220, 38, 38, 1)",
+        "text": "rgba(0, 0, 0, 1)",
+        "background": "rgba(255, 255, 255, 1)"
+      }
+    },
+    "typography": {
+      "body": {
+        "fontFamily": "IBM Plex Serif",
+        "fontWeights": [
+          "400",
+          "400",
+          "600"
+        ],
+        "fontSize": 10.5,
+        "lineHeight": 1.5
+      },
+      "heading": {
+        "fontFamily": "IBM Plex Serif",
+        "fontWeights": [
+          "600"
+        ],
+        "fontSize": 13.5,
+        "lineHeight": 1.5
+      }
+    },
+    "notes": ""
+  }
+}
