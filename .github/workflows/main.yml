@@ -15,11 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     needs: check_run
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v2
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.8
+          python-version: '3.12'
       - uses: kelvintaywl/action-jsonresume-export@v1
         name: Export resume as HTML
         with:
@@ -31,15 +31,15 @@ jobs:
         run: |
           python add_custom_tags.py
       - name: Setup Node.js for resume-cli
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
       - name: Generate PDF using resume-cli
         env:
           RESUME_PUPPETEER_NO_SANDBOX: "1"
         run: |
-          npm install -g resume-cli@3.1.2 jsonresume-theme-elegant@1.16.1
-          resume export assets/RafnixGuzman_CV.pdf --format pdf --theme elegant
+          npm install -g resume-cli@3.1.2 @jsonresume/jsonresume-theme-class
+          resume export assets/RafnixGuzman_CV.pdf --format pdf --theme @jsonresume/jsonresume-theme-class
       - name: Commit published HTML and PDF
         id: commit
         run: |
@@ -61,7 +61,7 @@ jobs:
             echo "exit_code=1" >> $GITHUB_OUTPUT
           fi
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v0.8.0
         if: steps.commit.outputs.exit_code == 0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
