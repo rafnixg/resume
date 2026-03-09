@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Rafnix Gabriel Guzmán Garcia",
-    "label": "AI Engineer (LLM/RAG) | Python Backend | Odoo Developer",
+    "label": "Python Backend | AI Engineer | Odoo Developer",
     "image": "",
     "email": "rafnixg@gmail.com",
     "url": "https://links.rafnixg.dev",
-    "summary": "AI Engineer (LLM/RAG) y Backend Python con +10 años construyendo y operando sistemas en producción. Combino desarrollo backend (Python, FastAPI, PostgreSQL, Docker) con arquitectura de agentes y automatización para casos reales de negocio.\n\nEn mi laboratorio de infraestructura (Proxmox + Docker + Portainer) gestiono múltiples hosts y decenas de servicios activos, incluyendo AnythingLLM, OpenClaw y flujos de agentes en n8n. También uso LM Studio local para validar modelos SLM/LLM open-source y comparar calidad, latencia y costo según caso de uso.\n\nMe enfoco en implementar soluciones robustas: APIs, integración de datos, observabilidad, despliegue continuo y operación estable. Aunque no todos los proyectos de IA son públicos, mi experiencia práctica está en llevar ideas de IA generativa y agentic workflows a entornos funcionales y mantenibles.",
+    "summary": "Backend Python con +15 años construyendo sistemas en producción: APIs (FastAPI, Django), integraciones complejas (REST, XMLRPC, SOA), automatizaciones y migración de sistemas legacy. Especialista en implementaciones ERP con Odoo, facturación electrónica y procesos ETL sobre PostgreSQL.\n\nGestiono infraestructura propia (Proxmox, Docker, CI/CD) donde desarrollo, pruebo y despliego soluciones end-to-end. Experiencia en múltiples sectores: finanzas, retail, manufactura, telecomunicaciones y servicios.\n\nComplemento mi perfil backend con experiencia práctica en AI Engineering: diseño de pipelines RAG, agentes autónomos con LLMs y evaluación de modelos open-source, aplicando IA como herramienta para resolver problemas reales de negocio.",
     "location": {
       "countryCode": "PE",
       "address": "Lima, Perú"
@@ -42,7 +42,7 @@
         "Python",
         "PostgreSQL"
       ],
-      "summary": "Como desarrollador de módulos para Odoo, me enfoqué especialmente en la expansión y optimización de funcionalidades para el servicio de campo. Mi labor se centró en la identificación y corrección de errores, así como en la implementación de mejoras clave para potenciar la eficiencia operativa. Diseñé y desarrollé módulos específicos que mejoraron la gestión de tareas en terreno, asegurando una integración sin problemas con el servicio existente. Además, abordé la corrección de errores críticos para garantizar la estabilidad y fiabilidad del sistema, contribuyendo así a una experiencia de usuario más fluida y libre de inconvenientes en el servicio de campo.",
+      "summary": "Desarrollo y mantenimiento de módulos personalizados de Odoo para gestión de servicio de campo, mejorando la coordinación y trazabilidad de tareas técnicas en terreno. Resolución de errores críticos en producción que impactaban la operación diaria del equipo de ingeniería clínica. Diseño y despliegue de infraestructura productiva basada en Proxmox con contenedores LXC, asegurando disponibilidad del sistema ERP y reducción de costos operativos.",
       "url": "https://www.linkedin.com/company/kimenz/",
       "location": "São Paulo, Brasil"
     },
@@ -61,7 +61,7 @@
         "PostgreSQL",
         "Docker"
       ],
-      "summary": "Como programador backend, mi responsabilidad era diseñar y desarrollar APIs RESTful utilizando FastAPI. Definí endpoints, diseñé modelos de datos y desarrollé las lógicas de negocio para satisfacer las necesidades del sistema.\n\nImplementé mecanismos de autenticación JWT y autorización basada en roles para proteger las APIs y garantizar acceso seguro a los datos y funcionalidades de la plataforma.\n\nTrabajé en conjunto con el equipo de frontend para garantizar que las APIs estuvieran diseñadas siguiendo principios RESTful y fueran fáciles de consumir por las aplicaciones cliente.\n\nParticipé en el desarrollo del módulo de backoffice para la plataforma, implementando funcionalidades administrativas como gestión de usuarios, transacciones y reportes. Integré servicios de AWS incluyendo S3 para almacenamiento de archivos y SES para envío de correos electrónicos.\n\nColaboré en el despliegue utilizando Docker y AWS, implementando monitorización para garantizar el correcto funcionamiento y alta disponibilidad del sistema.",
+      "summary": "Diseñé y desarrollé APIs RESTful con FastAPI para plataforma de servicios digitales, implementando autenticación JWT con autorización granular por roles. Construí el backoffice administrativo con gestión integral de usuarios, permisos y generación de reportes. Integré servicios AWS (S3 para almacenamiento, SES para notificaciones) y establecí el pipeline de despliegue con Docker, incluyendo monitorización y logging en producción.",
       "url": "https://www.linkedin.com/company/peru-apps/",
       "location": "Lima, Perú"
     },
@@ -80,7 +80,7 @@
         "DevOps",
         "Python"
       ],
-      "summary": "Como programador backend, lideré la migración de automatismos legacy a Python, desarrollando scripts y aplicaciones utilizando SFTP para transferencia de archivos, MSSQL Server para gestión de bases de datos, Pandas para procesamiento de datos, y Docker para containerización.\n\nContribuí a la definición de los lineamientos de DevOps del equipo utilizando Jenkins para CI/CD, estableciendo estándares y buenas prácticas en la implementación y despliegue de aplicaciones distribuidas en Kubernetes.\n\nColaboré en el desarrollo y mantenimiento de la librería RPA-UTILS del equipo interno, implementando automatización robótica de procesos (RPA) y mejorando la eficiencia operativa.",
+      "summary": "Lideré la migración de procesos de automatización legacy hacia Python, reemplazando scripts obsoletos por soluciones robustas con SFTP, MSSQL y procesamiento de datos con Pandas. Definí los lineamientos DevOps del equipo, implementando pipelines CI/CD con Jenkins y orquestación de contenedores en Kubernetes. Desarrollé la librería interna RPA-UTILS, estandarizando la automatización robótica de procesos y reduciendo tiempo de desarrollo en nuevos automatismos.",
       "url": "https://www.linkedin.com/company/indra/"
     },
     {
@@ -89,28 +89,18 @@
       "startDate": "2012-02-28",
       "endDate": "2022-04-30",
       "highlights": [],
-      "summary": "Durante los últimos 9 años como freelance, he trabajado con diferentes organizaciones, brindándoles apoyo en su transición al mundo digital. Mi objetivo es ayudarlos a mejorar no solo su presencia online, sino también sus procesos internos y su relación con el Software.\n\nEn este proceso, he desempeñado diferentes roles, como asesoramiento en la elección de herramientas y tecnologías, desarrollo de aplicaciones web y capacitación de equipos internos. Esta experiencia me ha permitido adquirir un conocimiento profundo de las necesidades reales de las organizaciones y cómo ayudarlas de manera efectiva usando tecnología.\n\nAdemás, he trabajado en proyectos de diferentes sectores, como finanzas, eventos, telecomunicaciones, retail y ecommerce, lo que me ha dado una visión amplia y diversificada del mercado y me ha permitido adaptarme a diferentes contextos y requerimientos. Estoy comprometido con el uso de tecnologías de código abierto y libres, y promuevo su adopción en las empresas donde trabajo.",
+      "summary": "Consultoría tecnológica y desarrollo de soluciones digitales para clientes en múltiples sectores: finanzas, telecomunicaciones, eventos, retail y ecommerce. Asesoré en la selección de tecnologías y arquitectura de proyectos web, priorizando herramientas open-source. Desarrollé aplicaciones web a medida y capacité equipos técnicos en buenas prácticas de desarrollo y adopción de nuevas tecnologías.",
       "url": "https://rafnixg.dev"
     },
     {
       "name": "SEAD SAC",
-      "position": "Senior Python/Odoo Developer",
-      "startDate": "2020-06-30",
+      "position": "Python/Odoo Developer → Senior Python/Odoo Developer",
+      "startDate": "2018-12-31",
       "endDate": "2021-12-31",
       "highlights": [],
-      "summary": "Implementación, migración y desarrollo de más de 7 proyectos empresariales usando Odoo ERP con clientes de diferentes rubros incluyendo retail, manufactura y servicios.\n\nRealicé migración y procesado de datos para integraciones entre sistemas utilizando APIs REST, XMLRPC y conectores personalizados.\n\nLideré mentoring y capacitaciones técnicas a desarrolladores Junior y Trainee en Python, PostgreSQL y arquitectura de Odoo.\n\nImplementé pipeline de CI/CD utilizando GitLab CI y desarrollé mini-PaaS basado en Docker para automatizar el despliegue de aplicaciones Odoo.\n\nRealicé demostraciones funcionales del sistema Odoo a clientes potenciales y capacitaciones funcionales a usuarios finales en módulos de CRM, Ventas, Inventario y Contabilidad.",
+      "summary": "Crecí de Developer a Senior liderando +7 implementaciones Odoo ERP en retail, manufactura y servicios. Desarrollé módulos personalizados con Python/ORM e implementé el sistema de Facturación Electrónica SUNAT (XML, firma digital, OSE). Construí integraciones complejas con APIs REST, XMLRPC y SOA contra sistemas de terceros. Diseñé la infraestructura de despliegue en AWS (EC2, Route53, S3) con Docker y establecí el pipeline CI/CD con GitLab CI, incluyendo un mini-PaaS para gestión de entornos. Optimicé PostgreSQL, desarrollé procesos ETL de migración de datos y capacité tanto a usuarios finales como a desarrolladores Junior.",
       "url": "https://www.linkedin.com/company/sead-sac/",
       "location": "Lima, Perú"
-    },
-    {
-      "name": "SEAD SAC",
-      "position": "Python/Odoo Developer",
-      "startDate": "2018-12-31",
-      "endDate": "2020-06-30",
-      "highlights": [],
-      "summary": "Desarrollo de módulos personalizados para Odoo ERP utilizando Python y el framework ORM de Odoo.\n\nMantenimiento y optimización de bases de datos PostgreSQL, incluyendo consultas SQL, índices y respaldos.\n\nImplementación y despliegue de instancias Odoo utilizando Docker y Docker Compose para ambientes de desarrollo y producción.\n\nGestión de control de versiones utilizando Git con repositorios en GitHub y GitLab, implementando flujos de trabajo con ramas y pull requests.\n\nDesarrollo de sistema de Facturación Electrónica conforme a normativas SUNAT (Perú), integrando generación de XML, firma digital y envío a OSE.\n\nImplementación y personalización de módulos Odoo: CRM para gestión de clientes, Eventos para organización de actividades, y Email Marketing para campañas.\n\nIntegración con sistemas externos utilizando arquitecturas SOA, APIs REST y protocolo XMLRPC.\n\nDespliegue y gestión de infraestructura en AWS utilizando EC2 para servidores, Route53 para DNS y S3 para almacenamiento.\n\nDesarrollo de procesos ETL (Extract, Transform, Load) para migración e integración de datos entre sistemas.\n\nDiseño e implementación de arquitectura de microservicios para aplicaciones distribuidas.",
-      "url": "https://www.linkedin.com/company/sead-sac/",
-      "location": "Provincia de Lima, Peru"
     },
     {
       "name": "Quipu systems",
@@ -118,7 +108,7 @@
       "startDate": "2018-05-31",
       "endDate": "2018-11-30",
       "highlights": [],
-      "summary": "Desarrollo de módulos personalizados para Odoo ERP, incluyendo customización de modelos, vistas y lógica de negocio.\n\nSoporte técnico y mantenimiento de sistema de Facturación Electrónica, resolución de incidencias y actualizaciones normativas.\n\nDesarrollo de integraciones con sistemas Cloud utilizando APIs REST y webhooks para sincronización de datos.\n\nImplementación completa de Odoo ERP para clientes, incluyendo análisis de requerimientos, configuración, migración de datos y capacitación de usuarios.",
+      "summary": "Desarrollé módulos Odoo personalizados: modelos de datos, vistas de interfaz y lógica de negocio adaptada a procesos del cliente. Mantuve y optimicé el sistema de Facturación Electrónica. Construí integraciones Cloud con APIs REST y webhooks para conectar el ERP con servicios externos. Participé en implementaciones completas de ERP: análisis de procesos, configuración funcional, migración de datos y capacitación a usuarios.",
       "location": "Provincia de Lima, Peru"
     },
     {
@@ -127,7 +117,7 @@
       "startDate": "2016-03-31",
       "endDate": "2018-08-31",
       "highlights": [],
-      "summary": "Desarrollo de módulos personalizados para Odoo según requerimientos específicos de clientes.\n\nImplementación y configuración de módulos Point of Sale (POS) y Customer Relationship Management (CRM) de Odoo.\n\nMantenimiento preventivo y correctivo de bases de datos PostgreSQL, incluyendo optimización de consultas y respaldos.",
+      "summary": "Desarrollé módulos Odoo a medida para distintos clientes, adaptando el ERP a procesos de negocio específicos. Implementé soluciones de Punto de Venta (POS) y CRM, mejorando la gestión comercial. Administré y optimicé bases de datos PostgreSQL para garantizar rendimiento y estabilidad.",
       "url": "https://rafnixg.dev"
     },
     {
@@ -136,7 +126,7 @@
       "startDate": "2017-10-31",
       "endDate": "2018-03-31",
       "highlights": [],
-      "summary": "Desarrollador Frontend especializado en maquetación web y desarrollo de interfaces de usuario.\n\nConversión de diseños PSD a HTML semántico utilizando CSS3 para layouts responsivos.\n\nImplementación de animaciones y transiciones CSS para mejorar la experiencia de usuario.\n\nDesarrollo de funcionalidades interactivas utilizando JavaScript vanilla y jQuery.\n\nIntegración de templates con sistemas de gestión de contenidos (CMS) como WordPress y Joomla.\n\nDesarrollo y personalización de tiendas eCommerce utilizando WooCommerce y otras plataformas.",
+      "summary": "Maquetación de sitios web responsivos a partir de diseños PSD, convirtiendo mockups a HTML5/CSS3 pixel-perfect. Implementé animaciones CSS avanzadas y funcionalidades interactivas con JavaScript/jQuery. Integré los desarrollos en plataformas CMS: WordPress, Joomla y WooCommerce.",
       "url": "https://pudinet.com",
       "location": "Carabobo, Venezuela"
     },
@@ -146,7 +136,7 @@
       "startDate": "2017-03-31",
       "endDate": "2017-08-31",
       "highlights": [],
-      "summary": "Desarrollo Full-Stack con enfoque en aplicaciones web modernas.\n\nFrontend: Maquetación web utilizando HTML5, CSS3 y JavaScript. Desarrollo de aplicaciones SPA (Single Page Application) utilizando VueJS con gestión de estado y componentes reutilizables.\n\nBackend: Desarrollo de APIs RESTful y aplicaciones web utilizando Laravel 5.4, implementando patrón MVC, Eloquent ORM y autenticación.",
+      "summary": "Desarrollo Full-Stack de aplicaciones web: SPAs interactivas con VueJS en el frontend y APIs RESTful con Laravel 5.4 en el backend. Maquetación responsiva HTML5/CSS3 y modelado de datos con Eloquent ORM siguiendo patrón MVC.",
       "location": "Chile"
     },
     {
@@ -155,7 +145,7 @@
       "startDate": "2013-01-31",
       "endDate": "2017-01-31",
       "highlights": [],
-      "summary": "Desarrollo Full-Stack de aplicaciones web.\n\nFrontend: Desarrollo de interfaces responsivas utilizando Bootstrap framework, aplicaciones web dinámicas con AngularJS, y maquetación con HTML5 y CSS3.\n\nBackend: Desarrollo de aplicaciones web y APIs utilizando PHP, gestión de bases de datos MySQL, e implementación de proyectos con Laravel 5 framework.",
+      "summary": "Desarrollo Full-Stack de aplicaciones web con interfaces responsivas usando Bootstrap y AngularJS. Construcción de backends robustos con PHP/Laravel 5 y MySQL, implementando APIs y lógica de negocio.",
       "location": "Tinaquillo"
     },
     {
@@ -164,7 +154,7 @@
       "startDate": "2015-01-31",
       "endDate": "2016-09-30",
       "highlights": [],
-      "summary": "Desarrollo Full-Stack de sitios web y aplicaciones corporativas.\n\nDesarrollo y mantenimiento de sitios web utilizando WordPress CMS, incluyendo configuración de plugins y optimización.\n\nDesarrollo de themes personalizados para WordPress desde cero, implementando diseños responsivos y funcionalidades específicas.\n\nDesarrollo de aplicaciones web backend utilizando Laravel 5 framework con patrón MVC.\n\nMaquetación frontend utilizando HTML5 y CSS3 con enfoque en diseño responsivo y cross-browser compatibility.",
+      "summary": "Desarrollo de sitios WordPress con themes personalizados, plugins a medida y optimización de rendimiento. Construcción de aplicaciones web con backend Laravel 5 siguiendo arquitectura MVC. Maquetación responsiva con HTML5/CSS3 adaptada a múltiples dispositivos.",
       "location": "Caracas"
     }
   ],
@@ -542,7 +532,7 @@
   "projects": [
     {
       "name": "AI Homelab Platform (Private) - Agentic AI Operations Lab",
-      "description": "Diseño y operación de laboratorio self-hosted para IA aplicada. Infraestructura en Proxmox con Docker/Portainer, servicios de IA (AnythingLLM, OpenClaw, agentes n8n) y monitoreo operacional. Entorno usado para validar workflows agentic, pruebas con modelos open-source en LM Studio y automatizaciones orientadas a productividad.",
+      "description": "Laboratorio de IA self-hosted sobre infraestructura Proxmox multi-host con ~56 contenedores operativos gestionados via Docker/Portainer. Integra servicios de IA como AnythingLLM, OpenClaw y agentes autónomos en n8n para automatización de flujos con LLMs. Permite evaluación práctica de modelos SLM/LLM open-source mediante LM Studio, comparando calidad, latencia y costo según caso de uso.",
       "highlights": [
         "Proxmox + LXC multi-host",
         "AnythingLLM + OpenClaw + n8n agents",
@@ -562,7 +552,6 @@
         "LM Studio"
       ],
       "startDate": "2024-01-01",
-      "endDate": "",
       "url": "https://links.rafnixg.dev",
       "roles": [
         "AI Engineer",
@@ -573,7 +562,7 @@
     },
     {
       "name": "SismosVE - Earthquake Monitoring Venezuela",
-      "description": "Modern web application for visualizing and monitoring earthquakes in Venezuela using official FUNVISIS data with optimized modular architecture. Built with FastAPI and Python 3.13+, featuring an interactive map with Leaflet.js, advanced filters by magnitude and dates, real-time statistics, RESTful API, responsive design, and automatic data updates every 5 minutes. Containerized with Docker and CI/CD automation via GitHub Actions.",
+      "description": "Aplicación de monitoreo sísmico en tiempo real para Venezuela con datos oficiales de FUNVISIS. Backend FastAPI (Python 3.13) con arquitectura modular, mapa interactivo Leaflet.js, filtros avanzados y estadísticas actualizadas automáticamente cada 5 minutos. Desplegado con Docker multi-arch, CI/CD con GitHub Actions, optimizado para SEO (Open Graph, Schema.org) y compatible con Cloudflare Tunnel.",
       "highlights": [
         "FastAPI + Python 3.13 backend with modular architecture",
         "Interactive map with Leaflet.js and real-time data",
@@ -605,7 +594,7 @@
     },
     {
       "name": "BCV Exchange Rate API",
-      "description": "REST API for obtaining official exchange rates from the Central Bank of Venezuela (BCV). Provides real-time and historical exchange rate data for USD, EUR, and other currencies in JSON format. Built with FastAPI and Python, featuring automatic documentation with OpenAPI/Swagger, SQLite persistence, Docker support, health check endpoints for production monitoring, and integration with NewRelic for APM.",
+      "description": "API REST para consulta de tasas de cambio oficiales del Banco Central de Venezuela. Construida con FastAPI, obtiene datos mediante scraping con BeautifulSoup, persiste históricos en SQLite e incluye documentación automática OpenAPI/Swagger. Integra rate limiting, caching, monitorización APM con NewRelic y despliegue Docker.",
       "highlights": [
         "FastAPI REST API with automatic OpenAPI documentation",
         "Web scraping with BeautifulSoup for BCV official rates",
@@ -637,7 +626,7 @@
     },
     {
       "name": "RafnixG-Lib - Personal Card Python Library",
-      "description": "Python library providing a personal card, blog post manager, and resume tools for developers. Displays personal information in styled console tables, fetches latest blog posts from Hashnode GraphQL API, and retrieves resume details from JSON. Published on PyPI with automated deployment via GitHub Actions. Features customizable links management and rich console styling.",
+      "description": "Librería Python de código abierto publicada en PyPI que funciona como tarjeta personal desde la terminal. Incluye CLI con múltiples comandos: información personal estilizada con Rich, posts de blog via API GraphQL de Hashnode y parser de CV en formato JSON. Publicación automatizada en PyPI mediante GitHub Actions.",
       "highlights": [
         "Published Python package on PyPI",
         "Rich library integration for styled console output",
@@ -667,7 +656,7 @@
     },
     {
       "name": "Own WSGI - Educational WSGI Server Implementation",
-      "description": "Educational implementation of a WSGI (Web Server Gateway Interface) server from scratch following PEP 3333 specification. Features custom routing, middleware support, request/response objects, and compatibility with frameworks like FastAPI. Includes Docker support and demonstrates low-level web server architecture and HTTP protocol implementation in Python.",
+      "description": "Implementación educativa de un servidor WSGI construido desde cero siguiendo la especificación PEP 3333. Incluye sistema de routing personalizado, middleware, abstracción de objetos Request/Response y compatibilidad con FastAPI. Proyecto diseñado como recurso de aprendizaje sobre arquitectura de servidores web y el protocolo HTTP.",
       "highlights": [
         "Complete WSGI server implementation following PEP 3333",
         "Custom routing and middleware system",
@@ -698,7 +687,7 @@
     },
     {
       "name": "BnB-BCV - Binance P2P & BCV Exchange Rate API",
-      "description": "Open API providing reliable exchange rate information for the Venezuelan market. Obtains official rates from the Central Bank of Venezuela (BCV) and real-time P2P rates from Binance against USDT. Built with FastAPI, SQLite, and Docker, featuring automatic documentation, health checks, web interface, and scheduled jobs for data updates. Aims to provide transparent financial data without manipulation.",
+      "description": "API de tasas de cambio que combina datos oficiales del BCV con precios P2P de Binance/USDT para el mercado venezolano. Construida con FastAPI, incluye persistencia SQLite para análisis histórico, interfaz web, health checks y actualizaciones automatizadas programadas. Orientada a proveer datos financieros transparentes y accesibles.",
       "highlights": [
         "Dual data source: BCV official rates and Binance P2P market rates",
         "FastAPI with automatic OpenAPI documentation",
@@ -728,7 +717,7 @@
     },
     {
       "name": "SpotifySaver - Spotify Music Downloader with Jellyfin Integration",
-      "description": "All-in-one tool for downloading and organizing music with Spotify metadata optimized for Jellyfin media server. Downloads audio from YouTube Music with Spotify metadata, synchronized lyrics from LRC Lib, generates Jellyfin-compatible NFO files, and creates automatic folder structure. Features CLI, RESTful API, modern web interface with real-time progress, Docker support with auto-builds, and playlist support with multiple bitrate options.",
+      "description": "Herramienta de descarga de música con metadata de Spotify optimizada para servidores Jellyfin. Obtiene audio de YouTube Music via yt-dlp, genera letras sincronizadas LRC y archivos NFO con estructura automática de carpetas. Ofrece tres interfaces: CLI, API REST y Web UI con progreso en tiempo real. Desplegada con Docker via GitHub Container Registry.",
       "highlights": [
         "Spotify API integration for metadata",
         "YouTube Music download with yt-dlp",
