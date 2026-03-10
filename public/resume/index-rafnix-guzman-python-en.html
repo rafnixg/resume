@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafnix Gabriel Guzmán Garcia - CV</title>
+    <meta itemprop="image" content="https://links.rafnixg.dev/images/banner_web.png" />
+    <meta name="description" content="Python Backend with +15 years building production systems: APIs (FastAPI, Django), complex integrations (REST, XMLRPC, SOA), automation and legacy system migration. Specialist in ERP implementations w" />
+    <meta name="author" content="Rafnix Gabriel Guzmán Garcia" />
+    <meta property="og:title" content="Rafnix Gabriel Guzmán Garcia - CV" />
+    <meta property="og:description" content="Python Backend with +15 years building production systems: APIs (FastAPI, Django), complex integrations (REST, XMLRPC, SOA), automation and legacy system migration. Specialist in ERP implementations w" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://links.rafnixg.dev/images/banner_web.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Rafnix Gabriel Guzmán Garcia - CV" />
+    <meta name="twitter:description" content="Python Backend with +15 years building production systems: APIs (FastAPI, Django), complex integrations (REST, XMLRPC, SOA), automation and legacy system migration. Specialist in ERP implementations w" />
+    <meta name="twitter:image" content="https://links.rafnixg.dev/images/banner_web.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --color-primary: rgba(0, 150, 137, 1);
+            --color-text: #171717;
+            --color-muted: #6b7280;
+            --color-border: #e5e7eb;
+            --color-bg: #fafafa;
+            --color-surface: #ffffff;
+            --font-body: 'IBM Plex Serif', serif;
+            --font-heading: 'IBM Plex Serif', serif;
+        }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--color-text);
+            background: var(--color-bg);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a { color: var(--color-primary); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        /* Header */
+        .resume-header {
+            background: var(--color-surface);
+            border-bottom: 1px solid var(--color-border);
+            padding: 2.5rem 0 2rem;
+        }
+        .resume-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1.5rem;
+        }
+        .header-left h1 {
+            font-family: var(--font-heading);
+            font-size: 1.75rem;
+            font-weight: 600;
+            letter-spacing: -0.025em;
+            line-height: 1.2;
+        }
+        .header-left .headline {
+            color: var(--color-muted);
+            font-size: 0.95rem;
+            margin-top: 0.35rem;
+        }
+        .header-left .contact {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.25rem;
+            margin-top: 0.75rem;
+            font-size: 0.85rem;
+            color: var(--color-muted);
+        }
+        .header-left .contact a { color: var(--color-primary); }
+        .sep { opacity: 0.4; margin: 0 0.25rem; }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: var(--color-text);
+            color: #fff;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            white-space: nowrap;
+            transition: background 0.15s;
+            text-decoration: none;
+            flex-shrink: 0;
+        }
+        .download-btn:hover { background: #404040; text-decoration: none; }
+
+        /* Summary */
+        .summary {
+            border-bottom: 1px solid var(--color-border);
+            padding: 1.5rem 0;
+        }
+        .summary p {
+            font-size: 0.9rem;
+            color: var(--color-text);
+            line-height: 1.7;
+        }
+        .summary strong { font-weight: 600; }
+
+        /* Sections */
+        .section {
+            padding: 1.5rem 0;
+            border-bottom: 1px solid var(--color-border);
+        }
+        .section:last-child { border-bottom: none; }
+
+        .section-title {
+            font-family: var(--font-heading);
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--color-primary);
+            margin-bottom: 1rem;
+        }
+
+        /* Entry (experience, education, project) */
+        .entry {
+            margin-bottom: 1.25rem;
+        }
+        .entry:last-child { margin-bottom: 0; }
+
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 1rem;
+            margin-bottom: 0.3rem;
+        }
+        .entry-left { flex: 1; min-width: 0; }
+        .entry-right {
+            text-align: right;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .entry-title {
+            font-family: var(--font-heading);
+            font-size: 0.95rem;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+        .entry-title a { color: var(--color-text); }
+        .entry-title a:hover { color: var(--color-primary); }
+
+        .entry-subtitle {
+            font-size: 0.85rem;
+            color: var(--color-muted);
+        }
+        .entry-period {
+            font-size: 0.8rem;
+            color: var(--color-muted);
+            white-space: nowrap;
+        }
+        .entry-area {
+            font-size: 0.78rem;
+            color: var(--color-muted);
+        }
+        .location {
+            font-size: 0.78rem;
+            color: var(--color-muted);
+        }
+
+        .entry-body {
+            font-size: 0.85rem;
+            line-height: 1.65;
+            color: #374151;
+            margin-top: 0.25rem;
+        }
+        .entry-body p { margin-bottom: 0.5rem; }
+        .entry-body p:last-child { margin-bottom: 0; }
+        .entry-body a { color: var(--color-primary); }
+
+        /* Skills grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+        }
+        .skill-item {
+            padding: 0.6rem 0.75rem;
+            background: var(--color-bg);
+            border-radius: 6px;
+            border: 1px solid var(--color-border);
+        }
+        .skill-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.25rem;
+            font-size: 0.85rem;
+        }
+        .skill-level {
+            font-size: 0.7rem;
+            color: var(--color-primary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 600;
+        }
+        .skill-keywords {
+            font-size: 0.78rem;
+            color: var(--color-muted);
+            line-height: 1.5;
+        }
+
+        /* Certifications grid */
+        .certs-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.4rem;
+        }
+        .cert-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 1rem;
+            padding: 0.35rem 0;
+            font-size: 0.85rem;
+        }
+        .cert-title { flex: 1; min-width: 0; }
+        .cert-meta {
+            font-size: 0.78rem;
+            color: var(--color-muted);
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+
+        /* References */
+        .reference-item {
+            padding: 0.75rem;
+            background: var(--color-bg);
+            border-radius: 6px;
+            border: 1px solid var(--color-border);
+        }
+        .reference-item .entry-body {
+            margin-top: 0.4rem;
+            font-style: italic;
+        }
+
+        /* Languages */
+        .langs-grid {
+            display: flex;
+            gap: 1.5rem;
+            font-size: 0.85rem;
+        }
+        .lang-item span {
+            color: var(--color-muted);
+            margin-left: 0.25rem;
+        }
+
+        /* Footer */
+        .resume-footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            font-size: 0.75rem;
+            color: var(--color-muted);
+        }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .resume-header .container { flex-direction: column; }
+            .entry-header { flex-direction: column; gap: 0.15rem; }
+            .entry-right { text-align: left; align-items: flex-start; }
+            .skills-grid { grid-template-columns: 1fr; }
+        }
+
+        /* Print */
+        @media print {
+            body { background: #fff; }
+            .download-btn { display: none; }
+            .resume-footer { display: none; }
+            .section { break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-header">
+        <div class="container">
+            <div class="header-left">
+                <h1>Rafnix Gabriel Guzmán Garcia</h1>
+                <div class="headline">Python Backend | AI Engineer | Odoo Developer</div>
+                <div class="contact"><a href="mailto:rafnixg@gmail.com">rafnixg@gmail.com</a> <span class="sep">&middot;</span> <span>Lima, Peru</span> <span class="sep">&middot;</span> <a href="https://links.rafnixg.dev" target="_blank" rel="noopener">https://links.rafnixg.dev</a></div>
+            </div>
+            <a class="download-btn" href="../assets/rafnix-guzman-python-en.pdf" download>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Descargar PDF
+        </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="summary"><p><strong>Python</strong> Backend with <strong>+15</strong> years building production systems: APIs (<strong>FastAPI, Django</strong>), complex integrations (<strong>REST, XMLRPC, SOA</strong>), automation and legacy system migration. Specialist in ERP implementations with <strong>Odoo</strong>, electronic invoicing, and <strong>ETL</strong> processes on <strong>PostgreSQL</strong>. I manage my own infrastructure (<strong>Proxmox, Docker, CI/CD</strong>) where I develop, test and deploy end-to-end solutions. Experience across multiple sectors: finance, retail, manufacturing, telecommunications and services. I complement my backend profile with hands-on <strong>AI Engineering</strong> experience: designing <strong>RAG</strong> pipelines, autonomous agents with <strong>LLMs</strong>, and open-source model evaluation, applying AI as a tool to solve real business problems.</p></div>
+        <h2 class="section-title">Experience</h2><div class="entry">
+            <div class="entry-header">
+                <div class="entry-left">
+                    <h3 class="entry-title"><a href="https://www.linkedin.com/company/kimenz/" target="_blank" rel="noopener">Kimenz Equipamentos &amp; Engenharia Clínica</a></h3>
+                    <span class="entry-subtitle">Odoo Developer</span>
+                </div>
+                <div class="entry-right">
+                    <span class="entry-period">2023-12-01 - Present</span>
+                    
+                </div>
+            </div>
+            <div class="entry-body"><p>Development and maintenance of custom <strong>Odoo</strong> modules for field service management, improving coordination and traceability of on-site technical tasks. Resolution of critical production bugs impacting the daily operations of the clinical engineering team. Design and deployment of production infrastructure based on Proxmox with LXC containers, ensuring ERP system availability and reducing operational costs.</p></div>
+        </div>
+<div class="entry">
+            <div class="entry-header">
+                <div class="entry-left">
+                    <h3 class="entry-title"><a href="https://www.linkedin.com/company/peru-apps/" target="_blank" rel="noopener">Peru Apps / Moventi</a></h3>
+                    <span class="entry-subtitle">Python Developer</span>
+                </div>
+                <div class="entry-right">
+                    <span class="entry-period">2022-05-31 - 2022-11-30</span>
+                    
+                </div>
+            </div>
+            <div class="entry-body"><p>Designed and developed RESTful APIs with <strong>FastAPI</strong> for a digital services platform, implementing JWT authentication with granular role-based authorization. Built the administrative <strong>backoffice</strong> with comprehensive user management, permissions and report generation. Integrated <strong>AWS</strong> services (<strong>S3</strong> for storage, <strong>SES</strong> for notifications) and established the deployment pipeline with <strong>Docker</strong>, including production <strong>monitoring</strong> and <strong>logging</strong>.</p></div>
+        </div>
+<div class="entry">
+            <div class="entry-header">
+                <div class="entry-left">
+                    <h3 class="entry-title"><a href="https://www.linkedin.com/company/indra/" target="_blank" rel="noopener">Indra</a></h3>
+                    <span class="entry-subtitle">Python Developer Analyst</span>
+                </div>
+                <div class="entry-right">
+                    <span class="entry-period">2022-01-31 - 2022-04-30</span>
+                    
+                </div>
+            </div>
+            <div class="entry-body"><p>Led the migration of <strong>legacy</strong> automation processes to <strong>Python</strong>, replacing obsolete scripts with robust solutions using <strong>SFTP, MSSQL</strong> and data processing with <strong>Pandas</strong>. Defined the team's <strong>DevOps</strong> guidelines, implementing <strong>CI/CD</strong> pipelines with <strong>Jenkins</strong> and container orchestration on <strong>Kubernetes</strong>. Developed the internal RPA-UTILS library, standardizing robotic process automation and reducing development time for new automations.</p></div>
+        </div>
+<div class="entry">
+            <div class="entry-header">
+                <div class="entry-left">
+                    <h3 class="entry-title"><a href="https://www.linkedin.com/company/sead-sac/" target="_blank" rel="noopener">SEAD SAC</a></h3>
+                    <span class="entry-subtitle">Python/Odoo Developer → Senior Python/Odoo Developer</span>
+                </div>
+                <div class="entry-right">
+                    <span class="entry-period">2018-12-31 - 2021-12-31</span>
+                    
+                </div>
+            </div>
+            <div class="entry-body"><p>Grew from Developer to Senior leading <strong>+7</strong> <strong>Odoo ERP</strong> implementations in retail, manufacturing and services. Developed custom modules with <strong>Python/ORM</strong> and implemented the <strong>Electronic Invoicing</strong> system for SUNAT (XML, digital signature, OSE). Built complex integrations with REST, XMLRPC and SOA APIs against third-party systems. Designed the deployment infrastructure on AWS (EC2, Route53, S3) with Docker and established the CI/CD pipeline with GitLab CI, including a mini-PaaS for environment management. Optimized PostgreSQL, developed ETL data migration processes and trained both end users and Junior developers.</p></div>
+        </div>
+<div class="entry">
+            <div class="entry-header">
+                <div class="entry-left">
+                    <h3 class="entry-title"><a href="https://resume.rafnixg.dev" target="_blank" rel="noopener">Multiple Companies</a></h3>
+                    <span class="entry-subtitle">Freelance Full-Stack Developer &amp; Consultant</span>
+                </div>
+                <div class="entry-right">
+                    <span class="entry-period">2012-02-28 - 2022-04-30</span>
+                    
+                </div>
+            </div>
+            <div class="entry-body"><p>Full-Stack web development (<strong>PHP/Laravel, Python/Odoo, VueJS, WordPress</strong>), technology consulting and <strong>ERP</strong> modules for clients in finance, retail, telecommunications and ecommerce in Venezuela, Chile and remote. Extended CV at <a target="_blank" rel="noopener noreferrer nofollow" href="https://resume.rafnixg.dev">https://resume.rafnixg.dev</a></p></div>
+        </div>
+<h2 class="section-title">Education</h2><div class="entry">
+            <div class="entry-header">
+                <div class="entry-left">
+                    <h3 class="entry-title">Platzi</h3>
+                    <span class="entry-subtitle">Backend Development with Python and Django</span>
+                </div>
+                <div class="entry-right">
+                    <span class="entry-period">2019-12-31 - 2022-12-31</span>
+                    <span class="entry-area">Computer Programming</span>
+                </div>
+            </div>
+        </div>
+<div class="entry">
+            <div class="entry-header">
+                <div class="entry-left">
+                    <h3 class="entry-title">Universidad de Carabobo</h3>
+                    <span class="entry-subtitle">Engineering Degree &middot; NOT COMPLETED (7th Semester)</span>
+                </div>
+                <div class="entry-right">
+                    <span class="entry-period">2008-02-28 - undefined</span>
+                    <span class="entry-area">Telecommunications Engineering</span>
+                </div>
+            </div>
+        </div>
+<div class="entry">
+            <div class="entry-header">
+                <div class="entry-left">
+                    <h3 class="entry-title">Instituto Universitario de Tecnología del Estado Portuguesa</h3>
+                    <span class="entry-subtitle">Associate Degree in Computer Science</span>
+                </div>
+                <div class="entry-right">
+                    <span class="entry-period">2012-12-31 - 2015-12-31</span>
+                    <span class="entry-area">Computer Science</span>
+                </div>
+            </div>
+        </div>
+<h2 class="section-title">Projects</h2><div class="entry">
+            <div class="entry-header">
+                <div class="entry-left">
+                    <h3 class="entry-title"><a href="https://links.rafnixg.dev" target="_blank" rel="noopener">AI Homelab Platform (Private) - Agentic AI Operations Lab</a></h3>
+                </div>
+                <div class="entry-right">
+                    <span class="entry-period">2024-01-01 - Present</span>
+                </div>
+            </div>
+            <div class="entry-body">Self-hosted AI lab on multi-host Proxmox infrastructure with ~56 operational containers managed via Docker/Portainer. Integrates AI services like AnythingLLM, OpenClaw and autonomous agents in n8n for LLM-powered workflow automation. Enables hands-on evaluation of open-source SLM/LLM models via LM Studio, comparing quality, latency and cost per use case.</div>
+        </div>
+<div class="entry">
+            <div class="entry-header">
+                <div class="entry-left">
+                    <h3 class="entry-title"><a href="https://github.com/rafnixg/sismosve" target="_blank" rel="noopener">SismosVE - Earthquake Monitoring Venezuela</a></h3>
+                </div>
+                <div class="entry-right">
+                    <span class="entry-period">2020-01-01 - 2025-11-28</span>
+                </div>
+            </div>
+            <div class="entry-body">Real-time seismic monitoring application for Venezuela with official FUNVISIS data. FastAPI backend (Python 3.13) with modular architecture, interactive Leaflet.js map, advanced filters and statistics updated automatically every 5 minutes. Deployed with multi-arch Docker, CI/CD with GitHub Actions, SEO optimized (Open Graph, Schema.org) and Cloudflare Tunnel compatible.</div>
+        </div>
+<div class="entry">
+            <div class="entry-header">
+                <div class="entry-left">
+                    <h3 class="entry-title"><a href="https://github.com/rafnixg/rafnixg-lib" target="_blank" rel="noopener">RafnixG-Lib - Personal Card Python Library</a></h3>
+                </div>
+                <div class="entry-right">
+                    <span class="entry-period">2022-03-01 - 2025-11-28</span>
+                </div>
+            </div>
+            <div class="entry-body">Open-source Python library published on PyPI that works as a personal card from the terminal. Includes CLI with multiple commands: styled personal info with Rich, blog posts via Hashnode GraphQL API and JSON resume parser. Automated PyPI publishing via GitHub Actions.</div>
+        </div>
+<div class="entry">
+            <div class="entry-header">
+                <div class="entry-left">
+                    <h3 class="entry-title"><a href="https://github.com/rafnixg/own_wsgi" target="_blank" rel="noopener">Own WSGI - Educational WSGI Server Implementation</a></h3>
+                </div>
+                <div class="entry-right">
+                    <span class="entry-period">2023-01-01 - 2023-06-30</span>
+                </div>
+            </div>
+            <div class="entry-body">Educational implementation of a WSGI server built from scratch following the PEP 3333 specification. Includes custom routing system, middleware, Request/Response object abstraction and FastAPI compatibility. Designed as a learning resource about web server architecture and the HTTP protocol.</div>
+        </div>
+<div class="entry">
+            <div class="entry-header">
+                <div class="entry-left">
+                    <h3 class="entry-title"><a href="https://github.com/gabrielbaute/binance-bcv-dolar" target="_blank" rel="noopener">BnB-BCV - Binance P2P &amp; BCV Exchange Rate API</a></h3>
+                </div>
+                <div class="entry-right">
+                    <span class="entry-period">2024-06-01 - Present</span>
+                </div>
+            </div>
+            <div class="entry-body">Exchange rate API combining official BCV data with Binance P2P USDT prices for the Venezuelan market. Built with FastAPI, includes SQLite persistence for historical analysis, web interface, health checks and scheduled automated updates. Aimed at providing transparent and accessible financial data.</div>
+        </div>
+<div class="entry">
+            <div class="entry-header">
+                <div class="entry-left">
+                    <h3 class="entry-title"><a href="https://github.com/gabrielbaute/spotify-saver" target="_blank" rel="noopener">SpotifySaver - Spotify Music Downloader with Jellyfin Integration</a></h3>
+                </div>
+                <div class="entry-right">
+                    <span class="entry-period">2024-08-01 - Present</span>
+                </div>
+            </div>
+            <div class="entry-body">Music download tool with Spotify metadata optimized for Jellyfin servers. Retrieves audio from YouTube Music via yt-dlp, generates synchronized LRC lyrics and NFO files with automatic folder structure. Offers three interfaces: CLI, REST API and Web UI with real-time progress. Deployed with Docker via GitHub Container Registry.</div>
+        </div>
+<h2 class="section-title">Skills</h2><div class="skills-grid">
+<div class="skill-item">
+            <div class="skill-header">
+                <strong>Backend Development</strong>
+                <span class="skill-level">Expert</span>
+            </div>
+            <div class="skill-keywords">Python, FastAPI, Django, Flask, Odoo ERP, REST APIs, GraphQL, Microservices Architecture, XML/XMLRPC</div>
+        </div>
+<div class="skill-item">
+            <div class="skill-header">
+                <strong>Data Processing &amp; Automation</strong>
+                <span class="skill-level">Advanced</span>
+            </div>
+            <div class="skill-keywords">Pandas, Celery, Apache Airflow, ETL Pipelines, RPA, Web Scraping, BeautifulSoup</div>
+        </div>
+<div class="skill-item">
+            <div class="skill-header">
+                <strong>Database Management</strong>
+                <span class="skill-level">Expert</span>
+            </div>
+            <div class="skill-keywords">PostgreSQL, MySQL, MariaDB, Redis, SQLite, Database Optimization, Query Performance</div>
+        </div>
+<div class="skill-item">
+            <div class="skill-header">
+                <strong>Cloud &amp; Infrastructure</strong>
+                <span class="skill-level">Advanced</span>
+            </div>
+            <div class="skill-keywords">AWS (EC2, S3, SES, Route53), Docker, Docker Compose, Kubernetes, Linux Administration, Bash Scripting, CI/CD, GitHub Actions, GitLab CI, Jenkins</div>
+        </div>
+<div class="skill-item">
+            <div class="skill-header">
+                <strong>DevOps &amp; Monitoring</strong>
+                <span class="skill-level">Advanced</span>
+            </div>
+            <div class="skill-keywords">Terraform, Infrastructure as Code, Proxmox, LXC Containers, NewRelic APM, Cloudflare, Travis CI</div>
+        </div>
+<div class="skill-item">
+            <div class="skill-header">
+                <strong>Frontend Development</strong>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-keywords">JavaScript, HTML5, CSS3, Vue.js, React, jQuery, Jinja2, Leaflet.js, Responsive Design</div>
+        </div>
+<div class="skill-item">
+            <div class="skill-header">
+                <strong>Message Queues &amp; Event Streaming</strong>
+                <span class="skill-level">Advanced</span>
+            </div>
+            <div class="skill-keywords">RabbitMQ, Celery, Event-Driven Architecture, Asynchronous Processing</div>
+        </div>
+<div class="skill-item">
+            <div class="skill-header">
+                <strong>Development Tools &amp; Practices</strong>
+                <span class="skill-level">Expert</span>
+            </div>
+            <div class="skill-keywords">Git, GitHub, GitLab, VS Code, Regular Expressions, Code Review, Agile Methodologies, TDD, API Design</div>
+        </div>
+<div class="skill-item">
+            <div class="skill-header">
+                <strong>E-commerce &amp; ERP Systems</strong>
+                <span class="skill-level">Expert</span>
+            </div>
+            <div class="skill-keywords">Odoo Development, E-commerce Platforms, Electronic Invoicing, Payment Integration, WooCommerce</div>
+        </div>
+<div class="skill-item">
+            <div class="skill-header">
+                <strong>AI Engineering &amp; Agentic Systems</strong>
+                <span class="skill-level">Advanced</span>
+            </div>
+            <div class="skill-keywords">LLM Application Design, RAG Pipelines, Prompt Engineering, Tool Calling, LangGraph, LangChain, n8n Agents, AnythingLLM, LM Studio, Open-Source LLM Evaluation, AI Observability</div>
+        </div>
+<div class="skill-item">
+            <div class="skill-header">
+                <strong>Homelab Platform Operations</strong>
+                <span class="skill-level">Advanced</span>
+            </div>
+            <div class="skill-keywords">Proxmox, LXC, Docker, Portainer, Cloudflare Tunnels, Uptime Kuma, Pi-hole, Service Reliability, Self-hosted Platforms</div>
+        </div>
+</div>
+
+    </div>
+
+    <div class="resume-footer">
+        Generado desde <a href="https://rxresu.me" target="_blank" rel="noopener">Reactive Resume</a>
+    </div>
+<script defer src="https://umami.rafnixg.dev/script.js" data-website-id="3d3cdb5f-0751-4c3e-85b7-5ff046f5c2da"></script>
+</body>
+</html>
