@@ -1,0 +1,57 @@
+name: Sync resumes from Reactive Resume
+
+on:
+  workflow_dispatch:  # Manual trigger only
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Backup resumes from rxresume API
+        env:
+          RXRESUME_API_KEY: ${{ secrets.RXRESUME_API_KEY }}
+        run: python scripts/rxresume_backup.py
+
+      - name: Export resumes (PDF, screenshot, HTML)
+        env:
+          RXRESUME_API_KEY: ${{ secrets.RXRESUME_API_KEY }}
+        run: python scripts/rxresume_export.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          CHANGED=false
+          if [ -n "$(git status --porcelain backups/)" ]; then
+            git add backups/
+            CHANGED=true
+          fi
+          if [ -n "$(git status --porcelain public/)" ]; then
+            git add public/
+            CHANGED=true
+          fi
+          if [ "$CHANGED" = "true" ]; then
+            git commit -m "[ci skip] chore: sync resumes from Reactive Resume"
+            echo "exit_code=0" >> $GITHUB_OUTPUT
+          else
+            echo "No changes detected, skipping commit."
+            echo "exit_code=1" >> $GITHUB_OUTPUT
+          fi
+        id: commit
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.8.0
+        if: steps.commit.outputs.exit_code == 0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

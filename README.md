@@ -1,123 +1,114 @@
 # Resume - Rafnix Gabriel Guzmán Garcia
 
-[![Publish Resume](https://github.com/rafnixg/resume/actions/workflows/main.yml/badge.svg)](https://github.com/rafnixg/resume/actions/workflows/main.yml)
+[![Sync Resumes](https://github.com/rafnixg/resume/actions/workflows/rxresume-sync.yml/badge.svg)](https://github.com/rafnixg/resume/actions/workflows/rxresume-sync.yml)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fresume.rafnixg.dev)](https://resume.rafnixg.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![JSON Resume](https://img.shields.io/badge/JSON-Resume-green.svg)](https://jsonresume.org/)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/rafnixg/resume)
 
-> 💼 Mi currículum profesional en formato JSON Resume, publicado automáticamente como página web usando GitHub Actions
+> Mi curriculum profesional publicado como sitio estatico, generado desde [Reactive Resume](https://rxresu.me) y [JSON Resume](https://jsonresume.org/) con GitHub Actions.
 
-## 📋 Tabla de Contenidos
+## Acerca de
 
-- [Acerca de](#acerca-de)
-- [Vista Previa](#vista-previa)
-- [Tecnologías](#tecnologías)
-- [Cómo Usar](#cómo-usar)
-- [Personalización](#personalización)
-- [Despliegue](#despliegue)
-- [Licencia](#licencia)
+Repositorio que gestiona mi CV profesional con un pipeline automatizado:
 
-## 🎯 Acerca de
+1. **Reactive Resume** (rxresu.me) como editor principal del CV
+2. **Backup automatico** del JSON completo via API
+3. **Generacion de HTML estatico** desde los backups y desde `resume.json`
+4. **Publicacion** en GitHub Pages
 
-Este repositorio contiene mi currículum vitae profesional en formato [JSON Resume](https://jsonresume.org/), un estándar de código abierto para currículums. El CV se convierte automáticamente en una página web estática y se publica en GitHub Pages mediante GitHub Actions.
+**Caracteristicas:**
+- Backup de resumes desde Reactive Resume API
+- Generacion de HTML estatico con diseno responsivo
+- Export de PDF y screenshots via API
+- Pagina principal desde JSON Resume (`resume.json`)
+- Paginas adicionales por cada resume de rxresume
+- Sitemap automatico
+- Umami Analytics integrado
+- SEO (Open Graph, Twitter Cards)
+- Workflow manual con GitHub Actions
 
-**Características principales:**
-- ✅ Formato estándar JSON Resume
-- ✅ Generación automática de HTML con tema elegante
-- ✅ Publicación automática con GitHub Actions
-- ✅ Inyección de metadatos personalizados (SEO, Open Graph, Twitter Cards)
-- ✅ Análisis con Umami Analytics
-- ✅ Responsive y accesible
+## Vista Previa
 
-## 👀 Vista Previa
+- **Pagina principal:** [https://resume.rafnixg.dev](https://resume.rafnixg.dev)
+- **Resume rxresume:** [https://resume.rafnixg.dev/resume/index-rafnix-guzman-python.html](https://resume.rafnixg.dev/resume/index-rafnix-guzman-python.html)
 
-Puedes ver mi currículum en línea aquí: **[https://resume.rafnixg.dev](https://resume.rafnixg.dev)**
+## Estructura del Proyecto
 
-## 🛠️ Tecnologías
-
-- **[JSON Resume](https://jsonresume.org/)**: Estándar para currículums en formato JSON
-- **[JSON Resume Elegant Theme](https://github.com/mudassir0909/jsonresume-theme-elegant)**: Tema elegante para la visualización
-- **GitHub Actions**: CI/CD para generación y publicación automática
-- **GitHub Pages**: Hosting gratuito
-- **Python**: Scripts personalizados para inyección de metadatos
-
-## 📦 Cómo Usar
-
-### Requisitos previos
-
-- Cuenta de GitHub
-- Python 3.8+ (opcional, solo para desarrollo local)
-
-### Uso de este template
-
-1. **Fork este repositorio** o úsalo como template
-2. **Edita el archivo `resume.json`** con tu información personal
-3. **Actualiza el script `add_custom_tags.py`** con tus propios metadatos y analytics
-4. **Configura GitHub Pages**:
-   - Ve a Settings > Pages
-   - Source: Deploy from a branch
-   - Branch: `main` / `root`
-5. **Actualiza el README.md** con tu información
-
-## ✏️ Personalización
-
-### Modificar el contenido del CV
-
-Edita el archivo `resume.json` siguiendo el [esquema de JSON Resume](https://jsonresume.org/schema/):
-
-```json
-{
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-  "basics": {
-    "name": "Tu Nombre",
-    "label": "Tu Título Profesional",
-    "email": "tu@email.com",
-    ...
-  },
-  "work": [...],
-  "education": [...],
-  ...
-}
+```
+├── backups/                          # Backups JSON de rxresume (API)
+│   └── {slug}.json
+├── public/                           # Sitio estatico (GitHub Pages root)
+│   ├── index.html                    # Pagina principal (desde resume.json)
+│   ├── resume.json                   # JSON Resume estandar
+│   ├── sitemap.xml                   # Sitemap generado automaticamente
+│   ├── assets/                       # Recursos estaticos
+│   │   ├── {slug}.pdf                # PDF exportado desde rxresume
+│   │   ├── {slug}.png                # Screenshot desde rxresume
+│   │   ├── banner_web.png
+│   │   └── logo.png
+│   └── resume/                       # Paginas HTML por resume
+│       └── index-{slug}.html         # HTML generado desde backup
+├── scripts/
+│   ├── rxresume.py                   # Wrapper class para rxresume API
+│   ├── rxresume_backup.py            # Backup de resumes desde API
+│   ├── rxresume_export.py            # Export: HTML, PDF, sitemap, analytics
+│   └── add_custom_tags.py            # Inyeccion de analytics y meta tags
+└── .github/workflows/
+    └── rxresume-sync.yml             # Workflow: backup -> export -> commit
 ```
 
-### Cambiar el tema
+## Scripts
 
-Modifica el archivo `.github/workflows/main.yml` y cambia el valor del parámetro `theme`:
+| Script | Descripcion |
+|--------|-------------|
+| `rxresume.py` | Clase `RxResumeClient` que encapsula las llamadas a la API de rxresume |
+| `rxresume_backup.py` | Lista y descarga todos los resumes como JSON en `backups/` |
+| `rxresume_export.py` | Genera HTML, descarga PDF/PNG, inyecta analytics, crea sitemap |
+| `add_custom_tags.py` | Clase `CustomTagAdder` para inyectar scripts y meta tags en HTML |
 
-```yaml
-- uses: kelvintaywl/action-jsonresume-export@v1
-  with:
-    theme: elegant  # Puedes usar: elegant, flat, modern, etc.
+## Como Usar
+
+### Requisitos
+
+- Python 3.10+
+- `pip install requests`
+- API key de [rxresu.me](https://rxresu.me) (Settings -> API Keys)
+
+### Ejecucion local
+
+```bash
+# 1. Backup de todos los resumes
+RXRESUME_API_KEY=tu-api-key python scripts/rxresume_backup.py
+
+# 2. Export HTML + PDF + sitemap + analytics
+RXRESUME_API_KEY=tu-api-key python scripts/rxresume_export.py
+
+# Sin API key solo genera HTML desde los backups existentes
+python scripts/rxresume_export.py
 ```
 
-Temas disponibles: https://jsonresume.org/themes/
+## Despliegue
 
-### Personalizar metadatos
+El despliegue se ejecuta manualmente desde GitHub Actions:
 
-Edita el archivo `add_custom_tags.py` para:
-- Añadir o modificar metadatos SEO
-- Integrar tu propio analytics (Umami, Google Analytics, etc.)
-- Añadir scripts personalizados
+1. **Ejecutar workflow** desde Actions -> "Sync resumes from Reactive Resume" -> Run workflow
+2. **Backup**: Descarga los resumes desde la API de rxresume
+3. **Export**: Genera HTML, descarga PDF/PNG, inyecta analytics, crea sitemap
+4. **Commit & Push**: Sube los cambios a `backups/` y `public/`
+5. **GitHub Pages**: Sirve `public/` como sitio estatico
 
-## 🚀 Despliegue
+### Configuracion del repositorio
 
-El despliegue es automático mediante GitHub Actions:
+1. Agrega el secret `RXRESUME_API_KEY`:
+   - Settings -> Secrets and variables -> Actions -> New repository secret
+2. Configura GitHub Pages:
+   - Settings -> Pages -> Source: Deploy from branch -> `main` / `public`
 
-1. **Commit y Push**: Realiza cambios en `resume.json` o cualquier archivo
-2. **GitHub Actions**: Se ejecuta automáticamente el workflow
-3. **Generación**: Convierte el JSON a HTML con el tema seleccionado
-4. **Inyección**: Añade metadatos personalizados con Python
-5. **Publicación**: Actualiza automáticamente el `index.html` en la rama `main`
-6. **GitHub Pages**: Publica la nueva versión
+## Licencia
 
-Para evitar que se ejecute el workflow, incluye `[ci skip]` en el mensaje del commit.
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto esta bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para mas detalles.
 
 ---
 
-**Desarrollado por** [Rafnix Gabriel Guzmán Garcia](https://links.rafnixg.dev) | Backend Python | Odoo Developer | Tech Writer
-
+**Desarrollado por** [Rafnix Gabriel Guzman Garcia](https://links.rafnixg.dev) | Python Backend | AI Engineer | Odoo Developer

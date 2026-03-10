@@ -1,3 +1,15 @@
 node_modules/
 package-lock.json
 package.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated exports (rebuilt by scripts)
+public/index.html
+public/resume/
+public/sitemap.xml
+
+# Old exports folder
+exports/

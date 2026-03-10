@@ -21,9 +21,9 @@ class CustomTagAdder:
             f.write(self.html_content)
 
     def add_script(self, script):
-        """Add script to HTML file."""
+        """Add script before </body>."""
         self.html_content = re.sub(
-            "</body></html>", script + "</body></html>", self.html_content
+            r"</body>", script + "\n</body>", self.html_content
         )
 
     def add_meta(self, meta):
