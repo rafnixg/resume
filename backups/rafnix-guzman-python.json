@@ -684,7 +684,7 @@
               "url": "https://learn.microsoft.com/es-mx/training/paths/develop-ai-agents-on-azure/",
               "label": ""
             },
-            "summary": "Trofeo de ruta de aprendizaje completada. Todos los módulos aprobados."
+            "description": "Trofeo de ruta de aprendizaje completada. Todos los módulos aprobados."
           },
           {
             "id": "microsoft_learn_genai_apps_azure_2025",
@@ -696,7 +696,7 @@
               "url": "https://learn.microsoft.com/es-mx/training/paths/create-custom-copilots-ai-studio/",
               "label": ""
             },
-            "summary": "Trofeo de ruta de aprendizaje completada. Todos los módulos aprobados."
+            "description": "Trofeo de ruta de aprendizaje completada. Todos los módulos aprobados."
           },
           {
             "id": "microsoft_learn_azure_openai_path_2025",
@@ -708,7 +708,7 @@
               "url": "https://learn.microsoft.com/es-mx/training/paths/develop-ai-solutions-azure-openai/",
               "label": ""
             },
-            "summary": "Trofeo de ruta de aprendizaje completada."
+            "description": "Trofeo de ruta de aprendizaje completada."
           },
           {
             "id": "microsoft_learn_document_intelligence_2025",
@@ -720,7 +720,7 @@
               "url": "https://learn.microsoft.com/es-mx/training/paths/extract-data-from-forms-document-intelligence/",
               "label": ""
             },
-            "summary": "Trofeo de ruta de aprendizaje completada."
+            "description": "Trofeo de ruta de aprendizaje completada."
           },
           {
             "id": "microsoft_learn_knowledge_mining_2025",
@@ -732,7 +732,7 @@
               "url": "https://learn.microsoft.com/es-mx/training/paths/implement-knowledge-mining-azure-cognitive-search/",
               "label": ""
             },
-            "summary": "Trofeo de ruta de aprendizaje completada."
+            "description": "Trofeo de ruta de aprendizaje completada."
           },
           {
             "id": "microsoft_learn_nlp_azure_ai_2025",
@@ -744,7 +744,7 @@
               "url": "https://learn.microsoft.com/es-mx/training/paths/develop-language-solutions-azure-ai/",
               "label": ""
             },
-            "summary": "Trofeo de ruta de aprendizaje completada."
+            "description": "Trofeo de ruta de aprendizaje completada."
           },
           {
             "id": "microsoft_learn_computer_vision_2025",
@@ -756,7 +756,7 @@
               "url": "https://learn.microsoft.com/es-mx/training/paths/create-computer-vision-solutions-azure-ai/",
               "label": ""
             },
-            "summary": "Trofeo de ruta de aprendizaje completada."
+            "description": "Trofeo de ruta de aprendizaje completada."
           },
           {
             "id": "microsoft_learn_custom_vision_2025",
@@ -768,7 +768,7 @@
               "url": "https://learn.microsoft.com/es-mx/training/paths/create-models-custom-vision/",
               "label": ""
             },
-            "summary": "Trofeo de ruta de aprendizaje completada."
+            "description": "Trofeo de ruta de aprendizaje completada."
           },
           {
             "id": "microsoft_learn_intro_azure_ai_2025",
@@ -780,7 +780,7 @@
               "url": "https://learn.microsoft.com/es-mx/training/paths/get-started-azure-ai/",
               "label": ""
             },
-            "summary": "Trofeo de ruta de aprendizaje completada."
+            "description": "Trofeo de ruta de aprendizaje completada."
           },
           {
             "id": "microsoft_learn_git_intro_2023",
@@ -792,7 +792,7 @@
               "url": "https://learn.microsoft.com/es-mx/training/paths/intro-to-vc-git/",
               "label": ""
             },
-            "summary": "Trofeo de ruta de aprendizaje completada."
+            "description": "Trofeo de ruta de aprendizaje completada."
           }
         ]
       },

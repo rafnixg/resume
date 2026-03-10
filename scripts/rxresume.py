@@ -15,6 +15,19 @@ RETRY_DELAY = 5  # seconds
 class RxResumeClient:
     """Client for interacting with the Reactive Resume API."""
 
+    @staticmethod
+    def _normalize_resume_data(data):
+        """Normalize local backup data to the schema expected by the API."""
+        normalized = json.loads(json.dumps(data))
+        sections = normalized.get("sections", {})
+        awards = sections.get("awards", {})
+
+        for item in awards.get("items", []):
+            if "description" not in item:
+                item["description"] = item.pop("summary", "") or ""
+
+        return normalized
+
     def __init__(self, api_key=None, base_url=None):
         self.api_key = api_key or os.environ.get("RXRESUME_API_KEY", "")
         self.base_url = (base_url or os.environ.get("RXRESUME_BASE_URL", DEFAULT_BASE_URL)).rstrip("/")
@@ -40,7 +53,13 @@ class RxResumeClient:
                     print(f"  Rate limited, retrying in {wait}s...")
                     time.sleep(wait)
                     continue
-                raise SystemExit(f"API error {resp.status_code} on {endpoint}: {e}") from e
+                details = resp.text.strip()
+                if len(details) > 1200:
+                    details = details[:1200] + "..."
+                message = f"API error {resp.status_code} on {endpoint}: {e}"
+                if details:
+                    message = f"{message}\n{details}"
+                raise SystemExit(message) from e
             except requests.exceptions.RequestException as e:
                 if attempt < MAX_RETRIES - 1:
                     time.sleep(RETRY_DELAY)
@@ -86,9 +105,10 @@ class RxResumeClient:
             resume_id: The resume UUID.
             data: Dict with keys like picture, basics, summary, sections, etc.
         """
+        normalized_data = self._normalize_resume_data(data)
         operations = [
             {"op": "replace", "path": f"/{key}", "value": value}
-            for key, value in data.items()
+            for key, value in normalized_data.items()
         ]
         return self._request("PATCH", f"resumes/{resume_id}", json={"operations": operations})
 

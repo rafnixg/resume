@@ -27,8 +27,16 @@ def main():
         backup = json.load(f)
 
     client = RxResumeClient()
+    slug = backup.get("slug", "")
     print(f"Importing {backup_path.name}...")
-    result = client.import_resume(backup)
+
+    existing = client.find_resume_by_slug(slug) if slug else None
+    if existing:
+        print(f"  Resume with slug '{slug}' already exists. Syncing instead of creating a duplicate...")
+        result = client.sync_resume(backup)
+    else:
+        result = client.import_resume(backup)
+
     print(f"Done! Resume ID: {result.get('id')}")
     print(f"Slug: {result.get('slug')}")
     print(f"Name: {result.get('name')}")
