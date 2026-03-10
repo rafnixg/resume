@@ -31,13 +31,15 @@ Repositorio que gestiona mi CV profesional con un pipeline automatizado:
 ## Vista Previa
 
 - **Pagina principal:** [https://resume.rafnixg.dev](https://resume.rafnixg.dev)
-- **Resume rxresume:** [https://resume.rafnixg.dev/resume/index-rafnix-guzman-python.html](https://resume.rafnixg.dev/resume/index-rafnix-guzman-python.html)
+- **Resume (ES):** [https://resume.rafnixg.dev/resume/index-rafnix-guzman-python.html](https://resume.rafnixg.dev/resume/index-rafnix-guzman-python.html)
+- **Resume (EN):** [https://resume.rafnixg.dev/resume/index-rafnix-guzman-python-en.html](https://resume.rafnixg.dev/resume/index-rafnix-guzman-python-en.html)
 
 ## Estructura del Proyecto
 
 ```
 ├── backups/                          # Backups JSON de rxresume (API)
-│   └── {slug}.json
+│   ├── {slug}.json                   # Resume en español
+│   └── {slug}-en.json                # Resume en inglés
 ├── public/                           # Sitio estatico (GitHub Pages root)
 │   ├── index.html                    # Pagina principal (desde resume.json)
 │   ├── resume.json                   # JSON Resume estandar
@@ -53,6 +55,7 @@ Repositorio que gestiona mi CV profesional con un pipeline automatizado:
 │   ├── rxresume.py                   # Wrapper class para rxresume API
 │   ├── rxresume_backup.py            # Backup de resumes desde API
 │   ├── rxresume_export.py            # Export: HTML, PDF, sitemap, analytics
+│   ├── rxresume_import.py            # Importar backup JSON a rxresume
 │   └── add_custom_tags.py            # Inyeccion de analytics y meta tags
 └── .github/workflows/
     └── rxresume-sync.yml             # Workflow: backup -> export -> commit
@@ -65,6 +68,7 @@ Repositorio que gestiona mi CV profesional con un pipeline automatizado:
 | `rxresume.py` | Clase `RxResumeClient` que encapsula las llamadas a la API de rxresume |
 | `rxresume_backup.py` | Lista y descarga todos los resumes como JSON en `backups/` |
 | `rxresume_export.py` | Genera HTML, descarga PDF/PNG, inyecta analytics, crea sitemap |
+| `rxresume_import.py` | Importa un backup JSON como nuevo resume en rxresume via API |
 | `add_custom_tags.py` | Clase `CustomTagAdder` para inyectar scripts y meta tags en HTML |
 
 ## Como Usar
@@ -86,6 +90,9 @@ RXRESUME_API_KEY=tu-api-key python scripts/rxresume_export.py
 
 # Sin API key solo genera HTML desde los backups existentes
 python scripts/rxresume_export.py
+
+# 3. Importar un backup JSON a rxresume (crear nuevo resume)
+RXRESUME_API_KEY=tu-api-key python scripts/rxresume_import.py rafnix-guzman-python-en.json
 ```
 
 ## Despliegue

@@ -302,14 +302,17 @@ def generate_html(resume_data, slug, pdf_filename, screenshot_filename):
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{full_name} - CV</title>
+    <meta itemprop="image" content="https://links.rafnixg.dev/images/banner_web.png" />
     <meta name="description" content="{escape(meta_description)}" />
     <meta name="author" content="{full_name}" />
     <meta property="og:title" content="{full_name} - CV" />
     <meta property="og:description" content="{escape(meta_description)}" />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://links.rafnixg.dev/images/banner_web.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{full_name} - CV" />
     <meta name="twitter:description" content="{escape(meta_description)}" />
+    <meta name="twitter:image" content="https://links.rafnixg.dev/images/banner_web.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="{fonts_url}" rel="stylesheet" />

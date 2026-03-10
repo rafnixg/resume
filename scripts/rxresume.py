@@ -64,6 +64,45 @@ class RxResumeClient:
         data = self._request("GET", f"resumes/{resume_id}/screenshot")
         return data.get("url")
 
+    def create_resume(self, name, slug=None, tags=None):
+        """Create a new empty resume, returns the resume ID (string)."""
+        payload = {"name": name, "tags": tags or []}
+        if slug:
+            payload["slug"] = slug
+        return self._request("POST", "resumes", json=payload)
+
+    def update_resume(self, resume_id, data):
+        """Update resume data using operations format.
+
+        Args:
+            resume_id: The resume UUID.
+            data: Dict with keys like picture, basics, summary, sections, etc.
+        """
+        operations = [
+            {"op": "replace", "path": f"/{key}", "value": value}
+            for key, value in data.items()
+        ]
+        return self._request("PATCH", f"resumes/{resume_id}", json={"operations": operations})
+
+    def import_resume(self, backup):
+        """Import a backup JSON as a new resume.
+
+        Creates a new resume with the backup's name+slug+tags, then patches
+        it with the full data contents. Returns the updated resume object.
+        """
+        name = backup.get("name", "imported-resume")
+        slug = backup.get("slug", name)
+        tags = backup.get("tags", [])
+        data = backup.get("data", {})
+
+        resume_id = self.create_resume(name, slug, tags)
+        if not resume_id:
+            raise RuntimeError("Failed to create resume: no ID returned")
+
+        result = self.update_resume(resume_id, data)
+        print(f"  Imported '{name}' as {resume_id}")
+        return result
+
     @staticmethod
     def download_file(url, dest):
         """Download a file from URL to destination path."""
