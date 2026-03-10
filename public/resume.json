@@ -102,23 +102,14 @@
       "summary": "Desarrollé módulos Odoo personalizados: modelos de datos, vistas de interfaz y lógica de negocio adaptada a procesos del cliente. Mantuve y optimicé el sistema de Facturación Electrónica. Construí integraciones Cloud con APIs REST y webhooks para conectar el ERP con servicios externos. Participé en implementaciones completas de ERP: análisis de procesos, configuración funcional, migración de datos y capacitación a usuarios.",
       "location": "Lima, Perú"
     },
-        {
-      "name": "Freelance",
-      "position": "Freelance Software Engineer",
+    {
+      "name": "Varias Empresas",
+      "position": "Freelance Full-Stack Developer & Consultant",
       "startDate": "2012-02-28",
       "endDate": "2022-04-30",
       "highlights": [],
-      "summary": "Consultoría tecnológica y desarrollo de soluciones digitales para clientes en múltiples sectores: finanzas, telecomunicaciones, eventos, retail y ecommerce. Asesoré en la selección de tecnologías y arquitectura de proyectos web, priorizando herramientas open-source. Desarrollé aplicaciones web a medida y capacité equipos técnicos en buenas prácticas de desarrollo y adopción de nuevas tecnologías.",
-      "url": "https://rafnixg.dev"
-    },
-    {
-      "name": "Freelancer",
-      "position": "Odoo Developer",
-      "startDate": "2016-03-31",
-      "endDate": "2018-08-31",
-      "highlights": [],
-      "summary": "Desarrollé módulos Odoo a medida para distintos clientes, adaptando el ERP a procesos de negocio específicos. Implementé soluciones de Punto de Venta (POS) y CRM, mejorando la gestión comercial. Administré y optimicé bases de datos PostgreSQL para garantizar rendimiento y estabilidad.",
-      "url": "https://rafnixg.dev"
+      "summary": "Desarrollo web Full-Stack (PHP/Laravel, Python/Odoo, VueJS, WordPress), consultoría tecnológica y módulos ERP para clientes en finanzas, retail, telecomunicaciones y ecommerce en Venezuela, Chile y remoto. Asesoré en selección de tecnologías y arquitectura de proyectos, desarrollé aplicaciones web a medida, módulos Odoo, soluciones POS/CRM e integraciones de negocio, y capacité equipos técnicos en buenas prácticas de desarrollo y adopción de nuevas tecnologías.",
+      "url": "https://resume.rafnixg.dev"
     },
     {
       "name": "pudinet",

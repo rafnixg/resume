@@ -23,6 +23,7 @@ Repositorio que gestiona mi CV profesional con un pipeline automatizado:
 - Export de PDF y screenshots via API
 - Pagina principal desde JSON Resume (`public/resume.json`)
 - Paginas adicionales por cada resume de rxresume
+- Sincronizacion de backups locales hacia resumes existentes en Reactive Resume
 - Sitemap automatico
 - Umami Analytics integrado
 - SEO (Open Graph, Twitter Cards)
@@ -55,7 +56,11 @@ Repositorio que gestiona mi CV profesional con un pipeline automatizado:
 │   ├── rxresume.py                   # Wrapper class para rxresume API
 │   ├── rxresume_backup.py            # Backup de resumes desde API
 │   ├── rxresume_export.py            # Export: HTML, PDF, sitemap, analytics
-│   ├── rxresume_import.py            # Importar backup JSON a rxresume
+│   ├── rxresume_import.py            # Importa o sincroniza backup JSON a rxresume segun el slug
+│   ├── rxresume_sync.py              # Sincroniza un backup JSON con un resume existente
+│   ├── export_config.py              # Configuracion compartida del export
+│   ├── export_rendering.py           # Render HTML para JSON Resume y Reactive Resume
+│   ├── export_sitemap.py             # Generacion de sitemap.xml
 │   └── add_custom_tags.py            # Inyeccion de analytics y meta tags
 └── .github/workflows/
     └── rxresume-sync.yml             # Workflow: backup -> export -> commit
@@ -68,12 +73,18 @@ Repositorio que gestiona mi CV profesional con un pipeline automatizado:
 | `rxresume.py` | Clase `RxResumeClient` que encapsula las llamadas a la API de rxresume |
 | `rxresume_backup.py` | Lista y descarga todos los resumes como JSON en `backups/` |
 | `rxresume_export.py` | Genera HTML, descarga PDF/PNG, inyecta analytics, crea sitemap |
-| `rxresume_import.py` | Importa un backup JSON como nuevo resume en rxresume via API |
+| `rxresume_import.py` | Importa un backup JSON y, si el `slug` ya existe, sincroniza el resume existente |
+| `rxresume_sync.py` | Sincroniza explicitamente un backup JSON con un resume existente |
+| `export_config.py` | Centraliza rutas y constantes del pipeline de export |
+| `export_rendering.py` | Contiene el render HTML de secciones para JSON Resume y Reactive Resume |
+| `export_sitemap.py` | Genera el sitemap a partir de los resumes exportados |
 | `add_custom_tags.py` | Clase `CustomTagAdder` para inyectar scripts y meta tags en HTML |
 
 ## Como Usar
 
 `public/resume.json` es la unica fuente JSON Resume del repositorio.
+
+Los archivos en `backups/` son la fuente de verdad para los resumes de Reactive Resume (`rafnix-guzman-python` y `rafnix-guzman-python-en`).
 
 ### Requisitos
 
@@ -93,9 +104,19 @@ RXRESUME_API_KEY=tu-api-key python scripts/rxresume_export.py
 # Sin API key solo genera HTML desde los backups existentes
 python scripts/rxresume_export.py
 
-# 3. Importar un backup JSON a rxresume (crear nuevo resume)
+# 3. Sincronizar un backup con Reactive Resume
+RXRESUME_API_KEY=tu-api-key python scripts/rxresume_sync.py rafnix-guzman-python-en.json
+
+# 4. Importar un backup JSON; si el slug ya existe, hace sync automaticamente
 RXRESUME_API_KEY=tu-api-key python scripts/rxresume_import.py rafnix-guzman-python-en.json
 ```
+
+### Flujo recomendado
+
+1. Edita `public/resume.json` si quieres cambiar la pagina principal basada en JSON Resume.
+2. Edita `backups/rafnix-guzman-python.json` o `backups/rafnix-guzman-python-en.json` si quieres cambiar los resumes de Reactive Resume.
+3. Ejecuta `python scripts/rxresume_import.py <archivo>.json` o `python scripts/rxresume_sync.py <archivo>.json` para subir esos cambios.
+4. Ejecuta `python scripts/rxresume_export.py` para regenerar `public/`.
 
 ## Despliegue
 
