@@ -87,9 +87,9 @@ def main():
 
         exported.append(slug)
 
-    # Generate public/index.html from resume.json (JSON Resume format)
+    # Generate public/index.html from public/resume.json (JSON Resume format)
     if RESUME_JSON_PATH.exists():
-        print("\n  Generating public/index.html from resume.json...")
+        print("\n  Generating public/index.html from public/resume.json...")
         # Find a matching PDF if available
         first_pdf = f"{exported[0]}.pdf" if exported else None
         full_html = generate_html_from_jsonresume(RESUME_JSON_PATH, first_pdf)
@@ -98,7 +98,7 @@ def main():
             f.write(full_html)
         print(f"    Saved to {full_path}")
     else:
-        print("\n  Warning: resume.json not found, skipping public/index.html")
+        print("\n  Warning: public/resume.json not found, skipping public/index.html")
 
     # Inject analytics into all generated HTML files
     html_files = []

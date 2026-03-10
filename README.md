@@ -14,14 +14,14 @@ Repositorio que gestiona mi CV profesional con un pipeline automatizado:
 
 1. **Reactive Resume** (rxresu.me) como editor principal del CV
 2. **Backup automatico** del JSON completo via API
-3. **Generacion de HTML estatico** desde los backups y desde `resume.json`
+3. **Generacion de HTML estatico** desde los backups y desde `public/resume.json`
 4. **Publicacion** en GitHub Pages
 
 **Caracteristicas:**
 - Backup de resumes desde Reactive Resume API
 - Generacion de HTML estatico con diseno responsivo
 - Export de PDF y screenshots via API
-- Pagina principal desde JSON Resume (`resume.json`)
+- Pagina principal desde JSON Resume (`public/resume.json`)
 - Paginas adicionales por cada resume de rxresume
 - Sitemap automatico
 - Umami Analytics integrado
@@ -41,7 +41,7 @@ Repositorio que gestiona mi CV profesional con un pipeline automatizado:
 │   ├── {slug}.json                   # Resume en español
 │   └── {slug}-en.json                # Resume en inglés
 ├── public/                           # Sitio estatico (GitHub Pages root)
-│   ├── index.html                    # Pagina principal (desde resume.json)
+│   ├── index.html                    # Pagina principal (desde public/resume.json)
 │   ├── resume.json                   # JSON Resume estandar
 │   ├── sitemap.xml                   # Sitemap generado automaticamente
 │   ├── assets/                       # Recursos estaticos
@@ -72,6 +72,8 @@ Repositorio que gestiona mi CV profesional con un pipeline automatizado:
 | `add_custom_tags.py` | Clase `CustomTagAdder` para inyectar scripts y meta tags en HTML |
 
 ## Como Usar
+
+`public/resume.json` es la unica fuente JSON Resume del repositorio.
 
 ### Requisitos
 

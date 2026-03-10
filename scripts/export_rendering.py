@@ -456,6 +456,37 @@ def render_certifications(section):
     return html
 
 
+def render_awards(section):
+    """Render awards section."""
+    items = visible_items(section)
+    if not items:
+        return ""
+    html = render_section_title(section.get("title", "Awards"))
+    for item in items:
+        title = escape(item.get("title", ""))
+        awarder = escape(item.get("awarder", item.get("issuer", "")))
+        item_date = escape(item.get("date", ""))
+        summary = escape(item.get("summary", item.get("description", "")))
+        website = item.get("website", {})
+        url = website.get("url", "")
+
+        title_html = f'<a href="{escape(url)}" target="_blank" rel="noopener">{title}</a>' if url else title
+        meta_parts = [value for value in (awarder, item_date) if value]
+        meta_html = " &middot; ".join(meta_parts)
+        summary_html = f"<p>{summary}</p>" if summary else ""
+
+        html += f"""<div class="entry">
+            <div class="entry-header">
+                <div class="entry-left">
+                    <h3 class="entry-title">{title_html}</h3>
+                    <span class="entry-subtitle">{meta_html}</span>
+                </div>
+            </div>
+            <div class="entry-body">{summary_html}</div>
+        </div>\n"""
+    return html
+
+
 def render_references(section):
     """Render references section."""
     items = visible_items(section)
@@ -529,6 +560,7 @@ def generate_html(resume_data, slug, pdf_filename, screenshot_filename):
         "education": render_education,
         "projects": render_projects,
         "skills": render_skills,
+        "awards": render_awards,
         "certifications": render_certifications,
         "references": render_references,
         "languages": render_languages,
@@ -746,6 +778,29 @@ def generate_html_from_jsonresume(resume_path, pdf_filename=None):
             </div>\n"""
         certs_html += "</div>\n"
 
+    awards_html = ""
+    awards = data.get("awards", [])
+    if awards:
+        awards_html = render_section_title("Awards")
+        for item in awards:
+            title = escape(item.get("title", ""))
+            awarder = escape(item.get("awarder", ""))
+            item_date = escape(item.get("date", ""))
+            summary = escape(item.get("summary", ""))
+            meta_parts = [value for value in (awarder, item_date) if value]
+            meta_html = " &middot; ".join(meta_parts)
+            summary_html = f"<p>{summary}</p>" if summary else ""
+
+            awards_html += f"""<div class="entry">
+                <div class="entry-header">
+                    <div class="entry-left">
+                        <h3 class="entry-title">{title}</h3>
+                        <span class="entry-subtitle">{meta_html}</span>
+                    </div>
+                </div>
+                <div class="entry-body">{summary_html}</div>
+            </div>\n"""
+
     langs_html = ""
     languages = data.get("languages", [])
     if languages:
@@ -769,7 +824,7 @@ def generate_html_from_jsonresume(resume_path, pdf_filename=None):
                 <div class="entry-body"><p>{reference}</p></div>
             </div>\n"""
 
-    sections_html = work_html + edu_html + skills_html + projects_html + certs_html + langs_html + refs_html
+    sections_html = work_html + edu_html + skills_html + projects_html + awards_html + certs_html + langs_html + refs_html
 
     summary_section = ""
     if summary:

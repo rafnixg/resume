@@ -6,7 +6,7 @@
     "image": "",
     "email": "rafnixg@gmail.com",
     "url": "https://links.rafnixg.dev",
-    "summary": "Backend Python con +15 años construyendo sistemas en producción: APIs (FastAPI, Django), integraciones complejas (REST, XMLRPC, SOA), automatizaciones y migración de sistemas legacy. Especialista en implementaciones ERP con Odoo, facturación electrónica y procesos ETL sobre PostgreSQL.\n\nGestiono infraestructura propia (Proxmox, Docker, CI/CD) donde desarrollo, pruebo y despliego soluciones end-to-end. Experiencia en múltiples sectores: finanzas, retail, manufactura, telecomunicaciones y servicios.\n\nComplemento mi perfil backend con experiencia práctica en AI Engineering: diseño de pipelines RAG, agentes autónomos con LLMs y evaluación de modelos open-source, aplicando IA como herramienta para resolver problemas reales de negocio.",
+    "summary": "Backend Python con +15 años construyendo sistemas en producción: REST APIs con FastAPI y Django, integraciones complejas (REST, XMLRPC, SOA), automatización, microservicios y migración de sistemas legacy. Especialista en implementaciones Odoo ERP, facturación electrónica y procesos ETL sobre PostgreSQL.\n\nGestiono infraestructura propia (Proxmox, Docker, Kubernetes, CI/CD) donde desarrollo, pruebo y despliego soluciones end-to-end. Experiencia en múltiples sectores: finanzas, retail, manufactura, telecomunicaciones y servicios.\n\nComplemento mi perfil backend con experiencia práctica en AI Engineering: diseño de RAG pipelines, Agentic AI, Prompt Engineering y soluciones con LLM, aplicando IA como herramienta para resolver problemas reales de negocio.",
     "location": {
       "countryCode": "PE",
       "address": "Lima, Perú"
@@ -42,7 +42,7 @@
         "Python",
         "PostgreSQL"
       ],
-      "summary": "Desarrollo y mantenimiento de módulos personalizados de Odoo para gestión de servicio de campo, mejorando la coordinación y trazabilidad de tareas técnicas en terreno. Resolución de errores críticos en producción que impactaban la operación diaria del equipo de ingeniería clínica. Diseño y despliegue de infraestructura productiva basada en Proxmox con contenedores LXC, asegurando disponibilidad del sistema ERP y reducción de costos operativos.",
+      "summary": "Desarrollo y mantenimiento de módulos personalizados de Odoo ERP para gestión de servicio de campo, mejorando la coordinación y trazabilidad de tareas técnicas en terreno. Resolución de errores críticos en producción que impactaban la operación diaria del equipo de ingeniería clínica. Diseño y despliegue de infraestructura productiva basada en Proxmox con contenedores LXC, asegurando disponibilidad del sistema ERP y reducción de costos operativos.",
       "url": "https://www.linkedin.com/company/kimenz/",
       "location": "São Paulo, Brasil"
     },
@@ -61,7 +61,7 @@
         "PostgreSQL",
         "Docker"
       ],
-      "summary": "Diseñé y desarrollé APIs RESTful con FastAPI para plataforma de servicios digitales, implementando autenticación JWT con autorización granular por roles. Construí el backoffice administrativo con gestión integral de usuarios, permisos y generación de reportes. Integré servicios AWS (S3 para almacenamiento, SES para notificaciones) y establecí el pipeline de despliegue con Docker, incluyendo monitorización y logging en producción.",
+      "summary": "Diseñé y desarrollé REST APIs con FastAPI para una plataforma de servicios digitales, implementando autenticación JWT con autorización granular por roles. Construí el backoffice administrativo con gestión integral de usuarios, permisos y generación de reportes. Integré servicios AWS (S3 para almacenamiento, SES para notificaciones) y establecí el pipeline de despliegue con Docker, incluyendo monitorización y logging en producción.",
       "url": "https://www.linkedin.com/company/peru-apps/",
       "location": "Lima, Perú"
     },
@@ -72,7 +72,7 @@
       "endDate": "2022-04-30",
       "highlights": [
         "Jenkins",
-        "Bases de datos",
+        "Databases",
         "Kubernetes",
         "Linux",
         "SQL",
@@ -102,13 +102,22 @@
       "summary": "Desarrollé módulos Odoo personalizados: modelos de datos, vistas de interfaz y lógica de negocio adaptada a procesos del cliente. Mantuve y optimicé el sistema de Facturación Electrónica. Construí integraciones Cloud con APIs REST y webhooks para conectar el ERP con servicios externos. Participé en implementaciones completas de ERP: análisis de procesos, configuración funcional, migración de datos y capacitación a usuarios.",
       "location": "Lima, Perú"
     },
-    {
+        {
       "name": "Freelance",
-      "position": "Desarrollador Full-Stack & Consultor Tecnológico",
+      "position": "Freelance Software Engineer",
       "startDate": "2012-02-28",
       "endDate": "2022-04-30",
       "highlights": [],
-      "summary": "Desarrollo web Full-Stack (PHP/Laravel, Python/Odoo, VueJS, WordPress) y consultoría tecnológica para clientes en múltiples sectores: finanzas, telecomunicaciones, eventos, retail y ecommerce en Venezuela, Chile y remoto. Desarrollé módulos Odoo a medida, implementé soluciones de Punto de Venta (POS) y CRM, y administré bases de datos PostgreSQL. Asesoré en selección de tecnologías y arquitectura de proyectos web, priorizando herramientas open-source. Capacité equipos técnicos en buenas prácticas de desarrollo y adopción de nuevas tecnologías.",
+      "summary": "Consultoría tecnológica y desarrollo de soluciones digitales para clientes en múltiples sectores: finanzas, telecomunicaciones, eventos, retail y ecommerce. Asesoré en la selección de tecnologías y arquitectura de proyectos web, priorizando herramientas open-source. Desarrollé aplicaciones web a medida y capacité equipos técnicos en buenas prácticas de desarrollo y adopción de nuevas tecnologías.",
+      "url": "https://rafnixg.dev"
+    },
+    {
+      "name": "Freelancer",
+      "position": "Odoo Developer",
+      "startDate": "2016-03-31",
+      "endDate": "2018-08-31",
+      "highlights": [],
+      "summary": "Desarrollé módulos Odoo a medida para distintos clientes, adaptando el ERP a procesos de negocio específicos. Implementé soluciones de Punto de Venta (POS) y CRM, mejorando la gestión comercial. Administré y optimicé bases de datos PostgreSQL para garantizar rendimiento y estabilidad.",
       "url": "https://rafnixg.dev"
     },
     {
@@ -157,7 +166,7 @@
       "studyType": "Desarrollo Backend con Python y Django",
       "startDate": "2019-12-31",
       "endDate": "2022-12-31",
-      "score": "",
+      "score": "Completado 2022",
       "courses": []
     },
     {
@@ -165,21 +174,112 @@
       "area": "Ingeniería de telecomunicaciones",
       "studyType": "Grado en Ingeniería",
       "startDate": "2008-02-28",
-      "score": "NO CULMINADO(7mo Semestre)",
+      "score": "No culminado (7mo semestre)",
       "courses": []
     },
     {
       "institution": "Instituto universitario de tecnologia del estado portuguesa",
       "area": "Informática",
-      "studyType": "TSU en Informatica",
+      "studyType": "TSU en Informática",
       "startDate": "2012-12-31",
       "endDate": "2015-12-31",
       "score": "",
       "courses": []
     }
   ],
-  "awards": [],
+  "awards": [
+    {
+      "title": "Desarrollo de agentes de inteligencia artificial en Azure",
+      "date": "2025-10-15",
+      "awarder": "Microsoft Learn",
+      "summary": "Trofeo de ruta de aprendizaje completada. Todos los módulos aprobados."
+    },
+    {
+      "title": "Desarrollo de aplicaciones de IA generativas en Azure",
+      "date": "2025-10-09",
+      "awarder": "Microsoft Learn",
+      "summary": "Trofeo de ruta de aprendizaje completada. Todos los módulos aprobados."
+    },
+    {
+      "title": "Desarrollo de soluciones de inteligencia artificial generativa con Azure OpenAI Service",
+      "date": "2025-01-24",
+      "awarder": "Microsoft Learn",
+      "summary": "Trofeo de ruta de aprendizaje completada."
+    },
+    {
+      "title": "Desarrollo de soluciones con Documento de inteligencia de Azure AI",
+      "date": "2025-01-24",
+      "awarder": "Microsoft Learn",
+      "summary": "Trofeo de ruta de aprendizaje completada."
+    },
+    {
+      "title": "Implementación de la minería de conocimiento con Búsqueda de Azure AI",
+      "date": "2025-01-24",
+      "awarder": "Microsoft Learn",
+      "summary": "Trofeo de ruta de aprendizaje completada."
+    },
+    {
+      "title": "Desarrollo de soluciones de procesamiento del lenguaje natural con Servicios de Azure AI",
+      "date": "2025-01-24",
+      "awarder": "Microsoft Learn",
+      "summary": "Trofeo de ruta de aprendizaje completada."
+    },
+    {
+      "title": "Creación de soluciones de visión artificial con Visión de Azure AI",
+      "date": "2025-01-24",
+      "awarder": "Microsoft Learn",
+      "summary": "Trofeo de ruta de aprendizaje completada."
+    },
+    {
+      "title": "Creación de modelos de visión con Custom Vision de Azure AI",
+      "date": "2025-01-24",
+      "awarder": "Microsoft Learn",
+      "summary": "Trofeo de ruta de aprendizaje completada."
+    },
+    {
+      "title": "Introducción a Servicios de Azure AI",
+      "date": "2025-01-24",
+      "awarder": "Microsoft Learn",
+      "summary": "Trofeo de ruta de aprendizaje completada."
+    },
+    {
+      "title": "Introducción al control de versiones con Git",
+      "date": "2023-11-23",
+      "awarder": "Microsoft Learn",
+      "summary": "Trofeo de ruta de aprendizaje completada."
+    }
+  ],
   "certificates": [
+    {
+      "name": "Introduction to LLMs in Python",
+      "issuer": "DataCamp",
+      "date": "2025-02-19",
+      "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/80a6449734fa03469528ded3092446c55ddf490d"
+    },
+    {
+      "name": "Designing Agentic Systems with LangChain",
+      "issuer": "DataCamp",
+      "date": "2025-02-18",
+      "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/0a00cc345e8e50ae5375c10a40ccbebc2ea5e128"
+    },
+    {
+      "name": "Retrieval Augmented Generation (RAG) with LangChain",
+      "issuer": "DataCamp",
+      "date": "2025-02-17",
+      "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/c3df13cfe0ecb20229def3e27e53b31e5d050e3b"
+    },
+    {
+      "name": "Developing LLM Applications with LangChain",
+      "issuer": "DataCamp",
+      "date": "2025-02-17",
+      "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/ded5de00c8f5c1a675d7d805d4c2ca12f0626de4"
+    },
+    {
+      "name": "Designing and Implementing a Microsoft Azure AI Solution",
+      "issuer": "Microsoft Learn",
+      "date": "2025-01-24",
+      "url": "https://learn.microsoft.com/api/achievements/share/es-mx/rafnixg/WZLSFTHN?sharingId=7B61E5FADF0C6D76"
+    },
     {
       "name": "Bootcamp Azure AI Engineer Associate",
       "issuer": "Código Facilito",
@@ -338,7 +438,7 @@
         "Odoo ERP",
         "REST APIs",
         "GraphQL",
-        "Microservices Architecture",
+        "Microservices",
         "XML/XMLRPC"
       ]
     },
@@ -350,6 +450,7 @@
         "Celery",
         "Apache Airflow",
         "ETL Pipelines",
+        "Automation",
         "RPA",
         "Web Scraping",
         "BeautifulSoup"
@@ -451,8 +552,10 @@
     {
       "name": "AI Engineering & Agentic Systems",
       "keywords": [
+        "LLM",
         "LLM Application Design",
         "RAG Pipelines",
+        "Agentic AI",
         "Prompt Engineering",
         "Tool Calling",
         "LangGraph",
@@ -481,11 +584,11 @@
   ],
   "languages": [
     {
-      "language": "Español",
-      "fluency": "Nativo"
+      "fluency": "Native Speaker",
+      "language": "Español"
     },
     {
-      "fluency": "Profesional",
+      "fluency": "Professional Working",
       "language": "Inglés"
     }
   ],

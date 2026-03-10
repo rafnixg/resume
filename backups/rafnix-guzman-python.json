@@ -45,7 +45,7 @@
       "title": "Summary",
       "columns": 1,
       "hidden": false,
-      "content": "<p>Backend <strong>Python</strong> con <strong>+15</strong> años construyendo sistemas en producción: APIs (<strong>FastAPI, Django</strong>), integraciones complejas (<strong>REST, XMLRPC, SOA</strong>), automatizaciones y migración de sistemas legacy. Especialista en implementaciones ERP con <strong>Odoo</strong>, facturación electrónica y procesos <strong>ETL</strong> sobre <strong>PostgreSQL</strong>. Gestiono infraestructura propia (<strong>Proxmox, Docker, CI/CD</strong>) donde desarrollo, pruebo y despliego soluciones end-to-end. Experiencia en múltiples sectores: finanzas, retail, manufactura, telecomunicaciones y servicios. Complemento mi perfil backend con experiencia práctica en <strong>AI Engineering</strong>: diseño de pipelines <strong>RAG</strong>, agentes autónomos con <strong>LLMs</strong> y evaluación de modelos open-source, aplicando IA como herramienta para resolver problemas reales de negocio.</p>"
+      "content": "<p>Backend <strong>Python</strong> con <strong>+15</strong> años construyendo sistemas en producción: <strong>REST APIs</strong> con <strong>FastAPI</strong> y <strong>Django</strong>, integraciones complejas (<strong>REST, XMLRPC, SOA</strong>), <strong>automatización</strong>, <strong>microservicios</strong> y migración de sistemas legacy. Especialista en implementaciones <strong>Odoo ERP</strong>, facturación electrónica y procesos <strong>ETL</strong> sobre <strong>PostgreSQL</strong>. Gestiono infraestructura propia (<strong>Proxmox, Docker, Kubernetes, CI/CD</strong>) donde desarrollo, pruebo y despliego soluciones end-to-end. Experiencia en múltiples sectores: finanzas, retail, manufactura, telecomunicaciones y servicios. Complemento mi perfil backend con experiencia práctica en <strong>AI Engineering</strong>: diseño de <strong>RAG Pipelines</strong>, <strong>Agentic AI</strong>, <strong>Prompt Engineering</strong> y soluciones con <strong>LLM</strong>, aplicando IA como herramienta para resolver problemas reales de negocio.</p>"
     },
     "sections": {
       "profiles": {
@@ -107,7 +107,7 @@
               "url": "https://www.linkedin.com/company/kimenz/",
               "label": ""
             },
-            "description": "<p>Desarrollo y mantenimiento de módulos personalizados de <strong>Odoo</strong> para gestión de servicio de campo, mejorando la coordinación y trazabilidad de tareas técnicas en terreno. Resolución de errores críticos en producción que impactaban la operación diaria del equipo de ingeniería clínica. Diseño y despliegue de infraestructura productiva basada en Proxmox con contenedores LXC, asegurando disponibilidad del sistema ERP y reducción de costos operativos.</p>",
+            "description": "<p>Desarrollo y mantenimiento de módulos personalizados de <strong>Odoo ERP</strong> para gestión de servicio de campo, mejorando la coordinación y trazabilidad de tareas técnicas en terreno. Resolución de errores críticos en producción que impactaban la operación diaria del equipo de ingeniería clínica. Diseño y despliegue de infraestructura productiva basada en Proxmox con contenedores LXC, asegurando disponibilidad del ERP y reducción de costos operativos.</p>",
             "roles": []
           },
           {
@@ -307,14 +307,14 @@
             "school": "Platzi",
             "degree": "Desarrollo Backend con Python y Django",
             "area": "Programación informática",
-            "grade": "",
+            "grade": "Completado 2022",
             "location": "",
             "period": "2019-12-31 - 2022-12-31",
             "website": {
               "url": "",
               "label": ""
             },
-            "description": ""
+            "description": "Ruta completada centrada en Python, Django, FastAPI, REST APIs y diseño de software."
           },
           {
             "id": "moultmljpd5ux0fxkbm8v8y0",
@@ -322,14 +322,14 @@
             "school": "Universidad de Carabobo",
             "degree": "Grado en Ingeniería",
             "area": "Ingeniería de telecomunicaciones",
-            "grade": "NO CULMINADO(7mo Semestre)",
+            "grade": "No culminado (7mo semestre)",
             "location": "",
-            "period": "2008-02-28 - undefined",
+            "period": "2008-02-28",
             "website": {
               "url": "",
               "label": ""
             },
-            "description": ""
+            "description": "Cursado aprobado hasta 7mo semestre con formación en telecomunicaciones, redes y análisis de sistemas."
           },
           {
             "id": "m2knoq2bxxy8y8p35vbfhe7g",
@@ -455,7 +455,7 @@
               "Odoo ERP",
               "REST APIs",
               "GraphQL",
-              "Microservices Architecture",
+              "Microservices",
               "XML/XMLRPC"
             ]
           },
@@ -471,6 +471,7 @@
               "Celery",
               "Apache Airflow",
               "ETL Pipelines",
+              "Automation",
               "RPA",
               "Web Scraping",
               "BeautifulSoup"
@@ -605,8 +606,10 @@
             "proficiency": "Advanced",
             "level": 1,
             "keywords": [
+              "LLM",
               "LLM Application Design",
               "RAG Pipelines",
+              "Agentic AI",
               "Prompt Engineering",
               "Tool Calling",
               "LangGraph",
@@ -645,13 +648,6 @@
         "hidden": true,
         "items": [
           {
-            "id": "m3e7u5f91no17uhr30ruw90q",
-            "hidden": false,
-            "language": "es",
-            "fluency": "Native Speaker",
-            "level": 1
-          },
-          {
             "id": "hjt6q4vr6h06ijbgirm3trg8",
             "hidden": false,
             "language": "Español",
@@ -677,13 +673,194 @@
         "title": "Awards",
         "columns": 1,
         "hidden": false,
-        "items": []
+        "items": [
+          {
+            "id": "microsoft_learn_ai_agents_azure_2025",
+            "hidden": false,
+            "title": "Desarrollo de agentes de inteligencia artificial en Azure",
+            "awarder": "Microsoft Learn",
+            "date": "2025-10-15",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/develop-ai-agents-on-azure/",
+              "label": ""
+            },
+            "summary": "Trofeo de ruta de aprendizaje completada. Todos los módulos aprobados."
+          },
+          {
+            "id": "microsoft_learn_genai_apps_azure_2025",
+            "hidden": false,
+            "title": "Desarrollo de aplicaciones de IA generativas en Azure",
+            "awarder": "Microsoft Learn",
+            "date": "2025-10-09",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/create-custom-copilots-ai-studio/",
+              "label": ""
+            },
+            "summary": "Trofeo de ruta de aprendizaje completada. Todos los módulos aprobados."
+          },
+          {
+            "id": "microsoft_learn_azure_openai_path_2025",
+            "hidden": false,
+            "title": "Desarrollo de soluciones de inteligencia artificial generativa con Azure OpenAI Service",
+            "awarder": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/develop-ai-solutions-azure-openai/",
+              "label": ""
+            },
+            "summary": "Trofeo de ruta de aprendizaje completada."
+          },
+          {
+            "id": "microsoft_learn_document_intelligence_2025",
+            "hidden": false,
+            "title": "Desarrollo de soluciones con Documento de inteligencia de Azure AI",
+            "awarder": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/extract-data-from-forms-document-intelligence/",
+              "label": ""
+            },
+            "summary": "Trofeo de ruta de aprendizaje completada."
+          },
+          {
+            "id": "microsoft_learn_knowledge_mining_2025",
+            "hidden": false,
+            "title": "Implementación de la minería de conocimiento con Búsqueda de Azure AI",
+            "awarder": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/implement-knowledge-mining-azure-cognitive-search/",
+              "label": ""
+            },
+            "summary": "Trofeo de ruta de aprendizaje completada."
+          },
+          {
+            "id": "microsoft_learn_nlp_azure_ai_2025",
+            "hidden": false,
+            "title": "Desarrollo de soluciones de procesamiento del lenguaje natural con Servicios de Azure AI",
+            "awarder": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/develop-language-solutions-azure-ai/",
+              "label": ""
+            },
+            "summary": "Trofeo de ruta de aprendizaje completada."
+          },
+          {
+            "id": "microsoft_learn_computer_vision_2025",
+            "hidden": false,
+            "title": "Creación de soluciones de visión artificial con Visión de Azure AI",
+            "awarder": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/create-computer-vision-solutions-azure-ai/",
+              "label": ""
+            },
+            "summary": "Trofeo de ruta de aprendizaje completada."
+          },
+          {
+            "id": "microsoft_learn_custom_vision_2025",
+            "hidden": false,
+            "title": "Creación de modelos de visión con Custom Vision de Azure AI",
+            "awarder": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/create-models-custom-vision/",
+              "label": ""
+            },
+            "summary": "Trofeo de ruta de aprendizaje completada."
+          },
+          {
+            "id": "microsoft_learn_intro_azure_ai_2025",
+            "hidden": false,
+            "title": "Introducción a Servicios de Azure AI",
+            "awarder": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/get-started-azure-ai/",
+              "label": ""
+            },
+            "summary": "Trofeo de ruta de aprendizaje completada."
+          },
+          {
+            "id": "microsoft_learn_git_intro_2023",
+            "hidden": false,
+            "title": "Introducción al control de versiones con Git",
+            "awarder": "Microsoft Learn",
+            "date": "2023-11-23",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/intro-to-vc-git/",
+              "label": ""
+            },
+            "summary": "Trofeo de ruta de aprendizaje completada."
+          }
+        ]
       },
       "certifications": {
         "title": "Certifications",
         "columns": 1,
-        "hidden": true,
+        "hidden": false,
         "items": [
+          {
+            "id": "datacamp_intro_llms_python_2025",
+            "hidden": false,
+            "title": "Introduction to LLMs in Python",
+            "issuer": "DataCamp",
+            "date": "2025-02-19",
+            "website": {
+              "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/80a6449734fa03469528ded3092446c55ddf490d",
+              "label": ""
+            },
+            "description": ""
+          },
+          {
+            "id": "datacamp_agentic_langchain_2025",
+            "hidden": false,
+            "title": "Designing Agentic Systems with LangChain",
+            "issuer": "DataCamp",
+            "date": "2025-02-18",
+            "website": {
+              "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/0a00cc345e8e50ae5375c10a40ccbebc2ea5e128",
+              "label": ""
+            },
+            "description": ""
+          },
+          {
+            "id": "datacamp_rag_langchain_2025",
+            "hidden": false,
+            "title": "Retrieval Augmented Generation (RAG) with LangChain",
+            "issuer": "DataCamp",
+            "date": "2025-02-17",
+            "website": {
+              "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/c3df13cfe0ecb20229def3e27e53b31e5d050e3b",
+              "label": ""
+            },
+            "description": ""
+          },
+          {
+            "id": "datacamp_llm_apps_langchain_2025",
+            "hidden": false,
+            "title": "Developing LLM Applications with LangChain",
+            "issuer": "DataCamp",
+            "date": "2025-02-17",
+            "website": {
+              "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/ded5de00c8f5c1a675d7d805d4c2ca12f0626de4",
+              "label": ""
+            },
+            "description": ""
+          },
+          {
+            "id": "mslearn_azure_ai_solution_2025",
+            "hidden": false,
+            "title": "Designing and Implementing a Microsoft Azure AI Solution",
+            "issuer": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/api/achievements/share/es-mx/rafnixg/WZLSFTHN?sharingId=7B61E5FADF0C6D76",
+              "label": ""
+            },
+            "description": ""
+          },
           {
             "id": "ptyxpreupbv935jn6pq44cck",
             "hidden": false,
@@ -722,7 +899,7 @@
           },
           {
             "id": "zfsxw24hpytlf6wnsw9qgrgn",
-            "hidden": false,
+            "hidden": true,
             "title": "Curso para consumir APIs con Python",
             "issuer": "Código Facilito",
             "date": "2023-04-27",
@@ -734,7 +911,7 @@
           },
           {
             "id": "l8vkb4qid4r4epm9lcr8ptra",
-            "hidden": false,
+            "hidden": true,
             "title": "Curso Profesional de Python",
             "issuer": "Platzi",
             "date": "2022-05-31",
@@ -746,7 +923,7 @@
           },
           {
             "id": "fkj9s8dz2zwrytgxvoi1ulqh",
-            "hidden": false,
+            "hidden": true,
             "title": "Curso de FastAPI: Fundamentos, Path Operations y Validaciones",
             "issuer": "Platzi",
             "date": "2022-03-31",
@@ -758,7 +935,7 @@
           },
           {
             "id": "hyqc1za5ou3o7f4psiho92hn",
-            "hidden": false,
+            "hidden": true,
             "title": "Curso de FastAPI: Modularización, Datos Avanzados y Errores",
             "issuer": "Platzi",
             "date": "2022-03-31",
@@ -770,7 +947,7 @@
           },
           {
             "id": "bn0llua6gs4wzipepelck2px",
-            "hidden": false,
+            "hidden": true,
             "title": "Curso de Introducción al Desarrollo Backend",
             "issuer": "Platzi",
             "date": "2022-03-31",
@@ -782,7 +959,7 @@
           },
           {
             "id": "z3cv3d1ofqf4q8fx9cok38gh",
-            "hidden": false,
+            "hidden": true,
             "title": "Curso de Python Intermedio: Comprehensions, Lambdas y Manejo de Errores",
             "issuer": "Platzi",
             "date": "2022-03-31",
@@ -794,7 +971,7 @@
           },
           {
             "id": "pku1p21s3gpy7ormh9q57yw0",
-            "hidden": false,
+            "hidden": true,
             "title": "Desarrollo Backend con Python y Django",
             "issuer": "Platzi",
             "date": "2022-03-31",
@@ -806,7 +983,7 @@
           },
           {
             "id": "h48ytrwv8p1eeurwrxn4yx7p",
-            "hidden": false,
+            "hidden": true,
             "title": "Curso de Estructuras de Datos Lineales con Python",
             "issuer": "Platzi",
             "date": "2021-11-30",
@@ -818,7 +995,7 @@
           },
           {
             "id": "v63cmt8v0i7gx5nxdiu75vvs",
-            "hidden": false,
+            "hidden": true,
             "title": "Curso de Fundamentos de AWS Cloud",
             "issuer": "Platzi",
             "date": "2021-08-31",
@@ -830,7 +1007,7 @@
           },
           {
             "id": "zqccw6lklls6t9bkkudcoea8",
-            "hidden": false,
+            "hidden": true,
             "title": "Curso de Introducción a la Terminal y Línea de Comandos",
             "issuer": "Platzi",
             "date": "2021-07-31",
@@ -842,7 +1019,7 @@
           },
           {
             "id": "fbrbkfxkcgb5jtex2xrngc9h",
-            "hidden": false,
+            "hidden": true,
             "title": "Curso Básico de Web Components con JavaScript",
             "issuer": "Platzi",
             "date": "2021-06-30",
@@ -854,7 +1031,7 @@
           },
           {
             "id": "gyf8sof8a0gd3uwfjptt4a0r",
-            "hidden": false,
+            "hidden": true,
             "title": "Curso Práctico de JavaScript",
             "issuer": "Platzi",
             "date": "2021-06-30",
@@ -866,7 +1043,7 @@
           },
           {
             "id": "ogwjfcqw2kg4orci9g99k331",
-            "hidden": false,
+            "hidden": true,
             "title": "Curso de Single Page Application con JavaScript Vanilla",
             "issuer": "Platzi",
             "date": "2021-06-30",
@@ -878,7 +1055,7 @@
           },
           {
             "id": "wtc2icdrsu5hjq6ypezw0trl",
-            "hidden": false,
+            "hidden": true,
             "title": "EF SET English Certificate 54/100 (B2 Upper Intermediate)",
             "issuer": "EF Standard English Test (EF SET)",
             "date": "2021-04-30",
@@ -890,7 +1067,7 @@
           },
           {
             "id": "yrfc9lnzle08yk3b3c3ioibx",
-            "hidden": false,
+            "hidden": true,
             "title": "Curso Profesional de DevOps",
             "issuer": "Platzi",
             "date": "2021-03-31",
@@ -902,7 +1079,7 @@
           },
           {
             "id": "dmpbrwhwnj3qp9tu0xfi4ob2",
-            "hidden": false,
+            "hidden": true,
             "title": "Infraestructura Como Código con Terraform",
             "issuer": "Platzi",
             "date": "2021-03-31",
@@ -914,7 +1091,7 @@
           },
           {
             "id": "mphsdzqg8k8bt32l7dd6f35n",
-            "hidden": false,
+            "hidden": true,
             "title": "Manipulación del DOM",
             "issuer": "Platzi",
             "date": "2021-03-31",
@@ -926,7 +1103,7 @@
           },
           {
             "id": "m6exv4661or8a9y3c8xve1g0",
-            "hidden": false,
+            "hidden": true,
             "title": "Python for Data Science",
             "issuer": "IBM",
             "date": "2021-03-31",
@@ -938,7 +1115,7 @@
           },
           {
             "id": "r9mo82uok6xp2owfkw1hdj28",
-            "hidden": false,
+            "hidden": true,
             "title": "Travis CI",
             "issuer": "Platzi",
             "date": "2021-03-31",
@@ -950,7 +1127,7 @@
           },
           {
             "id": "yt5b60a3jg1m9ben1orl3fbx",
-            "hidden": false,
+            "hidden": true,
             "title": "Reto Road to Code",
             "issuer": "Platzi",
             "date": "2020-11-30",
@@ -962,7 +1139,7 @@
           },
           {
             "id": "o4id0wd6iut062kahwqq3cke",
-            "hidden": false,
+            "hidden": true,
             "title": "Curso Básico de Python",
             "issuer": "Platzi",
             "date": "2020-10-31",

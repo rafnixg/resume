@@ -27,10 +27,11 @@ class RxResumeClient:
         url = f"{self.base_url}/{endpoint.lstrip('/')}"
         headers = {"x-api-key": self.api_key}
         kwargs.setdefault("timeout", 60)
+        timeout = kwargs.pop("timeout")
 
         for attempt in range(MAX_RETRIES):
             try:
-                resp = requests.request(method, url, headers=headers, **kwargs)
+                resp = requests.request(method, url, headers=headers, timeout=timeout, **kwargs)
                 resp.raise_for_status()
                 return resp.json()
             except requests.exceptions.HTTPError as e:
@@ -49,6 +50,13 @@ class RxResumeClient:
     def list_resumes(self):
         """List all resumes (metadata only)."""
         return self._request("GET", "resumes", params={"sort": "lastUpdatedAt"})
+
+    def find_resume_by_slug(self, slug):
+        """Find a resume metadata entry by slug."""
+        for resume in self.list_resumes():
+            if resume.get("slug") == slug:
+                return resume
+        return None
 
     def get_resume(self, resume_id):
         """Get full resume data by ID."""
@@ -101,6 +109,47 @@ class RxResumeClient:
 
         result = self.update_resume(resume_id, data)
         print(f"  Imported '{name}' as {resume_id}")
+        return result
+
+    def sync_resume(self, backup):
+        """Update an existing resume from a backup, or create it if it does not exist.
+
+        Matching priority:
+        1. Exact backup ID, if it still exists remotely.
+        2. Slug match.
+        3. Create a new resume if nothing matches.
+        """
+        name = backup.get("name", "imported-resume")
+        slug = backup.get("slug", name)
+        tags = backup.get("tags", [])
+        data = backup.get("data", {})
+        backup_id = backup.get("id")
+
+        resume_id = None
+
+        if backup_id:
+            try:
+                existing = self.get_resume(backup_id)
+                resume_id = existing.get("id")
+            except SystemExit:
+                resume_id = None
+
+        if not resume_id and slug:
+            existing = self.find_resume_by_slug(slug)
+            if existing:
+                resume_id = existing.get("id")
+
+        if resume_id:
+            result = self.update_resume(resume_id, data)
+            print(f"  Synced '{name}' into existing resume {resume_id}")
+            return result
+
+        resume_id = self.create_resume(name, slug, tags)
+        if not resume_id:
+            raise RuntimeError("Failed to create resume: no ID returned")
+
+        result = self.update_resume(resume_id, data)
+        print(f"  Created and synced '{name}' as {resume_id}")
         return result
 
     @staticmethod
