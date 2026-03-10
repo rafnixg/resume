@@ -49,7 +49,6 @@
             padding: 2rem 1.5rem;
         }
 
-        /* Header */
         .resume-header {
             background: var(--color-surface);
             border-bottom: 1px solid var(--color-border);
@@ -102,7 +101,6 @@
         }
         .download-btn:hover { background: #404040; text-decoration: none; }
 
-        /* Summary */
         .summary {
             border-bottom: 1px solid var(--color-border);
             padding: 1.5rem 0;
@@ -111,10 +109,11 @@
             font-size: 0.9rem;
             color: var(--color-text);
             line-height: 1.7;
+            margin-bottom: 0.5rem;
         }
+        .summary p:last-child { margin-bottom: 0; }
         .summary strong { font-weight: 600; }
 
-        /* Sections */
         .section {
             padding: 1.5rem 0;
             border-bottom: 1px solid var(--color-border);
@@ -129,12 +128,10 @@
             letter-spacing: 0.08em;
             color: var(--color-primary);
             margin-bottom: 1rem;
+            margin-top: 1.5rem;
         }
 
-        /* Entry (experience, education, project) */
-        .entry {
-            margin-bottom: 1.25rem;
-        }
+        .entry { margin-bottom: 1.25rem; }
         .entry:last-child { margin-bottom: 0; }
 
         .entry-header {
@@ -162,23 +159,10 @@
         .entry-title a { color: var(--color-text); }
         .entry-title a:hover { color: var(--color-primary); }
 
-        .entry-subtitle {
-            font-size: 0.85rem;
-            color: var(--color-muted);
-        }
-        .entry-period {
-            font-size: 0.8rem;
-            color: var(--color-muted);
-            white-space: nowrap;
-        }
-        .entry-area {
-            font-size: 0.78rem;
-            color: var(--color-muted);
-        }
-        .location {
-            font-size: 0.78rem;
-            color: var(--color-muted);
-        }
+        .entry-subtitle { font-size: 0.85rem; color: var(--color-muted); }
+        .entry-period { font-size: 0.8rem; color: var(--color-muted); white-space: nowrap; }
+        .entry-area { font-size: 0.78rem; color: var(--color-muted); }
+        .location { font-size: 0.78rem; color: var(--color-muted); }
 
         .entry-body {
             font-size: 0.85rem;
@@ -189,8 +173,8 @@
         .entry-body p { margin-bottom: 0.5rem; }
         .entry-body p:last-child { margin-bottom: 0; }
         .entry-body a { color: var(--color-primary); }
+        .entry-tags { font-size: 0.78rem; color: var(--color-primary); margin-top: 0.25rem; }
 
-        /* Skills grid */
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -222,7 +206,6 @@
             line-height: 1.5;
         }
 
-        /* Certifications grid */
         .certs-grid {
             display: grid;
             grid-template-columns: 1fr;
@@ -244,7 +227,6 @@
             flex-shrink: 0;
         }
 
-        /* References */
         .reference-item {
             padding: 0.75rem;
             background: var(--color-bg);
@@ -256,7 +238,6 @@
             font-style: italic;
         }
 
-        /* Languages */
         .langs-grid {
             display: flex;
             gap: 1.5rem;
@@ -267,7 +248,6 @@
             margin-left: 0.25rem;
         }
 
-        /* Footer */
         .resume-footer {
             text-align: center;
             padding: 1.5rem 0;
@@ -275,7 +255,6 @@
             color: var(--color-muted);
         }
 
-        /* Responsive */
         @media (max-width: 640px) {
             .resume-header .container { flex-direction: column; }
             .entry-header { flex-direction: column; gap: 0.15rem; }
@@ -283,7 +262,6 @@
             .skills-grid { grid-template-columns: 1fr; }
         }
 
-        /* Print */
         @media print {
             body { background: #fff; }
             .download-btn { display: none; }
@@ -300,10 +278,7 @@
                 <div class="headline">Python Backend | AI Engineer | Odoo Developer</div>
                 <div class="contact"><a href="mailto:rafnixg@gmail.com">rafnixg@gmail.com</a> <span class="sep">&middot;</span> <span>Lima, Peru</span> <span class="sep">&middot;</span> <a href="https://links.rafnixg.dev" target="_blank" rel="noopener">https://links.rafnixg.dev</a></div>
             </div>
-            <a class="download-btn" href="../assets/rafnix-guzman-python-en.pdf" download>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-            Descargar PDF
-        </a>
+            <a class="download-btn" href="../assets/rafnix-guzman-python-en.pdf" download><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> Descargar PDF</a>
         </div>
     </div>
 
