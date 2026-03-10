@@ -1,0 +1,10 @@
+/* TEAM */
+Author: Rafnix Gabriel Guzman Garcia
+Site: https://resume.rafnixg.dev
+Contact: https://links.rafnixg.dev
+
+/* SITE */
+Stack: Static HTML, JSON Resume, Reactive Resume, Python
+Generated with: Python export pipeline
+Analytics: Umami
+Sitemap: https://resume.rafnixg.dev/sitemap.xml

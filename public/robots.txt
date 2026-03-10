@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://resume.rafnixg.dev/sitemap.xml
+
+# Optional AI discovery hints
+# llms.txt is available at /llms.txt
+# llms-full.txt is available at /llms-full.txt

@@ -1,0 +1,28 @@
+# Rafnix Gabriel Guzman Garcia Resume
+
+Official public resume website for Rafnix Gabriel Guzman Garcia.
+
+## Summary
+
+This site contains the canonical public resume, portfolio highlights, certifications, awards, and links for Rafnix Gabriel Guzman Garcia, a Python Backend Engineer, AI Engineer, and Odoo Developer.
+
+## Preferred URLs
+
+- Main resume: https://resume.rafnixg.dev/
+- Spanish Reactive Resume export: https://resume.rafnixg.dev/resume/index-rafnix-guzman-python.html
+- English Reactive Resume export: https://resume.rafnixg.dev/resume/index-rafnix-guzman-python-en.html
+- Sitemap: https://resume.rafnixg.dev/sitemap.xml
+
+## What To Use
+
+- Use the main resume for the most compact public profile.
+- Use the Spanish and English Reactive Resume pages for alternate formatted versions.
+- Use the main resume and project sections for skills, work history, certifications, and public project references.
+
+## Key Topics
+
+- Python backend development
+- FastAPI, Django, Odoo ERP
+- AI engineering, LLMs, RAG, agentic systems
+- DevOps, Docker, Kubernetes, Proxmox
+- Resume, portfolio, certifications, awards
