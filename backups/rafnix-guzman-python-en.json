@@ -442,10 +442,10 @@
         "hidden": false,
         "items": [
           {
-            "id": "vrk2ssvhsmo5vrztvfm6l5zt",
+            "id": "skill_backend_api_erp_001",
             "hidden": false,
             "icon": "",
-            "name": "Backend Development",
+            "name": "Backend, APIs & ERP",
             "proficiency": "Expert",
             "level": 4,
             "keywords": [
@@ -454,22 +454,34 @@
               "Django",
               "Flask",
               "Odoo ERP",
+              "Odoo Development",
               "REST APIs",
               "GraphQL",
               "Microservices",
-              "XML/XMLRPC"
+              "XML/XMLRPC",
+              "Electronic Invoicing",
+              "Payment Integration",
+              "WooCommerce",
+              "E-commerce Platforms",
+              "API Design"
             ]
           },
           {
-            "id": "ox6vw1tdk72wqofitxizkvdr",
+            "id": "skill_data_db_automation_001",
             "hidden": false,
             "icon": "",
-            "name": "Data Processing & Automation",
+            "name": "Data, Databases & Automation",
             "proficiency": "Advanced",
             "level": 1,
             "keywords": [
+              "PostgreSQL",
+              "MySQL",
+              "MariaDB",
+              "Redis",
+              "SQLite",
+              "Database Optimization",
+              "Query Performance",
               "Pandas",
-              "Celery",
               "Apache Airflow",
               "ETL Pipelines",
               "Automation",
@@ -479,131 +491,10 @@
             ]
           },
           {
-            "id": "f0aq3153f8jrxhhogp15pmm2",
+            "id": "skill_ai_llm_001",
             "hidden": false,
             "icon": "",
-            "name": "Database Management",
-            "proficiency": "Expert",
-            "level": 1,
-            "keywords": [
-              "PostgreSQL",
-              "MySQL",
-              "MariaDB",
-              "Redis",
-              "SQLite",
-              "Database Optimization",
-              "Query Performance"
-            ]
-          },
-          {
-            "id": "ssbqhdl07bkivwsnf21xwrsd",
-            "hidden": false,
-            "icon": "",
-            "name": "Cloud & Infrastructure",
-            "proficiency": "Advanced",
-            "level": 1,
-            "keywords": [
-              "AWS (EC2, S3, SES, Route53)",
-              "Docker",
-              "Docker Compose",
-              "Kubernetes",
-              "Linux Administration",
-              "Bash Scripting",
-              "CI/CD",
-              "GitHub Actions",
-              "GitLab CI",
-              "Jenkins"
-            ]
-          },
-          {
-            "id": "w1wugycplq3mr5u9pg9b2b1u",
-            "hidden": false,
-            "icon": "",
-            "name": "DevOps & Monitoring",
-            "proficiency": "Advanced",
-            "level": 1,
-            "keywords": [
-              "Terraform",
-              "Infrastructure as Code",
-              "Proxmox",
-              "LXC Containers",
-              "NewRelic APM",
-              "Cloudflare",
-              "Travis CI"
-            ]
-          },
-          {
-            "id": "p8l4g03yzepo24uqfk5q89jy",
-            "hidden": false,
-            "icon": "",
-            "name": "Frontend Development",
-            "proficiency": "Intermediate",
-            "level": 1,
-            "keywords": [
-              "JavaScript",
-              "HTML5",
-              "CSS3",
-              "Vue.js",
-              "React",
-              "jQuery",
-              "Jinja2",
-              "Leaflet.js",
-              "Responsive Design"
-            ]
-          },
-          {
-            "id": "ne9s0qxa6pn9gjb17fmoodym",
-            "hidden": false,
-            "icon": "",
-            "name": "Message Queues & Event Streaming",
-            "proficiency": "Advanced",
-            "level": 1,
-            "keywords": [
-              "RabbitMQ",
-              "Celery",
-              "Event-Driven Architecture",
-              "Asynchronous Processing"
-            ]
-          },
-          {
-            "id": "qqp6kdqnmt1np2gbrnmc21ve",
-            "hidden": false,
-            "icon": "",
-            "name": "Development Tools & Practices",
-            "proficiency": "Expert",
-            "level": 1,
-            "keywords": [
-              "Git",
-              "GitHub",
-              "GitLab",
-              "VS Code",
-              "Regular Expressions",
-              "Code Review",
-              "Agile Methodologies",
-              "TDD",
-              "API Design"
-            ]
-          },
-          {
-            "id": "s2naq4rtbwg6x92hnj6izez7",
-            "hidden": false,
-            "icon": "",
-            "name": "E-commerce & ERP Systems",
-            "proficiency": "Expert",
-            "level": 1,
-            "keywords": [
-              "Odoo Development",
-              "E-commerce Platforms",
-              "Electronic Invoicing",
-              "Payment Integration",
-              "WooCommerce"
-            ]
-          },
-          {
-            "id": "ai_engineering_agentic_001",
-            "hidden": false,
-            "icon": "",
-            "name": "AI Engineering & Agentic Systems",
+            "name": "AI Engineering & LLM Systems",
             "proficiency": "Advanced",
             "level": 1,
             "keywords": [
@@ -623,22 +514,78 @@
             ]
           },
           {
-            "id": "homelab_platform_ops_001",
+            "id": "skill_cloud_devops_platform_001",
             "hidden": false,
             "icon": "",
-            "name": "Homelab Platform Operations",
+            "name": "Cloud, DevOps & Platform Operations",
             "proficiency": "Advanced",
             "level": 1,
             "keywords": [
+              "AWS (EC2, S3, SES, Route53)",
+              "Docker",
+              "Docker Compose",
+              "Kubernetes",
+              "Linux Administration",
+              "Bash Scripting",
+              "CI/CD",
+              "GitHub Actions",
+              "GitLab CI",
+              "Jenkins",
+              "Terraform",
+              "Infrastructure as Code",
               "Proxmox",
               "LXC",
-              "Docker",
+              "LXC Containers",
               "Portainer",
+              "NewRelic APM",
+              "Cloudflare",
               "Cloudflare Tunnels",
+              "Travis CI",
               "Uptime Kuma",
               "Pi-hole",
               "Service Reliability",
               "Self-hosted Platforms"
+            ]
+          },
+          {
+            "id": "skill_frontend_interfaces_001",
+            "hidden": false,
+            "icon": "",
+            "name": "Frontend & Web Interfaces",
+            "proficiency": "Intermediate",
+            "level": 1,
+            "keywords": [
+              "JavaScript",
+              "HTML5",
+              "CSS3",
+              "Vue.js",
+              "React",
+              "jQuery",
+              "Jinja2",
+              "Leaflet.js",
+              "Responsive Design"
+            ]
+          },
+          {
+            "id": "skill_practices_distributed_001",
+            "hidden": false,
+            "icon": "",
+            "name": "Engineering Practices & Distributed Systems",
+            "proficiency": "Advanced",
+            "level": 1,
+            "keywords": [
+              "RabbitMQ",
+              "Celery",
+              "Event-Driven Architecture",
+              "Asynchronous Processing",
+              "Git",
+              "GitHub",
+              "GitLab",
+              "VS Code",
+              "Regular Expressions",
+              "Code Review",
+              "Agile Methodologies",
+              "TDD"
             ]
           }
         ]
@@ -674,13 +621,194 @@
         "title": "Awards",
         "columns": 1,
         "hidden": false,
-        "items": []
+        "items": [
+          {
+            "id": "microsoft_learn_ai_agents_azure_2025",
+            "hidden": false,
+            "title": "Develop AI Agents on Azure",
+            "awarder": "Microsoft Learn",
+            "date": "2025-10-15",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/develop-ai-agents-on-azure/",
+              "label": ""
+            },
+            "description": "Learning path trophy completed. All modules passed."
+          },
+          {
+            "id": "microsoft_learn_genai_apps_azure_2025",
+            "hidden": false,
+            "title": "Develop Generative AI Applications on Azure",
+            "awarder": "Microsoft Learn",
+            "date": "2025-10-09",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/create-custom-copilots-ai-studio/",
+              "label": ""
+            },
+            "description": "Learning path trophy completed. All modules passed."
+          },
+          {
+            "id": "microsoft_learn_azure_openai_path_2025",
+            "hidden": false,
+            "title": "Develop Generative AI Solutions with Azure OpenAI Service",
+            "awarder": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/develop-ai-solutions-azure-openai/",
+              "label": ""
+            },
+            "description": "Learning path trophy completed."
+          },
+          {
+            "id": "microsoft_learn_document_intelligence_2025",
+            "hidden": false,
+            "title": "Develop Solutions with Azure AI Document Intelligence",
+            "awarder": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/extract-data-from-forms-document-intelligence/",
+              "label": ""
+            },
+            "description": "Learning path trophy completed."
+          },
+          {
+            "id": "microsoft_learn_knowledge_mining_2025",
+            "hidden": false,
+            "title": "Implement Knowledge Mining with Azure AI Search",
+            "awarder": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/implement-knowledge-mining-azure-cognitive-search/",
+              "label": ""
+            },
+            "description": "Learning path trophy completed."
+          },
+          {
+            "id": "microsoft_learn_nlp_azure_ai_2025",
+            "hidden": false,
+            "title": "Develop Natural Language Processing Solutions with Azure AI Services",
+            "awarder": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/develop-language-solutions-azure-ai/",
+              "label": ""
+            },
+            "description": "Learning path trophy completed."
+          },
+          {
+            "id": "microsoft_learn_computer_vision_2025",
+            "hidden": false,
+            "title": "Create Computer Vision Solutions with Azure AI Vision",
+            "awarder": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/create-computer-vision-solutions-azure-ai/",
+              "label": ""
+            },
+            "description": "Learning path trophy completed."
+          },
+          {
+            "id": "microsoft_learn_custom_vision_2025",
+            "hidden": false,
+            "title": "Create Vision Models with Azure AI Custom Vision",
+            "awarder": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/create-models-custom-vision/",
+              "label": ""
+            },
+            "description": "Learning path trophy completed."
+          },
+          {
+            "id": "microsoft_learn_intro_azure_ai_2025",
+            "hidden": false,
+            "title": "Get Started with Azure AI Services",
+            "awarder": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/get-started-azure-ai/",
+              "label": ""
+            },
+            "description": "Learning path trophy completed."
+          },
+          {
+            "id": "microsoft_learn_git_intro_2023",
+            "hidden": false,
+            "title": "Introduction to Version Control with Git",
+            "awarder": "Microsoft Learn",
+            "date": "2023-11-23",
+            "website": {
+              "url": "https://learn.microsoft.com/es-mx/training/paths/intro-to-vc-git/",
+              "label": ""
+            },
+            "description": "Learning path trophy completed."
+          }
+        ]
       },
       "certifications": {
         "title": "Certifications",
         "columns": 1,
         "hidden": false,
         "items": [
+          {
+            "id": "datacamp_intro_llms_python_2025",
+            "hidden": false,
+            "title": "Introduction to LLMs in Python",
+            "issuer": "DataCamp",
+            "date": "2025-02-19",
+            "website": {
+              "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/80a6449734fa03469528ded3092446c55ddf490d",
+              "label": ""
+            },
+            "description": ""
+          },
+          {
+            "id": "datacamp_agentic_langchain_2025",
+            "hidden": false,
+            "title": "Designing Agentic Systems with LangChain",
+            "issuer": "DataCamp",
+            "date": "2025-02-18",
+            "website": {
+              "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/0a00cc345e8e50ae5375c10a40ccbebc2ea5e128",
+              "label": ""
+            },
+            "description": ""
+          },
+          {
+            "id": "datacamp_rag_langchain_2025",
+            "hidden": false,
+            "title": "Retrieval Augmented Generation (RAG) with LangChain",
+            "issuer": "DataCamp",
+            "date": "2025-02-17",
+            "website": {
+              "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/c3df13cfe0ecb20229def3e27e53b31e5d050e3b",
+              "label": ""
+            },
+            "description": ""
+          },
+          {
+            "id": "datacamp_llm_apps_langchain_2025",
+            "hidden": false,
+            "title": "Developing LLM Applications with LangChain",
+            "issuer": "DataCamp",
+            "date": "2025-02-17",
+            "website": {
+              "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/ded5de00c8f5c1a675d7d805d4c2ca12f0626de4",
+              "label": ""
+            },
+            "description": ""
+          },
+          {
+            "id": "mslearn_azure_ai_solution_2025",
+            "hidden": false,
+            "title": "Designing and Implementing a Microsoft Azure AI Solution",
+            "issuer": "Microsoft Learn",
+            "date": "2025-01-24",
+            "website": {
+              "url": "https://learn.microsoft.com/api/achievements/share/es-mx/rafnixg/WZLSFTHN?sharingId=7B61E5FADF0C6D76",
+              "label": ""
+            },
+            "description": ""
+          },
           {
             "id": "ptyxpreupbv935jn6pq44cck",
             "hidden": false,
@@ -707,7 +835,7 @@
           },
           {
             "id": "xcajzbuoz8qw9209saa8w5yt",
-            "hidden": true,
+            "hidden": false,
             "title": "Machine Learning with ScikitLearn",
             "issuer": "Código Facilito",
             "date": "2023-05-30",
@@ -839,7 +967,7 @@
           },
           {
             "id": "fbrbkfxkcgb5jtex2xrngc9h",
-            "hidden": false,
+            "hidden": true,
             "title": "Basic Web Components with JavaScript",
             "issuer": "Platzi",
             "date": "2021-06-30",
@@ -1011,6 +1139,18 @@
             },
             "phone": "",
             "description": "Excellent supervisor, always attentive and patient in supporting development and learning."
+          },
+          {
+            "id": "bkhzt6g4ic34pz7bcvkn93m7",
+            "hidden": false,
+            "name": "Kristian Rondon",
+            "position": "",
+            "website": {
+              "url": "",
+              "label": ""
+            },
+            "phone": "",
+            "description": "👍"
           },
           {
             "id": "yu3a3pvgyyxe3tzitf8x206u",
