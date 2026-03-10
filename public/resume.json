@@ -829,6 +829,324 @@
       ],
       "entity": "Open Source Contribution",
       "type": "application"
+    },
+    {
+      "name": "Resume Website & Export Pipeline",
+      "description": "Repositorio que centraliza mi CV profesional como sitio estático, combinando JSON Resume con Reactive Resume, exportación automatizada de HTML/PDF, sitemap, metadatos SEO y publicación en GitHub Pages.",
+      "highlights": [
+        "JSON Resume + Reactive Resume como fuentes integradas",
+        "Exportación automatizada de HTML, PDF y screenshots",
+        "Sitemap, SEO y analytics integrados",
+        "Publicación automática en GitHub Pages"
+      ],
+      "keywords": [
+        "Python",
+        "JSON Resume",
+        "Reactive Resume",
+        "GitHub Actions",
+        "Static Site",
+        "SEO"
+      ],
+      "url": "https://github.com/rafnixg/resume",
+      "roles": [
+        "Maintainer",
+        "Backend Developer"
+      ],
+      "entity": "Personal Project",
+      "type": "application"
+    },
+    {
+      "name": "GitHub Profile README Automation",
+      "description": "README de perfil de GitHub construido como una tarjeta técnica viva, con automatización de contenido, métricas y enlaces a sitio personal, blog y portafolio profesional.",
+      "highlights": [
+        "README de perfil programático en Python",
+        "Automatización de contenido y actualizaciones",
+        "Integración con métricas y enlaces personales"
+      ],
+      "keywords": [
+        "Python",
+        "GitHub",
+        "Automation",
+        "README Profile"
+      ],
+      "url": "https://github.com/rafnixg/rafnixg",
+      "roles": [
+        "Maintainer"
+      ],
+      "entity": "Personal Project",
+      "type": "application"
+    },
+    {
+      "name": "Rifas - Odoo 18 Raffle Management Module",
+      "description": "Vertical de Odoo 18 para gestión integral de rifas online, venta de boletos, participantes, pagos, notificaciones y sorteo controlado, con portal web y reportes operativos.",
+      "highlights": [
+        "Módulo Odoo 18 con modelos, vistas y seguridad",
+        "Venta web de boletos y gestión de participantes",
+        "Control de pagos, órdenes y notificaciones",
+        "Sorteo manual validado y reportes detallados"
+      ],
+      "keywords": [
+        "Python",
+        "Odoo",
+        "ERP",
+        "E-commerce",
+        "Payment Integration"
+      ],
+      "url": "https://github.com/rafnixg/rifas",
+      "roles": [
+        "Odoo Developer",
+        "Backend Developer"
+      ],
+      "entity": "Personal Project",
+      "type": "application"
+    },
+    {
+      "name": "AI Coding Agent",
+      "description": "Implementación en Python de un agente de programación con tool calling, capaz de leer y escribir archivos, ejecutar comandos de terminal y resolver tareas de desarrollo como parte del reto de CodeCrafters.",
+      "highlights": [
+        "Arquitectura orientada a objetos para tools y agentes",
+        "Soporte para lectura y escritura de archivos",
+        "Ejecución de comandos en terminal",
+        "Loop conversacional para resolución de tareas"
+      ],
+      "keywords": [
+        "Python",
+        "AI Agents",
+        "Tool Calling",
+        "LLM Applications",
+        "CodeCrafters"
+      ],
+      "url": "https://github.com/rafnixg/codecrafters-claude-code-python",
+      "roles": [
+        "AI Engineer",
+        "Python Developer"
+      ],
+      "entity": "Personal Project",
+      "type": "application"
+    },
+    {
+      "name": "Rafnixg.dev Personal Website",
+      "description": "Código fuente de mi sitio personal construido con HTML, CSS y JavaScript puros para presentar perfil profesional, experiencia, enlaces y proyectos sin depender de frameworks.",
+      "highlights": [
+        "Sitio estático en HTML, CSS y JavaScript",
+        "Contenido profesional y catálogo de proyectos",
+        "Despliegue en GitHub Pages"
+      ],
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "GitHub Pages",
+        "Static Site"
+      ],
+      "url": "https://github.com/rafnixg/rafnixg.github.io",
+      "roles": [
+        "Frontend Developer",
+        "Maintainer"
+      ],
+      "entity": "Personal Project",
+      "type": "application"
+    },
+    {
+      "name": "Camino de Borrachos - Random Walk Simulation",
+      "description": "Implementación en Python del clásico problema de caminata aleatoria, desarrollada como ejercicio de programación dinámica y estocástica, con simulación y opciones de graficación.",
+      "highlights": [
+        "Modelado de random walk en Python",
+        "Clases para campo, coordenadas y trayectorias",
+        "Visualización y exploración de resultados"
+      ],
+      "keywords": [
+        "Python",
+        "Simulation",
+        "Random Walk",
+        "Data Visualization"
+      ],
+      "url": "https://github.com/rafnixg/camino_de_borracho",
+      "roles": [
+        "Python Developer"
+      ],
+      "entity": "Learning Project",
+      "type": "application"
+    },
+    {
+      "name": "Lox Interpreter in Python",
+      "description": "Implementación en Python del lenguaje Lox inspirada en Crafting Interpreters, enfocada en el lexer y la tokenización como base para construir un intérprete completo.",
+      "highlights": [
+        "Scanner y tokenización de código fuente Lox",
+        "CLI para analizar archivos .lox",
+        "Base para parser e intérprete posteriores"
+      ],
+      "keywords": [
+        "Python",
+        "Interpreter",
+        "Compiler Theory",
+        "Lexer",
+        "CodeCrafters"
+      ],
+      "url": "https://github.com/rafnixg/rafnixg-lox-interpreter-python",
+      "roles": [
+        "Python Developer"
+      ],
+      "entity": "Learning Project",
+      "type": "application"
+    },
+    {
+      "name": "Build Your Own HTTP Server - Python",
+      "description": "Servidor HTTP/1.1 construido desde cero en Python con routing, concurrencia por hilos, subida y descarga de archivos y compresión gzip, como ejercicio práctico de protocolos y networking.",
+      "highlights": [
+        "Servidor HTTP/1.1 multihilo",
+        "Routing con rutas exactas y wildcard",
+        "Subida y descarga de archivos",
+        "Soporte para gzip y logging de requests"
+      ],
+      "keywords": [
+        "Python",
+        "HTTP",
+        "Sockets",
+        "Threading",
+        "CodeCrafters"
+      ],
+      "url": "https://github.com/rafnixg/codecrafters-http-server-python",
+      "roles": [
+        "Backend Developer"
+      ],
+      "entity": "Learning Project",
+      "type": "application"
+    },
+    {
+      "name": "Migrate GitHub to Gitea",
+      "description": "Herramienta automatizada para migrar repositorios de GitHub hacia Gitea, con clientes API en Python, configuración por variables de entorno y scripts auxiliares para migración y limpieza.",
+      "highlights": [
+        "Integración con APIs de GitHub y Gitea",
+        "Migración automatizada de repositorios",
+        "Scripts auxiliares para administración masiva"
+      ],
+      "keywords": [
+        "Python",
+        "GitHub API",
+        "Gitea",
+        "Migration",
+        "Automation"
+      ],
+      "url": "https://github.com/rafnixg/migrate_github_to_gitea",
+      "roles": [
+        "Python Developer",
+        "Automation Engineer"
+      ],
+      "entity": "Personal Project",
+      "type": "application"
+    },
+    {
+      "name": "Build Your Own Shell - Python",
+      "description": "Shell POSIX-like implementada en Python con REPL interactivo, comandos built-in, resolución de ejecutables en PATH y ejecución de procesos externos.",
+      "highlights": [
+        "REPL interactivo con prompt personalizado",
+        "Built-ins como echo, type y exit",
+        "Resolución de binarios en PATH",
+        "Ejecución de comandos externos"
+      ],
+      "keywords": [
+        "Python",
+        "Shell",
+        "CLI",
+        "POSIX",
+        "CodeCrafters"
+      ],
+      "url": "https://github.com/rafnixg/codecrafters-shell-python",
+      "roles": [
+        "Python Developer"
+      ],
+      "entity": "Learning Project",
+      "type": "application"
+    },
+    {
+      "name": "ChatApp OpenAI",
+      "description": "Aplicación web de chat en tiempo real con Flask y OpenAI, interfaz responsive con modo claro/oscuro, endpoint REST y despliegue contenedorizado con Docker.",
+      "highlights": [
+        "Flask backend con integración OpenAI",
+        "Interfaz web responsive",
+        "Endpoint REST para procesar mensajes",
+        "Docker para despliegue"
+      ],
+      "keywords": [
+        "Python",
+        "Flask",
+        "OpenAI API",
+        "Docker",
+        "Chatbot"
+      ],
+      "url": "https://github.com/rafnixg/chatapp_openai",
+      "roles": [
+        "Full Stack Developer"
+      ],
+      "entity": "Personal Project",
+      "type": "application"
+    },
+    {
+      "name": "Chatbot OpenAI + Gradio",
+      "description": "Demo en Python para construir un chatbot con la API de OpenAI y una interfaz web rápida usando Gradio, publicada también como complemento práctico de contenido técnico en blog.",
+      "highlights": [
+        "Integración con OpenAI API",
+        "Interfaz web con Gradio",
+        "Setup simple con Python y virtualenv"
+      ],
+      "keywords": [
+        "Python",
+        "OpenAI API",
+        "Gradio",
+        "Chatbot"
+      ],
+      "url": "https://github.com/rafnixg/chatbot_openai_gradio",
+      "roles": [
+        "Python Developer"
+      ],
+      "entity": "Personal Project",
+      "type": "application"
+    },
+    {
+      "name": "COVID-19 Latinoamerica API",
+      "description": "API desarrollada en Python para consumir, consolidar y exponer datos de COVID-19 en Latinoamérica, con un proceso ETL que agrega CSVs de fuentes públicas y actualiza el servicio periódicamente.",
+      "highlights": [
+        "ETL para consolidación de datasets CSV",
+        "API en Flask con actualización automática",
+        "Datos regionales para análisis de COVID-19"
+      ],
+      "keywords": [
+        "Python",
+        "Flask",
+        "ETL",
+        "CSV",
+        "Public Data"
+      ],
+      "url": "https://github.com/rafnixg/covid-19_latinoamerica_api",
+      "roles": [
+        "Backend Developer",
+        "Data Engineer"
+      ],
+      "entity": "Personal Project",
+      "type": "application"
+    },
+    {
+      "name": "QR & Barcode Reader",
+      "description": "Aplicación web ligera que escanea códigos QR y códigos de barras directamente desde la cámara del navegador, sin backend ni proceso de build.",
+      "highlights": [
+        "Escaneo en tiempo real desde cámara",
+        "Soporte para QR y múltiples formatos de barcode",
+        "Implementación 100% frontend sin backend"
+      ],
+      "keywords": [
+        "HTML",
+        "JavaScript",
+        "Barcode",
+        "QR",
+        "Browser APIs"
+      ],
+      "url": "https://github.com/rafnixg/qr-barcode-reader",
+      "roles": [
+        "Frontend Developer"
+      ],
+      "entity": "Personal Project",
+      "type": "application"
     }
   ],
   "meta": {
