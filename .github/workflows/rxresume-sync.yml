@@ -1,10 +1,10 @@
-name: Sync resumes from Reactive Resume
+name: Sync resumes from Reactive Resume and export as PDF/HTML
 
 on:
   workflow_dispatch:  # Manual trigger only
 
 jobs:
-  backup:
+  backup-and-export:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -31,16 +31,9 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          CHANGED=false
-          if [ -n "$(git status --porcelain backups/)" ]; then
-            git add backups/
-            CHANGED=true
-          fi
-          if [ -n "$(git status --porcelain public/)" ]; then
-            git add public/
-            CHANGED=true
-          fi
-          if [ "$CHANGED" = "true" ]; then
+          git add --force backups/
+          git add --force public/
+          if [ -n "$(git diff --cached --name-only)" ]; then
             git commit -m "[ci skip] chore: sync resumes from Reactive Resume"
             echo "exit_code=0" >> $GITHUB_OUTPUT
           else
