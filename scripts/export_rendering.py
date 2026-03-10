@@ -786,10 +786,10 @@ def generate_html_from_jsonresume(resume_path, pdf_filename=None):
             title = escape(item.get("title", ""))
             awarder = escape(item.get("awarder", ""))
             item_date = escape(item.get("date", ""))
-            summary = escape(item.get("summary", ""))
+            award_summary = escape(item.get("summary", ""))
             meta_parts = [value for value in (awarder, item_date) if value]
             meta_html = " &middot; ".join(meta_parts)
-            summary_html = f"<p>{summary}</p>" if summary else ""
+            summary_html = f"<p>{award_summary}</p>" if award_summary else ""
 
             awards_html += f"""<div class="entry">
                 <div class="entry-header">
