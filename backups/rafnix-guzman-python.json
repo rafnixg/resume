@@ -441,10 +441,10 @@
         "hidden": false,
         "items": [
           {
-            "id": "vrk2ssvhsmo5vrztvfm6l5zt",
+            "id": "skill_backend_api_erp_001",
             "hidden": false,
             "icon": "",
-            "name": "Backend Development",
+            "name": "Backend, APIs & ERP",
             "proficiency": "Expert",
             "level": 4,
             "keywords": [
@@ -453,22 +453,34 @@
               "Django",
               "Flask",
               "Odoo ERP",
+              "Odoo Development",
               "REST APIs",
               "GraphQL",
               "Microservices",
-              "XML/XMLRPC"
+              "XML/XMLRPC",
+              "Electronic Invoicing",
+              "Payment Integration",
+              "WooCommerce",
+              "E-commerce Platforms",
+              "API Design"
             ]
           },
           {
-            "id": "ox6vw1tdk72wqofitxizkvdr",
+            "id": "skill_data_db_automation_001",
             "hidden": false,
             "icon": "",
-            "name": "Data Processing & Automation",
+            "name": "Data, Databases & Automation",
             "proficiency": "Advanced",
             "level": 1,
             "keywords": [
+              "PostgreSQL",
+              "MySQL",
+              "MariaDB",
+              "Redis",
+              "SQLite",
+              "Database Optimization",
+              "Query Performance",
               "Pandas",
-              "Celery",
               "Apache Airflow",
               "ETL Pipelines",
               "Automation",
@@ -478,131 +490,10 @@
             ]
           },
           {
-            "id": "f0aq3153f8jrxhhogp15pmm2",
+            "id": "skill_ai_llm_001",
             "hidden": false,
             "icon": "",
-            "name": "Database Management",
-            "proficiency": "Expert",
-            "level": 1,
-            "keywords": [
-              "PostgreSQL",
-              "MySQL",
-              "MariaDB",
-              "Redis",
-              "SQLite",
-              "Database Optimization",
-              "Query Performance"
-            ]
-          },
-          {
-            "id": "ssbqhdl07bkivwsnf21xwrsd",
-            "hidden": false,
-            "icon": "",
-            "name": "Cloud & Infrastructure",
-            "proficiency": "Advanced",
-            "level": 1,
-            "keywords": [
-              "AWS (EC2, S3, SES, Route53)",
-              "Docker",
-              "Docker Compose",
-              "Kubernetes",
-              "Linux Administration",
-              "Bash Scripting",
-              "CI/CD",
-              "GitHub Actions",
-              "GitLab CI",
-              "Jenkins"
-            ]
-          },
-          {
-            "id": "w1wugycplq3mr5u9pg9b2b1u",
-            "hidden": false,
-            "icon": "",
-            "name": "DevOps & Monitoring",
-            "proficiency": "Advanced",
-            "level": 1,
-            "keywords": [
-              "Terraform",
-              "Infrastructure as Code",
-              "Proxmox",
-              "LXC Containers",
-              "NewRelic APM",
-              "Cloudflare",
-              "Travis CI"
-            ]
-          },
-          {
-            "id": "p8l4g03yzepo24uqfk5q89jy",
-            "hidden": false,
-            "icon": "",
-            "name": "Frontend Development",
-            "proficiency": "Intermediate",
-            "level": 1,
-            "keywords": [
-              "JavaScript",
-              "HTML5",
-              "CSS3",
-              "Vue.js",
-              "React",
-              "jQuery",
-              "Jinja2",
-              "Leaflet.js",
-              "Responsive Design"
-            ]
-          },
-          {
-            "id": "ne9s0qxa6pn9gjb17fmoodym",
-            "hidden": false,
-            "icon": "",
-            "name": "Message Queues & Event Streaming",
-            "proficiency": "Advanced",
-            "level": 1,
-            "keywords": [
-              "RabbitMQ",
-              "Celery",
-              "Event-Driven Architecture",
-              "Asynchronous Processing"
-            ]
-          },
-          {
-            "id": "qqp6kdqnmt1np2gbrnmc21ve",
-            "hidden": false,
-            "icon": "",
-            "name": "Development Tools & Practices",
-            "proficiency": "Expert",
-            "level": 1,
-            "keywords": [
-              "Git",
-              "GitHub",
-              "GitLab",
-              "VS Code",
-              "Regular Expressions",
-              "Code Review",
-              "Agile Methodologies",
-              "TDD",
-              "API Design"
-            ]
-          },
-          {
-            "id": "s2naq4rtbwg6x92hnj6izez7",
-            "hidden": false,
-            "icon": "",
-            "name": "E-commerce & ERP Systems",
-            "proficiency": "Expert",
-            "level": 1,
-            "keywords": [
-              "Odoo Development",
-              "E-commerce Platforms",
-              "Electronic Invoicing",
-              "Payment Integration",
-              "WooCommerce"
-            ]
-          },
-          {
-            "id": "ai_engineering_agentic_001",
-            "hidden": false,
-            "icon": "",
-            "name": "AI Engineering & Agentic Systems",
+            "name": "AI Engineering & LLM Systems",
             "proficiency": "Advanced",
             "level": 1,
             "keywords": [
@@ -622,22 +513,78 @@
             ]
           },
           {
-            "id": "homelab_platform_ops_001",
+            "id": "skill_cloud_devops_platform_001",
             "hidden": false,
             "icon": "",
-            "name": "Homelab Platform Operations",
+            "name": "Cloud, DevOps & Platform Operations",
             "proficiency": "Advanced",
             "level": 1,
             "keywords": [
+              "AWS (EC2, S3, SES, Route53)",
+              "Docker",
+              "Docker Compose",
+              "Kubernetes",
+              "Linux Administration",
+              "Bash Scripting",
+              "CI/CD",
+              "GitHub Actions",
+              "GitLab CI",
+              "Jenkins",
+              "Terraform",
+              "Infrastructure as Code",
               "Proxmox",
               "LXC",
-              "Docker",
+              "LXC Containers",
               "Portainer",
+              "NewRelic APM",
+              "Cloudflare",
               "Cloudflare Tunnels",
+              "Travis CI",
               "Uptime Kuma",
               "Pi-hole",
               "Service Reliability",
               "Self-hosted Platforms"
+            ]
+          },
+          {
+            "id": "skill_frontend_interfaces_001",
+            "hidden": false,
+            "icon": "",
+            "name": "Frontend & Web Interfaces",
+            "proficiency": "Intermediate",
+            "level": 1,
+            "keywords": [
+              "JavaScript",
+              "HTML5",
+              "CSS3",
+              "Vue.js",
+              "React",
+              "jQuery",
+              "Jinja2",
+              "Leaflet.js",
+              "Responsive Design"
+            ]
+          },
+          {
+            "id": "skill_practices_distributed_001",
+            "hidden": false,
+            "icon": "",
+            "name": "Engineering Practices & Distributed Systems",
+            "proficiency": "Advanced",
+            "level": 1,
+            "keywords": [
+              "RabbitMQ",
+              "Celery",
+              "Event-Driven Architecture",
+              "Asynchronous Processing",
+              "Git",
+              "GitHub",
+              "GitLab",
+              "VS Code",
+              "Regular Expressions",
+              "Code Review",
+              "Agile Methodologies",
+              "TDD"
             ]
           }
         ]
@@ -672,7 +619,7 @@
       "awards": {
         "title": "Awards",
         "columns": 1,
-        "hidden": false,
+        "hidden": true,
         "items": [
           {
             "id": "microsoft_learn_ai_agents_azure_2025",
@@ -804,6 +751,9 @@
           {
             "id": "datacamp_intro_llms_python_2025",
             "hidden": false,
+            "options": {
+              "showLinkInTitle": true
+            },
             "title": "Introduction to LLMs in Python",
             "issuer": "DataCamp",
             "date": "2025-02-19",
@@ -816,6 +766,9 @@
           {
             "id": "datacamp_agentic_langchain_2025",
             "hidden": false,
+            "options": {
+              "showLinkInTitle": true
+            },
             "title": "Designing Agentic Systems with LangChain",
             "issuer": "DataCamp",
             "date": "2025-02-18",
@@ -828,6 +781,9 @@
           {
             "id": "datacamp_rag_langchain_2025",
             "hidden": false,
+            "options": {
+              "showLinkInTitle": true
+            },
             "title": "Retrieval Augmented Generation (RAG) with LangChain",
             "issuer": "DataCamp",
             "date": "2025-02-17",
@@ -840,6 +796,9 @@
           {
             "id": "datacamp_llm_apps_langchain_2025",
             "hidden": false,
+            "options": {
+              "showLinkInTitle": true
+            },
             "title": "Developing LLM Applications with LangChain",
             "issuer": "DataCamp",
             "date": "2025-02-17",
@@ -852,6 +811,9 @@
           {
             "id": "mslearn_azure_ai_solution_2025",
             "hidden": false,
+            "options": {
+              "showLinkInTitle": true
+            },
             "title": "Designing and Implementing a Microsoft Azure AI Solution",
             "issuer": "Microsoft Learn",
             "date": "2025-01-24",
