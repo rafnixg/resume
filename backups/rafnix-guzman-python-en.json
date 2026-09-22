@@ -9,10 +9,12 @@
     "english"
   ],
   "isPublic": true,
+  "showDownloadButtons": true,
   "isLocked": false,
   "data": {
     "picture": {
       "hidden": false,
+      "fit": "cover",
       "url": "",
       "size": 64,
       "rotation": 0,
@@ -44,15 +46,21 @@
     },
     "summary": {
       "title": "Summary",
+      "icon": "",
       "columns": 1,
       "hidden": false,
+      "keepTogether": false,
+      "startOnNewPage": false,
       "content": "<p><strong>Python</strong> Backend with <strong>+15</strong> years building production systems: <strong>REST APIs</strong> with <strong>FastAPI</strong> and <strong>Django</strong>, complex integrations (<strong>REST, XMLRPC, SOA</strong>), <strong>Automation</strong>, <strong>Microservices</strong> and legacy system migration. Specialist in <strong>Odoo ERP</strong>, electronic invoicing, and <strong>ETL</strong> processes on <strong>PostgreSQL</strong>. I manage my own infrastructure (<strong>Proxmox, Docker, Kubernetes, CI/CD</strong>) where I develop, test and deploy end-to-end solutions. Experience across multiple sectors: finance, retail, manufacturing, telecommunications and services. I complement my backend profile with hands-on <strong>AI Engineering</strong> experience: designing <strong>RAG Pipelines</strong>, <strong>Agentic AI</strong>, <strong>Prompt Engineering</strong> workflows and solutions with <strong>LLM</strong>, applying AI to solve real business problems.</p>"
     },
     "sections": {
       "profiles": {
         "title": "Profiles",
+        "icon": "",
         "columns": 1,
         "hidden": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
         "items": [
           {
             "id": "rdkwv4s0hkf7n5tyojx0v6h8",
@@ -63,7 +71,8 @@
             "username": "rafnixg",
             "website": {
               "url": "https://www.linkedin.com/in/rafnixg/",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             }
           },
           {
@@ -75,7 +84,8 @@
             "username": "rafnixg",
             "website": {
               "url": "https://github.com/rafnixg",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             }
           },
           {
@@ -87,29 +97,31 @@
             "username": "RafnixG",
             "website": {
               "url": "https://twitter.com/RafnixG",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             }
           }
         ]
       },
       "experience": {
         "title": "Experience",
+        "icon": "",
         "columns": 1,
         "hidden": false,
+        "keepTogether": false,
+        "startOnNewPage": false,
         "items": [
           {
             "id": "wm4r55ysw7o60r6apln5vc5t",
             "hidden": false,
-            "options": {
-              "showLinkInTitle": true
-            },
             "company": "Kimenz Equipamentos & Engenharia Clínica",
             "position": "Odoo Developer",
             "location": "",
             "period": "2023-12-01 - Present",
             "website": {
               "url": "https://www.linkedin.com/company/kimenz/",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": "<p>Development and maintenance of custom <strong>Odoo ERP</strong> modules for field service management, improving coordination and traceability of on-site technical tasks. Resolution of critical production bugs impacting the daily operations of the clinical engineering team. Design and deployment of production infrastructure based on Proxmox with LXC containers, ensuring ERP availability and reducing operational costs.</p>",
             "roles": []
@@ -117,16 +129,14 @@
           {
             "id": "y32unxj17yws4wojosdecw19",
             "hidden": false,
-            "options": {
-              "showLinkInTitle": true
-            },
             "company": "Peru Apps / Moventi",
             "position": "Python Developer",
             "location": "",
             "period": "2022-05-31 - 2022-11-30",
             "website": {
               "url": "https://www.linkedin.com/company/peru-apps/",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": "<p>Designed and developed RESTful APIs with <strong>FastAPI</strong> for a digital services platform, implementing JWT authentication with granular role-based authorization. Built the administrative <strong>backoffice</strong> with comprehensive user management, permissions and report generation. Integrated <strong>AWS</strong> services (<strong>S3</strong> for storage, <strong>SES</strong> for notifications) and established the deployment pipeline with <strong>Docker</strong>, including production <strong>monitoring</strong> and <strong>logging</strong>.</p>",
             "roles": []
@@ -134,16 +144,14 @@
           {
             "id": "tvuiaxlnqr8ao67r1o2u47ur",
             "hidden": false,
-            "options": {
-              "showLinkInTitle": true
-            },
             "company": "Indra",
             "position": "Python Developer Analyst",
             "location": "",
             "period": "2022-01-31 - 2022-04-30",
             "website": {
               "url": "https://www.linkedin.com/company/indra/",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": "<p>Led the migration of <strong>legacy</strong> automation processes to <strong>Python</strong>, replacing obsolete scripts with robust solutions using <strong>SFTP, MSSQL</strong> and data processing with <strong>Pandas</strong>. Defined the team's <strong>DevOps</strong> guidelines, implementing <strong>CI/CD</strong> pipelines with <strong>Jenkins</strong> and container orchestration on <strong>Kubernetes</strong>. Developed the internal RPA-UTILS library, standardizing robotic process automation and reducing development time for new automations.</p>",
             "roles": []
@@ -151,16 +159,14 @@
           {
             "id": "h1o4lav7ot7sr4sd8045repc",
             "hidden": false,
-            "options": {
-              "showLinkInTitle": true
-            },
             "company": "SEAD SAC",
             "position": "Python/Odoo Developer → Senior Python/Odoo Developer",
             "location": "",
             "period": "2018-12-31 - 2021-12-31",
             "website": {
               "url": "https://www.linkedin.com/company/sead-sac/",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": "<p>Grew from Developer to Senior leading <strong>+7</strong> <strong>Odoo ERP</strong> implementations in retail, manufacturing and services. Developed custom modules with <strong>Python/ORM</strong> and implemented the <strong>Electronic Invoicing</strong> system for SUNAT (XML, digital signature, OSE). Built complex integrations with REST, XMLRPC and SOA APIs against third-party systems. Designed the deployment infrastructure on AWS (EC2, Route53, S3) with Docker and established the CI/CD pipeline with GitLab CI, including a mini-PaaS for environment management. Optimized PostgreSQL, developed ETL data migration processes and trained both end users and Junior developers.</p>",
             "roles": []
@@ -174,7 +180,8 @@
             "period": "2018-05-31 - 2018-11-30",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Developed custom Odoo modules: data models, interface views and business logic adapted to client processes. Maintained and optimized the Electronic Invoicing system. Built Cloud integrations with REST APIs and webhooks to connect the ERP with external services. Participated in complete ERP implementations: process analysis, functional configuration, data migration and user training.",
             "roles": []
@@ -182,16 +189,14 @@
           {
             "id": "t4bk3n96megkh8c6mj0xnmqy",
             "hidden": true,
-            "options": {
-              "showLinkInTitle": true
-            },
             "company": "Freelancer",
             "position": "Odoo Developer",
             "location": "",
             "period": "2016-03-31 - 2018-08-31",
             "website": {
               "url": "https://rafnixg.dev",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": "Developed custom Odoo modules for various clients, adapting the ERP to specific business processes. Implemented Point of Sale (POS) and CRM solutions, improving commercial management. Administered and optimized PostgreSQL databases to ensure performance and stability.",
             "roles": []
@@ -199,16 +204,14 @@
           {
             "id": "qvqqekr15y3bl8d63eyqj4jh",
             "hidden": true,
-            "options": {
-              "showLinkInTitle": true
-            },
             "company": "Freelance",
             "position": "Freelance Software Engineer",
             "location": "",
             "period": "2012-02-28 - 2022-04-30",
             "website": {
               "url": "https://rafnixg.dev",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": "Technology consulting and digital solutions development for clients across multiple sectors: finance, telecommunications, events, retail and ecommerce. Advised on technology selection and web project architecture, prioritizing open-source tools. Developed custom web applications and trained technical teams in development best practices and adoption of new technologies.",
             "roles": []
@@ -216,16 +219,14 @@
           {
             "id": "mdj47dnrp02w5yllcczkt6lk",
             "hidden": true,
-            "options": {
-              "showLinkInTitle": true
-            },
             "company": "Pudinet",
             "position": "Frontend Developer",
             "location": "",
             "period": "2017-10-31 - 2018-03-31",
             "website": {
               "url": "https://pudinet.com",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": "Responsive website layout from PSD designs, converting mockups to pixel-perfect HTML5/CSS3. Implemented advanced CSS animations and interactive features with JavaScript/jQuery. Integrated developments into CMS platforms: WordPress, Joomla and WooCommerce.",
             "roles": []
@@ -233,16 +234,14 @@
           {
             "id": "gch82w969u5r110zfxs9f7lc",
             "hidden": true,
-            "options": {
-              "showLinkInTitle": true
-            },
             "company": "Intergrafixs",
             "position": "Front-end Developer",
             "location": "",
             "period": "2017-03-31 - 2017-08-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": "Full-Stack web application development: interactive SPAs with VueJS on the frontend and RESTful APIs with Laravel 5.4 on the backend. Responsive HTML5/CSS3 layout and data modeling with Eloquent ORM following MVC pattern.",
             "roles": []
@@ -250,16 +249,14 @@
           {
             "id": "z0uigow4x9h3x79jhr7e0o03",
             "hidden": true,
-            "options": {
-              "showLinkInTitle": true
-            },
             "company": "Triskal Media S.A",
             "position": "Web Application Developer",
             "location": "",
             "period": "2015-01-31 - 2016-09-30",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": "WordPress site development with custom themes, tailored plugins and performance optimization. Web application development with Laravel 5 backend following MVC architecture. Responsive HTML5/CSS3 layout adapted to multiple devices.",
             "roles": []
@@ -267,16 +264,14 @@
           {
             "id": "o21ncazdgg4af8wdpdx0ij2y",
             "hidden": true,
-            "options": {
-              "showLinkInTitle": true
-            },
             "company": "WebsTinaquillo",
             "position": "Web Application Developer",
             "location": "",
             "period": "2013-01-31 - 2017-01-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": "Full-Stack web application development with responsive interfaces using Bootstrap and AngularJS. Building robust backends with PHP/Laravel 5 and MySQL, implementing APIs and business logic.",
             "roles": []
@@ -284,16 +279,14 @@
           {
             "id": "019cd515-6a47-732c-b302-2fff937620d1",
             "hidden": false,
-            "options": {
-              "showLinkInTitle": true
-            },
             "company": "Multiple Companies",
             "position": "Freelance Full-Stack Developer & Consultant",
             "location": "",
             "period": "2012-02-28 - 2022-04-30",
             "website": {
               "url": "https://resume.rafnixg.dev",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": "<p>Full-Stack web development (<strong>PHP/Laravel, Python/Odoo, VueJS, WordPress</strong>), technology consulting and <strong>ERP</strong> modules for clients across <strong>4 sectors</strong> in Venezuela, Chile and remote engagements. Extended CV at <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://resume.rafnixg.dev\">https://resume.rafnixg.dev</a></p>",
             "roles": []
@@ -302,8 +295,11 @@
       },
       "education": {
         "title": "Education",
+        "icon": "",
         "columns": 1,
         "hidden": false,
+        "keepTogether": false,
+        "startOnNewPage": false,
         "items": [
           {
             "id": "ek3fiq5bz5uh00yzjsjxowj6",
@@ -316,7 +312,8 @@
             "period": "2019-12-31 - 2022-12-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Completed backend training focused on Python, Django, FastAPI, REST APIs and software design."
           },
@@ -331,7 +328,8 @@
             "period": "2008-02-28",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Completed coursework through the 7th semester in telecommunications, networking and systems analysis."
           },
@@ -346,7 +344,8 @@
             "period": "2012-12-31 - 2015-12-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           }
@@ -354,20 +353,21 @@
       },
       "projects": {
         "title": "Projects",
+        "icon": "",
         "columns": 1,
         "hidden": false,
+        "keepTogether": false,
+        "startOnNewPage": false,
         "items": [
           {
             "id": "proj_ai_homelab_001",
             "hidden": false,
-            "options": {
-              "showLinkInTitle": false
-            },
             "name": "AI Homelab Platform (Private) - Agentic AI Operations Lab",
             "period": "2024-01-01 - Present",
             "website": {
               "url": "https://links.rafnixg.dev",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Self-hosted AI lab on multi-host Proxmox infrastructure with ~56 operational containers managed via Docker/Portainer. Integrates AI services like AnythingLLM, OpenClaw and autonomous agents in n8n for LLM-powered workflow automation. Enables hands-on evaluation of open-source SLM/LLM models via LM Studio, comparing quality, latency and cost per use case."
           },
@@ -378,7 +378,8 @@
             "period": "2020-01-01 - 2025-11-28",
             "website": {
               "url": "https://github.com/rafnixg/sismosve",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Real-time seismic monitoring application for Venezuela with official FUNVISIS data. FastAPI backend (Python 3.13) with modular architecture, interactive Leaflet.js map, advanced filters and statistics updated automatically every 5 minutes. Deployed with multi-arch Docker, CI/CD with GitHub Actions, SEO optimized (Open Graph, Schema.org) and Cloudflare Tunnel compatible."
           },
@@ -389,7 +390,8 @@
             "period": "2021-06-01 - 2025-11-28",
             "website": {
               "url": "https://github.com/rafnixg/bcv-api",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "REST API for querying official exchange rates from the Central Bank of Venezuela. Built with FastAPI, retrieves data via scraping with BeautifulSoup, persists historical data in SQLite and includes automatic OpenAPI/Swagger documentation. Integrates rate limiting, caching, APM monitoring with NewRelic and Docker deployment."
           },
@@ -400,7 +402,8 @@
             "period": "2022-03-01 - 2025-11-28",
             "website": {
               "url": "https://github.com/rafnixg/rafnixg-lib",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Open-source Python library published on PyPI that works as a personal card from the terminal. Includes CLI with multiple commands: styled personal info with Rich, blog posts via Hashnode GraphQL API and JSON resume parser. Automated PyPI publishing via GitHub Actions."
           },
@@ -411,7 +414,8 @@
             "period": "2023-01-01 - 2023-06-30",
             "website": {
               "url": "https://github.com/rafnixg/own_wsgi",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Educational implementation of a WSGI server built from scratch following the PEP 3333 specification. Includes custom routing system, middleware, Request/Response object abstraction and FastAPI compatibility. Designed as a learning resource about web server architecture and the HTTP protocol."
           },
@@ -422,7 +426,8 @@
             "period": "2024-06-01 - Present",
             "website": {
               "url": "https://github.com/gabrielbaute/binance-bcv-dolar",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Exchange rate API combining official BCV data with Binance P2P USDT prices for the Venezuelan market. Built with FastAPI, includes SQLite persistence for historical analysis, web interface, health checks and scheduled automated updates. Aimed at providing transparent and accessible financial data."
           },
@@ -433,7 +438,8 @@
             "period": "2024-08-01 - Present",
             "website": {
               "url": "https://github.com/gabrielbaute/spotify-saver",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Music download tool with Spotify metadata optimized for Jellyfin servers. Retrieves audio from YouTube Music via yt-dlp, generates synchronized LRC lyrics and NFO files with automatic folder structure. Offers three interfaces: CLI, REST API and Web UI with real-time progress. Deployed with Docker via GitHub Container Registry."
           }
@@ -441,8 +447,11 @@
       },
       "skills": {
         "title": "Skills",
+        "icon": "",
         "columns": 1,
         "hidden": false,
+        "keepTogether": false,
+        "startOnNewPage": false,
         "items": [
           {
             "id": "skill_backend_api_erp_001",
@@ -597,12 +606,17 @@
               "TDD"
             ]
           }
-        ]
+        ],
+        "keywordLayout": "inline",
+        "layout": "default"
       },
       "languages": {
         "title": "Languages",
+        "icon": "",
         "columns": 1,
         "hidden": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
         "items": [
           {
             "id": "hjt6q4vr6h06ijbgirm3trg8",
@@ -622,14 +636,20 @@
       },
       "interests": {
         "title": "Interests",
+        "icon": "",
         "columns": 1,
         "hidden": false,
+        "keepTogether": false,
+        "startOnNewPage": false,
         "items": []
       },
       "awards": {
         "title": "Awards",
+        "icon": "",
         "columns": 1,
         "hidden": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
         "items": [
           {
             "id": "microsoft_learn_ai_agents_azure_2025",
@@ -639,7 +659,8 @@
             "date": "2025-10-15",
             "website": {
               "url": "https://learn.microsoft.com/es-mx/training/paths/develop-ai-agents-on-azure/",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Learning path trophy completed. All modules passed."
           },
@@ -651,7 +672,8 @@
             "date": "2025-10-09",
             "website": {
               "url": "https://learn.microsoft.com/es-mx/training/paths/create-custom-copilots-ai-studio/",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Learning path trophy completed. All modules passed."
           },
@@ -663,7 +685,8 @@
             "date": "2025-01-24",
             "website": {
               "url": "https://learn.microsoft.com/es-mx/training/paths/develop-ai-solutions-azure-openai/",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Learning path trophy completed."
           },
@@ -675,7 +698,8 @@
             "date": "2025-01-24",
             "website": {
               "url": "https://learn.microsoft.com/es-mx/training/paths/extract-data-from-forms-document-intelligence/",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Learning path trophy completed."
           },
@@ -687,7 +711,8 @@
             "date": "2025-01-24",
             "website": {
               "url": "https://learn.microsoft.com/es-mx/training/paths/implement-knowledge-mining-azure-cognitive-search/",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Learning path trophy completed."
           },
@@ -699,7 +724,8 @@
             "date": "2025-01-24",
             "website": {
               "url": "https://learn.microsoft.com/es-mx/training/paths/develop-language-solutions-azure-ai/",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Learning path trophy completed."
           },
@@ -711,7 +737,8 @@
             "date": "2025-01-24",
             "website": {
               "url": "https://learn.microsoft.com/es-mx/training/paths/create-computer-vision-solutions-azure-ai/",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Learning path trophy completed."
           },
@@ -723,7 +750,8 @@
             "date": "2025-01-24",
             "website": {
               "url": "https://learn.microsoft.com/es-mx/training/paths/create-models-custom-vision/",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Learning path trophy completed."
           },
@@ -735,7 +763,8 @@
             "date": "2025-01-24",
             "website": {
               "url": "https://learn.microsoft.com/es-mx/training/paths/get-started-azure-ai/",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Learning path trophy completed."
           },
@@ -747,7 +776,8 @@
             "date": "2023-11-23",
             "website": {
               "url": "https://learn.microsoft.com/es-mx/training/paths/intro-to-vc-git/",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": "Learning path trophy completed."
           }
@@ -755,126 +785,113 @@
       },
       "certifications": {
         "title": "Certifications",
+        "icon": "",
         "columns": 1,
         "hidden": false,
+        "keepTogether": false,
+        "startOnNewPage": false,
         "items": [
           {
             "id": "datacamp_intro_llms_python_2025",
             "hidden": false,
-            "options": {
-              "showLinkInTitle": true
-            },
             "title": "Introduction to LLMs in Python",
             "issuer": "DataCamp",
             "date": "2025-02-19",
             "website": {
               "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/80a6449734fa03469528ded3092446c55ddf490d",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": ""
           },
           {
             "id": "datacamp_agentic_langchain_2025",
             "hidden": false,
-            "options": {
-              "showLinkInTitle": true
-            },
             "title": "Designing Agentic Systems with LangChain",
             "issuer": "DataCamp",
             "date": "2025-02-18",
             "website": {
               "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/0a00cc345e8e50ae5375c10a40ccbebc2ea5e128",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": ""
           },
           {
             "id": "datacamp_rag_langchain_2025",
             "hidden": false,
-            "options": {
-              "showLinkInTitle": true
-            },
             "title": "Retrieval Augmented Generation (RAG) with LangChain",
             "issuer": "DataCamp",
             "date": "2025-02-17",
             "website": {
               "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/c3df13cfe0ecb20229def3e27e53b31e5d050e3b",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": ""
           },
           {
             "id": "datacamp_llm_apps_langchain_2025",
             "hidden": false,
-            "options": {
-              "showLinkInTitle": true
-            },
             "title": "Developing LLM Applications with LangChain",
             "issuer": "DataCamp",
             "date": "2025-02-17",
             "website": {
               "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/ded5de00c8f5c1a675d7d805d4c2ca12f0626de4",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": ""
           },
           {
             "id": "mslearn_azure_ai_solution_2025",
             "hidden": false,
-            "options": {
-              "showLinkInTitle": true
-            },
             "title": "Designing and Implementing a Microsoft Azure AI Solution",
             "issuer": "Microsoft Learn",
             "date": "2025-01-24",
             "website": {
               "url": "https://learn.microsoft.com/api/achievements/share/es-mx/rafnixg/WZLSFTHN?sharingId=7B61E5FADF0C6D76",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": ""
           },
           {
             "id": "ptyxpreupbv935jn6pq44cck",
             "hidden": false,
-            "options": {
-              "showLinkInTitle": true
-            },
             "title": "Bootcamp Azure AI Engineer Associate",
             "issuer": "Código Facilito",
             "date": "2024-11-19",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": ""
           },
           {
             "id": "gc4r61quu6k49d22il40qx2b",
             "hidden": false,
-            "options": {
-              "showLinkInTitle": true
-            },
             "title": "Software Architecture Fundamentals",
             "issuer": "Código Facilito",
             "date": "2024-05-12",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": ""
           },
           {
             "id": "xcajzbuoz8qw9209saa8w5yt",
             "hidden": false,
-            "options": {
-              "showLinkInTitle": true
-            },
             "title": "Machine Learning with ScikitLearn",
             "issuer": "Código Facilito",
             "date": "2023-05-30",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": true
             },
             "description": ""
           },
@@ -886,7 +903,8 @@
             "date": "2023-04-27",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -898,7 +916,8 @@
             "date": "2022-05-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -910,7 +929,8 @@
             "date": "2022-03-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -922,7 +942,8 @@
             "date": "2022-03-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -934,7 +955,8 @@
             "date": "2022-03-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -946,7 +968,8 @@
             "date": "2022-03-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -958,7 +981,8 @@
             "date": "2022-03-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -970,7 +994,8 @@
             "date": "2021-11-30",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -982,7 +1007,8 @@
             "date": "2021-08-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -994,7 +1020,8 @@
             "date": "2021-07-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -1006,7 +1033,8 @@
             "date": "2021-06-30",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -1018,7 +1046,8 @@
             "date": "2021-06-30",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -1030,7 +1059,8 @@
             "date": "2021-06-30",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -1042,7 +1072,8 @@
             "date": "2021-04-30",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -1054,7 +1085,8 @@
             "date": "2021-03-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -1066,7 +1098,8 @@
             "date": "2021-03-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -1078,7 +1111,8 @@
             "date": "2021-03-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -1090,7 +1124,8 @@
             "date": "2021-03-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -1102,7 +1137,8 @@
             "date": "2021-03-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -1114,7 +1150,8 @@
             "date": "2020-11-30",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           },
@@ -1126,7 +1163,8 @@
             "date": "2020-10-31",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "description": ""
           }
@@ -1134,20 +1172,29 @@
       },
       "publications": {
         "title": "Publications",
+        "icon": "",
         "columns": 1,
         "hidden": false,
+        "keepTogether": false,
+        "startOnNewPage": false,
         "items": []
       },
       "volunteer": {
         "title": "Volunteering",
+        "icon": "",
         "columns": 1,
         "hidden": false,
+        "keepTogether": false,
+        "startOnNewPage": false,
         "items": []
       },
       "references": {
         "title": "References",
+        "icon": "",
         "columns": 1,
         "hidden": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
         "items": [
           {
             "id": "jytih6sl3owzfhootda8h0t6",
@@ -1156,7 +1203,8 @@
             "position": "",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "phone": "",
             "description": "You are a natural tech enthusiast. Your tireless drive to learn, discover and apply technology makes you a professional with an astonishing breadth of action. Great qualities for organization, analysis and problem solving, teamwork and an admirable spirit of self-improvement.\n\nAs they would say in sports jargon: \"Give me Rafnix, always!\"\n\nGreat professional and even better person"
@@ -1168,7 +1216,8 @@
             "position": "",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "phone": "",
             "description": "Excellent supervisor, always attentive and patient in supporting development and learning."
@@ -1180,7 +1229,8 @@
             "position": "",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "phone": "",
             "description": "👍"
@@ -1192,7 +1242,8 @@
             "position": "",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "phone": "",
             "description": "Great friend and excellent mentor. I have learned a lot working with Rafnix, he has great knowledge in different web technologies, can program in PHP, Javascript, Python and knows a lot about Odoo ERP. He is a technology enthusiast who inspires his work group. He has the ability to analyze the most challenging problems and find the best solution using all his knowledge, and he has the ability to express his ideas clearly and precisely."
@@ -1204,7 +1255,8 @@
             "position": "",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "phone": "",
             "description": "Excellent friend and coworker, someone you can always trust and share great stories with.\nAs a developer, a person who has great knowledge in both web development and ERPs with Python and Odoo, and above all has great analytical skills which allows him to propose the best solution to any problem.\nAlso has great knowledge in many other areas of technology."
@@ -1216,7 +1268,8 @@
             "position": "",
             "website": {
               "url": "",
-              "label": ""
+              "label": "",
+              "inlineLink": false
             },
             "phone": "",
             "description": "Excellent professional, with high learning and teamwork capabilities, with extensive experience in programming and IT project development."
@@ -1263,10 +1316,6 @@
           }
         ]
       },
-      "css": {
-        "enabled": false,
-        "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}"
-      },
       "page": {
         "gapX": 4,
         "gapY": 6,
@@ -1274,7 +1323,9 @@
         "marginY": 18,
         "format": "a4",
         "locale": "en-US",
-        "hideIcons": false
+        "hideLinkUnderline": false,
+        "hideIcons": false,
+        "hideSectionIcons": true
       },
       "design": {
         "level": {
@@ -1307,8 +1358,10 @@
           "lineHeight": 1.5
         }
       },
-      "notes": ""
+      "notes": "",
+      "styleRules": []
     }
   },
+  "updatedAt": "2026-03-10T08:00:19.918Z",
   "hasPassword": false
 }
