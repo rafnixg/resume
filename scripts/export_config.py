@@ -11,4 +11,4 @@ RESUME_JSON_PATH = PUBLIC_DIR / "resume.json"
 
 SITE_URL = "https://resume.rafnixg.dev"
 BANNER_IMAGE = "https://links.rafnixg.dev/images/banner_web.png"
-UMAMI_SCRIPT = '<script defer src="https://umami.rafnixg.dev/script.js" data-website-id="3d3cdb5f-0751-4c3e-85b7-5ff046f5c2da"></script>'
+UMAMI_SCRIPT = '<script defer src="https://umami.rafnixg.dev/script.js" data-website-id="535d3ee6-7649-4bdc-9f00-9fa5ee3006bf"></script>'
